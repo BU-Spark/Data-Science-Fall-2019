@@ -1,0 +1,8 @@
+python==3.7.1
+pandas==0.25.1
+numpy==1.17.4
+fuzzywuzzy==0.17.0
+sklearn==0.21.3
+os
+math
+re

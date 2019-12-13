@@ -1,0 +1,523 @@
+tweet_id,Timestamp,likes,retweets,replies,hashtag,text
+0,2018-06-07,0,0,0,[],H4238 [Engross] Relative to certain affordable housing in the Jamaica Plain section of the city of Boston http://bitly.com/YNQYV0 
+1,2018-05-30,0,0,0,[],S2146 [Passed] Authorizing the Brookfield Housing Authority to convey a certain parcel of land and the buildings ... http://bitly.com/WJmsx0 
+2,2018-05-18,0,0,0,[],S2146 [Enroll] Authorizing the Brookfield Housing Authority to convey a certain parcel of land and the buildings ... http://bitly.com/WJmsx0 
+3,2018-04-13,0,0,0,[],H4288 [NEW] Relative to certain affordable housing in the Roxbury section of the city of Boston http://bitly.com/XHmPpP 
+4,2018-04-03,3,2,0,['Boston'],A recent housing report showed rents in #Boston are up again. The city council housing committee… https://www.instagram.com/p/BhHh630HC_2/ 
+5,2018-06-07,0,0,0,[],H4238 [Engross] Relative to certain affordable housing in the Jamaica Plain section of the city of Boston http://bitly.com/YNQYV0 
+6,2018-05-30,0,0,0,[],S2146 [Passed] Authorizing the Brookfield Housing Authority to convey a certain parcel of land and the buildings ... http://bitly.com/WJmsx0 
+7,2018-05-18,0,0,0,[],S2146 [Enroll] Authorizing the Brookfield Housing Authority to convey a certain parcel of land and the buildings ... http://bitly.com/WJmsx0 
+8,2018-04-13,0,0,0,[],H4288 [NEW] Relative to certain affordable housing in the Roxbury section of the city of Boston http://bitly.com/XHmPpP 
+9,2018-04-03,3,2,0,['Boston'],A recent housing report showed rents in #Boston are up again. The city council housing committee… https://www.instagram.com/p/BhHh630HC_2/ 
+10,2018-02-27,0,0,0,[],S2102 [Passed] Authorizing the Berkshire County Regional Housing Authority to convey a certain parcel of land in ... http://bitly.com/Wiavht 
+11,2018-02-25,0,0,0,[],H4238 [NEW] Relative to certain affordable housing in the Jamaica Plain section of the city of Boston http://bitly.com/YNQYV0 
+12,2018-02-24,0,0,0,[],H3746 [Engross] Amending the charter of the town of Oxford to elect 3 members of the housing authority http://bitly.com/YG5Jt1 
+13,2018-02-19,0,0,0,[],H4211 [NEW] Protecting the interests of housing cooperative shareholders http://bitly.com/WD1BpS 
+14,2018-02-12,0,0,0,[],S2102 [Enroll] Authorizing the Berkshire County Regional Housing Authority to convey a certain parcel of land in ... http://bitly.com/Wiavht 
+15,2018-01-29,0,0,0,[],"I'm at Boston Housing Authority in Boston, MA https://www.swarmapp.com/c/2JJuRrep1KM "
+16,2018-01-20,0,0,0,[],Greetings to Sec of Housing and Economic Development Jay Ash and fellow Hopedale Selectman Brian… https://www.instagram.com/p/BeMDUHnD24R/ 
+17,2018-01-17,0,0,0,[],S2146 [Engross] Authorizing the Brookfield Housing Authority to convey a certain parcel of land and the buildings... http://bitly.com/WJmsx0 
+18,2017-12-15,1,0,0,[],S2102 [Engross] Authorizing the Berkshire County Regional Housing Authority to convey a certain parcel of land in... http://bitly.com/Wiavht 
+19,2017-11-14,0,0,0,[],Just posted a photo @ Somerville Housing Authority https://www.instagram.com/p/BbfpE1YBxp8/ 
+20,2017-11-10,0,0,0,[],H2243 [Passed] Relative to certain affordable housing in the East Boston section of the city of Boston http://bitly.com/UmkEus 
+21,2017-11-08,0,0,0,[],"I'm at Boston Housing Authority in Boston, MA https://www.swarmapp.com/c/ho6JZX8mT8R "
+22,2017-11-07,0,0,0,[],Just posted a photo @ Somerville Housing Authority https://www.instagram.com/p/BbNcqXwBmRj/ 
+23,2017-11-06,0,0,0,[],H2243 [Enroll] Relative to certain affordable housing in the East Boston section of the city of Boston http://bitly.com/UmkEus 
+24,2017-01-18,0,0,0,[],"""We are preparing historic investments in affordable housing,"" Mayor Walsh says at SOTC2017. Watch live:… https://twitter.com/i/web/status/821519341883654144 …"
+25,2016-12-16,0,0,0,"['CambridgeWorks', 'CambMA']",#CambridgeWorks participant Tyler says working at #CambMA Housing Authority gave him a wonderful work experience & changed his perspective.
+26,2016-12-04,0,1,0,[],30 of the 32 units were low-income housing -  please help in any way you can. The Mayor's… https://www.instagram.com/p/BNnTrq5DmDr/ 
+27,2016-11-15,1,0,0,[],Olivia from Lynn Housing Authority dropping off FOUR new kids coats for our coat drive!!! Thank… https://www.instagram.com/p/BM1sF-sj_yE/ 
+28,2017-01-18,0,0,0,[],"""We are preparing historic investments in affordable housing,"" Mayor Walsh says at SOTC2017. Watch live:… https://twitter.com/i/web/status/821519341883654144 …"
+29,2016-12-16,0,0,0,"['CambridgeWorks', 'CambMA']",#CambridgeWorks participant Tyler says working at #CambMA Housing Authority gave him a wonderful work experience & changed his perspective.
+30,2016-12-04,0,1,0,[],30 of the 32 units were low-income housing -  please help in any way you can. The Mayor's… https://www.instagram.com/p/BNnTrq5DmDr/ 
+31,2016-11-15,1,0,0,[],Olivia from Lynn Housing Authority dropping off FOUR new kids coats for our coat drive!!! Thank… https://www.instagram.com/p/BM1sF-sj_yE/ 
+32,2016-11-09,0,0,0,[],"That has been very sobering (@ Boston Housing Authority in Boston, MA) https://www.swarmapp.com/c/3iWrfhLuFnQ "
+33,2016-08-23,0,0,0,[],H3617 [Passed] Relative to certain affordable housing in the city of Boston http://bitly.com/WkPwuC 
+34,2016-08-16,0,0,0,[],H3617 [Enroll] Relative to certain affordable housing in the city of Boston http://bitly.com/WkPwuC 
+35,2016-07-28,0,0,0,[],S693 [Passed] Relative to the membership of Berkshire County Regional Housing Authority http://bitly.com/VDaHqM 
+36,2016-07-20,0,0,0,[],S693 [Enroll] Relative to the membership of Berkshire County Regional Housing Authority http://bitly.com/VDaHqM 
+37,2016-06-25,1,0,0,['gloup'],"""where's my neeeeck?? :("" #gloup @ Saugus Housing Authority https://www.instagram.com/p/BHGHEmuh7NdiaksZxWq09h2XezpBlPrUBBTugw0/ …"
+38,2019-01-07,1,0,0,['NewYear'],"As the 12th Day of Christmas approaches midnight and the government shutdown enters its 3rd week, are your housing resolutions for the #NewYear year on hold?  
+
+If so, Santa & Congress… https://www.instagram.com/p/BsUSPeND6DX/?utm_source=ig_twitter_share&igshid=1dcmgfq32axx7 …"
+39,2018-12-02,0,0,0,[],H4981 [NEW] Relative to local housing authority board member elections http://bitly.com/2zF0fcr 
+40,2019-01-07,1,0,0,['NewYear'],"As the 12th Day of Christmas approaches midnight and the government shutdown enters its 3rd week, are your housing resolutions for the #NewYear year on hold?  
+
+If so, Santa & Congress… https://www.instagram.com/p/BsUSPeND6DX/?utm_source=ig_twitter_share&igshid=1dcmgfq32axx7 …"
+41,2018-12-02,0,0,0,[],H4981 [NEW] Relative to local housing authority board member elections http://bitly.com/2zF0fcr 
+42,2018-11-07,0,0,0,[],"A/R (@ Boston Housing Authority in Boston, MA) https://www.swarmapp.com/c/j9jooJ43jBY "
+43,2018-11-02,0,0,0,['nardiversity'],Wayne Woodyard telling Diversity Committee of his experience with Dana Rohrbacher of California about Fair Housing. His refusal to support cost him his RPAC Support. #nardiversity… https://www.instagram.com/p/BpsB1yzjQI1/?utm_source=ig_twitter_share&igshid=1k1bz3o2ffpi …
+44,2018-10-26,0,0,0,[],H4288 [Passed] Relative to certain affordable housing in the Roxbury section of the city of Boston http://bitly.com/XHmPpP 
+45,2018-10-23,3,0,0,[],Leadership — Harvard University Housing is grateful for the leadership from Graduate Commons Program Director Lisa Valela for ten years of Making Harvard Home for thousands of residents… https://www.instagram.com/p/BpSyExqjaGC/?utm_source=ig_twitter_share&igshid=ss0bx77unfwn …
+46,2018-10-15,0,0,0,[],H4288 [Enroll] Relative to certain affordable housing in the Roxbury section of the city of Boston http://bitly.com/XHmPpP 
+47,2018-10-12,0,0,0,[],Clare and Polly  came to visit us!! @ Chelsea Housing Authority https://www.instagram.com/p/Bo2K57hBWQDXZ69K1ReMLNwx1RXB3Wta--eEBA0/?utm_source=ig_twitter_share&igshid=16pm6kpm09nxg …
+48,2018-10-11,1,0,0,[],"Great things for Massachusetts Economy Review
+provided by 
+Jay Ash~ Mass Secretary of Housing & Economic Development. 
+BOSTON IS BOOMING  @ Boston Marriott Burlington https://www.instagram.com/p/BozIlAXlb6V/?utm_source=ig_twitter_share&igshid=5a9u88uk1i8d …"
+49,2018-09-20,0,0,0,[],H4288 [Engross] Relative to certain affordable housing in the Roxbury section of the city of Boston http://bitly.com/XHmPpP 
+50,2018-08-11,0,0,0,[],H4580 [Passed] Authorizing the Somerville Housing Authority to reconstruct the state funded Clarendon Hill public housing project http://bitly.com/2bmrHxL 
+51,2018-08-06,0,0,0,[],"I'm at Boston Housing Authority in Boston, MA https://www.swarmapp.com/c/iwctXZbOhIU "
+52,2018-08-01,0,0,0,[],H4580 [Enroll] Authorizing the Somerville Housing Authority to reconstruct the state funded Clarendon Hill public housing project http://bitly.com/2bmrHxL 
+53,2018-07-26,0,0,0,[],H4238 [Passed] Relative to certain affordable housing in the Jamaica Plain section of the city of Boston http://bitly.com/YNQYV0 
+54,2018-07-24,0,0,0,[],H4580 [NEW] Authorizing the Somerville Housing Authority to reconstruct the state funded Clarendon Hill public housing project http://bitly.com/2bmrHxL 
+55,2018-07-05,0,0,0,[],H3540 [Passed] Relative to certain affordable housing in the South End section of the city of Boston http://bitly.com/YAAIXd 
+56,2018-07-02,0,0,0,[],H4238 [Enroll] Relative to certain affordable housing in the Jamaica Plain section of the city of Boston http://bitly.com/YNQYV0 
+57,2018-06-25,0,1,0,[],H3540 [Enroll] Relative to certain affordable housing in the South End section of the city of Boston http://bitly.com/YAAIXd 
+58,2016-06-01,2,0,0,"['adt', 'erminewindowdiorama']",What if ADT paid folks to do this? #adt #erminewindowdiorama @ Cambridge Housing Authority https://www.instagram.com/p/BGF3-mMxZy7/ 
+59,2016-05-12,0,0,0,['photo'],Drinking a Haze by @treehousebrewco @ Swampscott Housing Authority — http://untp.beer/s/c310138233  #photo
+60,2016-04-21,0,0,0,[],S693 [Engross] Relative to the membership of Berkshire County Regional Housing Authority http://bitly.com/VDaHqM 
+61,2016-06-01,2,0,0,"['adt', 'erminewindowdiorama']",What if ADT paid folks to do this? #adt #erminewindowdiorama @ Cambridge Housing Authority https://www.instagram.com/p/BGF3-mMxZy7/ 
+62,2016-05-12,0,0,0,['photo'],Drinking a Haze by @treehousebrewco @ Swampscott Housing Authority — http://untp.beer/s/c310138233  #photo
+63,2016-04-21,0,0,0,[],S693 [Engross] Relative to the membership of Berkshire County Regional Housing Authority http://bitly.com/VDaHqM 
+64,2016-04-13,0,0,0,[],H4211 [NEW] Providing for a workforce housing financing plan http://bitly.com/WD1BpS 
+65,2016-03-26,0,0,0,[],Mayor Walsh allocates $28 million towards affordable housing http://bit.ly/22PlhvC 
+66,2016-03-22,0,0,0,[],Mayor Walsh Announces More Than $28M to Support Affordable Housing in Boston http://bit.ly/1VBPmNk 
+67,2016-03-17,0,0,0,[],S1966 [Passed] Further regulating certain affordable housing in the East Boston section of the city of Boston http://bitly.com/YQ4LKI 
+68,2016-03-10,0,0,0,[],H3617 [Engross] Relative to certain affordable housing in the city of Boston http://bitly.com/WkPwuC 
+69,2016-03-10,0,0,0,[],S1966 [Enroll] Further regulating certain affordable housing in the East Boston section of the city of Boston http://bitly.com/YQ4LKI 
+70,2016-01-20,1,0,0,"['housing', 'struggles']",The City of Boston is strong. #housing. Murder 16 year low. #struggles. More work to do.… https://www.instagram.com/p/BAvbMvVKptS/ 
+71,2016-01-08,0,0,0,[],H3938 [NEW] Relating to the conveyance of certain land to the Foxborough housing authority http://bitly.com/XJXEmq 
+72,2016-01-08,0,0,0,[],S1966 [Engross] Further regulating certain affordable housing in the East Boston section of the city of Boston http://bitly.com/YQ4LKI 
+73,2016-01-07,0,0,0,[],City of Boston permitted more affordable housing in 2015 than ever before http://trib.al/1o3xzo7?utm_source=dlvr.it&utm_medium=twitter …
+74,2015-12-30,0,0,0,[],H3867 [Passed] Relative to the tax status of certain land owned by a housing authority within the city of Cambridge http://bitly.com/WDaODV 
+75,2015-12-21,0,0,0,[],H3867 [Enroll] Relative to the tax status of certain land owned by a housing authority within the city of Cambridge http://bitly.com/WDaODV 
+76,2015-12-10,0,0,0,[],H3867 [Engross] Relative to the tax status of certain land owned by a housing authority within the city of Cambridge http://bitly.com/WDaODV 
+77,2015-12-01,0,0,0,[],H3867 [NEW] Relative to the tax status of certain land owned by a housing authority within the city of Cambridge http://bitly.com/WDaODV 
+78,2015-11-12,0,0,0,['leopardgecko'],Bernie drinking water #leopardgecko @ Chelsea Housing Authority https://instagram.com/p/9_kPmOgXwcJj49-uyYyvWAvEeJDTfMDMhW93M0/ …
+79,2015-11-12,0,0,0,[],"Mayor Walsh announces $200,000 homeless veterans housing fund http://bit.ly/20Oqow2 "
+80,2015-11-12,0,0,0,[],"In Boston, there are 224 veterans in transitional housing and 91 in shelters or on the street, mayor Walsh says. http://bos.gl/UxJIpPm "
+81,2015-11-12,1,0,0,[],"Mayor Walsh announces $200,000 homeless veterans housing fund http://trib.al/WXGHUT2 "
+82,2015-11-06,0,0,0,[],"I'm at Boston Housing Authority in Boston, MA https://www.swarmapp.com/c/3TgzmWUgkCU "
+83,2015-11-03,0,0,0,[],If you live in Saugus vote for Nick for Housing Authority and if you live… https://instagram.com/p/9oDngjnIc7GKpuDyAEDfB8fyWaHUEfwkCWS1g0/ …
+84,2015-10-25,0,0,0,[],Body discovered after fire put out: One person died Saturday night in a fire at a Millbury Housing Authority… http://boston.cityandpress.com/node/10362409 
+85,2015-10-21,0,0,0,[],Hoodmorning® My 's @ Boston Housing Authority Mission Hill https://instagram.com/p/9GOskIQZZGJFm7NscYqRN7A0lKAt-9T37qJvc0/ …
+86,2015-10-16,0,0,0,[],NightSide – Should Public Housing Residents Be Forced To Work?: Worcester Housing Authority Executive Director Ray… http://boston.cityandpress.com/node/10321786 
+87,2015-10-04,0,0,0,[],Man dies in fire at housing complex: A man has died in a fire at a complex managed by the Athol Housing Authority. http://boston.cityandpress.com/node/10267802 
+88,2015-10-02,0,0,0,[],H3786 [NEW] Relative to the tax status of certain land owned by a housing authority http://bitly.com/WJCzdZ 
+89,2015-10-02,0,0,0,[],Boston City Council Election 2015:Wu Campaigning on Housing and Education Issues http://bit.ly/1iQfZyc 
+90,2017-10-02,0,0,0,[],H3540 [Engross] Relative to certain affordable housing in the south end section of the city of Boston http://bitly.com/YAAIXd 
+91,2017-09-28,0,0,0,[],H2243 [Engross] Relative to certain affordable housing in the East Boston section of the city of Boston http://bitly.com/UmkEus 
+92,2017-08-30,0,0,0,[],S2146 [NEW] Authorizing the Brookfield Housing Authority to convey a certain parcel of land and the buildings the... http://bitly.com/WJmsx0 
+93,2017-10-02,0,0,0,[],H3540 [Engross] Relative to certain affordable housing in the south end section of the city of Boston http://bitly.com/YAAIXd 
+94,2017-09-28,0,0,0,[],H2243 [Engross] Relative to certain affordable housing in the East Boston section of the city of Boston http://bitly.com/UmkEus 
+95,2017-08-30,0,0,0,[],S2146 [NEW] Authorizing the Brookfield Housing Authority to convey a certain parcel of land and the buildings the... http://bitly.com/WJmsx0 
+96,2017-07-06,0,0,0,[],Add me on Snapchat @ Somerville Housing Authority https://www.instagram.com/p/BWNWl7QFBv1/ 
+97,2017-06-29,0,0,0,[],S2102 [NEW] Authorizing the Berkshire County Regional Housing Authority to convey a certain parcel of land in the... http://bitly.com/Wiavht 
+98,2017-06-12,0,0,0,[],H3746 [NEW] Amending the charter of the town of Oxford to elect 3 members of the housing authority http://bitly.com/YG5Jt1 
+99,2017-04-11,0,0,0,[],H3541 [NEW] To restore Boston's governmentally-involved housing protection http://bitly.com/WzO07U 
+100,2017-04-10,0,0,0,[],H2243 [NEW] Relative to certain affordable housing in the East Boston section of the city of Boston http://bitly.com/UmkEus 
+101,2017-03-29,0,0,0,[],"I'm at Boston Housing Authority in Boston, MA https://www.swarmapp.com/c/aEbJ6w2lsgW "
+102,2017-03-28,0,0,0,[],S746 [NEW] Relative to enhanced housing authority screening http://bitly.com/VD8LOY 
+103,2017-03-26,0,0,0,[],H674 [NEW] Relative to housing authority executive director contracts http://bitly.com/Wt7lHH 
+104,2017-03-21,0,0,0,[],Exceptional speech in Gund Hall on housing within the regional context of Boston by mayor… https://www.instagram.com/p/BR4T7pLhicf/ 
+105,2017-03-01,0,0,0,[],"Advocates held an overnight protest outside the office of Mayor Walsh, demanding an increase in affordable housing. http://toplocalnow.com/us/boston/at/13 "
+106,2017-02-23,1,0,0,[],Time to go enjoy this gorgeous weather  @ Boston Housing Authority… https://www.instagram.com/p/BQ3kDBvAr7H4l3Afnnw2n5S2hDBjt-DfjTfhD80/ …
+107,2017-02-14,0,0,0,"['happyvalentinesday', 'awesomeboss']",#happyvalentinesday #awesomeboss @ Boston Housing Authority… https://www.instagram.com/p/BQfpbjEh7Ms-GLqCqtkxZDEPD8vQ4RrtDIyOOA0/ …
+108,2017-02-14,0,0,0,"['happyvalentinesday', 'awesomeboss']",#happyvalentinesday #awesomeboss @ Boston Housing Authority… https://www.instagram.com/p/BQfpU7Ohk86MqfXZgTz2VzAlDtGuZxLB8vkPc00/ …
+109,2014-05-20,0,0,0,[],Mayor Walsh: Today's affordable-housing groundbreaking in Chinatown is just the beginning: Development and city... http://dlvr.it/5kJZXp 
+110,2014-05-19,2,3,0,[],RA Fields joins Boston Mayor @marty_walsh to celebrate largest Public Housing Energy Efficiency Project in US history pic.twitter.com/KfB85VD4Pz
+111,2014-05-20,0,0,0,[],Mayor Walsh: Today's affordable-housing groundbreaking in Chinatown is just the beginning: Development and city... http://dlvr.it/5kJZXp 
+112,2014-05-19,2,3,0,[],RA Fields joins Boston Mayor @marty_walsh to celebrate largest Public Housing Energy Efficiency Project in US history pic.twitter.com/KfB85VD4Pz
+113,2014-05-13,0,0,0,[],Disgraced Chelsea official pleads guilty: BOSTON — The former executive director of the Chelsea Housing Authority... http://dlvr.it/5fcXnf 
+114,2014-05-06,0,0,0,['internship'],"This Way Ahead Program Coordinator - Cambridge Housing Authority -  Cambridge, MA: summer Gap and ... http://bit.ly/Q8Q8CO  #internship"
+115,2014-05-01,0,0,0,[],Boston Mayor Marty Walsh recently shared his thoughts on 'workforce housing' in this video interview: Boston... http://dlvr.it/5Xxv8p 
+116,2014-04-30,2,2,0,"['housing', 'metronorth']",@TheCityofMalden Mayor Christenson: it's all about #housing and how we attract the next generation. #metronorth forum @MassEOHED
+117,2014-04-30,1,0,1,[],"Thank you, 1,717 Westwood voters who elected me to Housing Authority!"
+118,2014-04-24,0,0,0,"['BosMayor', 'gentrification']",Major disappointment: no commitment of resources for middle-income housing in #BosMayor trans report. http://urlin.it/59c81  #gentrification
+119,2014-04-24,0,0,0,"['BosMayor', 'CommunityHealth']",#BosMayor housing trans report: health impact assessments for big projects! http://urlin.it/59c81  @BostonAlliance for #CommunityHealth
+120,2014-04-24,0,0,0,['BosMayor'],Good start to #BosMayor housing trans team report: equity lens for all policies - impact on dis-invested nabes. http://urlin.it/59c81 
+121,2014-04-05,0,1,0,[],Opened report via iPhone at 1861 Dorchester Ave http://spot.cx/1sl7cF5 . Boston housing authority to do landscaping.
+122,2014-04-04,0,0,0,[],Massachusetts to curb smoking in public housing: BOSTON — Gov. Deval Patrick's administration moved Thursday to... http://dlvr.it/5JvFzj 
+123,2014-04-03,0,0,0,[],S182 [Update] Providing for a study by the Executive Office of Housing and Economic Development relative to a sta... http://bitly.com/WBPIWp 
+124,2014-04-01,0,0,1,[],With Lisa Audette Franklin Housing Authority! Thanks for all you do. pic.twitter.com/dvPb8ADv1c
+125,2014-03-30,0,0,0,['SrProm'],Mayor of the house #SrProm (@ Jewish Community Housing for the Elderly - @jcheonline) http://4sq.com/1mDimUc 
+126,2014-03-26,0,0,0,[],Mayor Walsh announces amendment to Boston Rental Housing Inspection Ordinance http://bit.ly/1jGBmN5 
+127,2014-03-26,0,0,0,['MayorMartyChat'],"@marty_walsh talking about housing supply at @GA_boston #MayorMartyChat ""need more opps for housing"""
+128,2014-03-25,0,0,0,[],Gov. Patrick: $25M for 335 new Mass. housing units: BOSTON — Gov. Deval Patrick is set to announce more than $25... http://dlvr.it/5DT48r 
+129,2014-03-23,0,0,0,[],@Vital_Village Plz don't retweet this. @BostInno misrepresents mayor statement.  Problem properties do not = affordable housing.
+130,2014-03-22,0,0,0,[],Mayor Walsh announces amendment to Boston Rental Housing Inspection Ordinance http://bit.ly/1iO95pl 
+131,2014-03-21,0,0,0,[],H1136 [Update] Relative to the Massachusetts Housing Authority http://bitly.com/WkwsMY 
+132,2014-03-20,0,0,0,[],"Mayor Walsh ""we have to create 'workforce' housing"" in Boston @MassBuildingCong"
+133,2014-01-27,0,1,0,[],"The Boston Housing Authority's $111 million retiree problem: The Boston Housing Authority, a state-chartered... http://dlvr.it/4nnNm5 "
+134,2014-01-08,0,0,0,[],@Fara1 do property owners get tax incentives for government subsidized housing??? I'd think they would
+135,2014-01-08,1,2,0,['bosmayor'],Housing Public Hearing for Mayor @Marty_Walsh's transition team...175+ people already here. #bosmayor [pic]: http://4sq.com/1dY5J0v 
+136,2014-01-06,0,2,1,[],The message board in city hall lobby announces public housing hearing with mayor walsh on saturday. pic.twitter.com/ZLPEZaUXTg
+137,2015-10-01,0,0,0,[],Boston has a new director of fair housing: Boston Mayor Martin J. Walsh on Thursday named Janine Anzalota director… http://boston.cityandpress.com/node/10255425 
+138,2015-09-10,0,0,0,[],Walsh: Housing crunch limits how much Boston can help: Mayor Martin J. Walsh hedged on the idea of taking in… http://boston.cityandpress.com/node/10151076 
+139,2015-10-01,0,0,0,[],Boston has a new director of fair housing: Boston Mayor Martin J. Walsh on Thursday named Janine Anzalota director… http://boston.cityandpress.com/node/10255425 
+140,2015-09-10,0,0,0,[],Walsh: Housing crunch limits how much Boston can help: Mayor Martin J. Walsh hedged on the idea of taking in… http://boston.cityandpress.com/node/10151076 
+141,2015-09-03,0,0,0,[],"Card used on disney trip, dentist, cash: The former executive director of the Burlington Housing Authority is free… http://boston.cityandpress.com/node/10121429 "
+142,2015-09-03,0,0,0,[],Ex-housing authority head charged with credit card misuse: The former director of the Burlington Housing Authority… http://boston.cityandpress.com/node/10120817 
+143,2015-09-02,0,0,0,[],Former Burlington Housing Director Pleads Not Guilty To Misusing Funds: A former Burlington Housing Authority… http://boston.cityandpress.com/node/10117222 
+144,2015-09-02,0,0,0,[],Former Burlington housing authority director charged with using credit card for personal expenses: Police have… http://boston.cityandpress.com/node/10114739 
+145,2015-08-26,0,0,0,[],Overcrowded student housing gets little action from City of Boston http://bit.ly/1JYMuGN 
+146,2015-08-15,0,0,0,[],H3617 [NEW] Relative to certain affordable housing in the city of Boston http://bitly.com/WkPwuC 
+147,2015-08-14,0,0,0,[],H3658 [NEW] Relative to the tax status of certain land owned by a housing authority http://bitly.com/YkHzUt 
+148,2015-07-07,8,11,0,['Dorchester'],Joining HUD Sec. @JulianCastro & Mayor @Marty_Walsh in #Dorchester to celebrate the creation of affordable housing. pic.twitter.com/k0u8pRP3G4
+149,2015-07-07,0,0,0,[],"Boston housing starts reach three-year high: Housing starts in Boston have reached a three-year high, Mayor Martin… http://boston.cityandpress.com/node/9843909 "
+150,2015-06-25,0,0,0,[],"Seven questions for Jay Ash, Mass. housing and economic development secretary: Jay Ash, the Bay State's secretary… http://boston.cityandpress.com/node/9792303 "
+151,2015-06-22,1,1,0,[],"Opened report via android at Intersection Of Burney St & Tremont St, Mission Hill http://spot.cx/1GvA1lW . Housing authority vehicle illeg..."
+152,2015-06-18,0,0,0,"['swampscott2025', 'masterplan', 'housing', 'economicdevelopment']",The #swampscott2025 2nd #masterplan forum is currently underway #housing #economicdevelopment… https://instagram.com/p/4FrzS5opnZ/ 
+153,2015-05-06,0,0,0,[],Mayor wants thousands of housing units built near the T: The city of Boston's Department of Neighborhood… http://boston.cityandpress.com/node/9539231 
+154,2015-04-23,2,3,0,['BHSCMarch'],TODAY 10am. March in solidarity w/homeless of Boston! Tell mayor we need to address our housing crisis. #BHSCMarch https://www.facebook.com/events/359234957610473/ …
+155,2015-04-18,0,0,0,[],S693 [NEW] Relative to the Berkshire County Regional Housing Authority http://bitly.com/VDaHqM 
+156,2015-04-17,0,0,0,[],S717 [NEW] Relative to enhanced housing authority screening http://bitly.com/VGhXQa 
+157,2015-04-16,0,0,0,[],"S692 [NEW] Relative to the Worcester Housing Authority's ""Buy American Policy"" http://bitly.com/WvtnK2 "
+158,2015-04-12,0,0,0,[],Opened report via iphone at 165–299 Faywood Ave http://spot.cx/1NvKdEj . Extremely loud music coming from boston housing authority orient...
+159,2015-04-12,0,0,0,['DedhamVotes'],Donna Brown Housing Authority in lead. Brian Keaney calls it for her. #DedhamVotes
+160,2015-04-08,0,0,0,[],Water leaks lead to mold in state housing authority complex: Some of the residents at a state housing authority… http://boston.cityandpress.com/node/9394058 
+161,2015-04-07,1,0,0,['bospoli'],"@marty_walsh I'm at a 3 hr city council hearing on low-income housing displacement. NOT ONCE HAS THE WORD ""DISABILITY"" been used! #bospoli – at Boston City Hall"
+162,2015-04-07,0,0,0,[],"Opened Litter on Sidewalk/Gutter report via iphone at 184 Faywood Ave, East Boston http://spot.cx/1Dfdqwu . Boston housing authority orien..."
+163,2015-04-03,0,0,0,[],The NYC Housing Authority once ran some of the country's best public housing. Now? Aging buildings and late repairs. http://is.gd/wUCCAj 
+164,2015-03-21,0,0,0,[],H1123 [NEW] To provide additional protection to local housing authority residents and local housing authority pro... http://bitly.com/YGdM8X 
+165,2015-03-19,0,0,0,[],@jimbraude Jane Byrne Mayor of Chicago moved into Cabrini Green Housing Projects so she could bring attention to the crime.
+166,2015-03-19,0,0,0,[],H2280 [NEW] Relative to retirement benefits for Massachusetts housing authority electricians http://bitly.com/TC6nqT 
+167,2015-03-16,0,0,0,[],"Opened Unshoveled Sidewalk report via iphone at 87r Atherton St, Roxbury http://spot.cx/1BoX8M6 . I think this is boston housing authority..."
+168,2015-03-05,0,0,0,[],NYC mayor to tout housing plan to business leaders: Mayor Bill de Blasio will bring his message of combating income… http://boston.cityandpress.com/node/9228565 
+169,2015-02-26,0,0,0,[],"Opened Snow/Ice Control report via iphone at Intersection Of Harrison Ave & Taber St, Roxbury http://spot.cx/18qgjPD . Housing authority d..."
+170,2015-02-18,0,0,0,[],Exec. director of Stoughton Housing Authority facing charges in connection with stealing meds: The executive… http://boston.cityandpress.com/node/9154412 
+171,2015-02-18,0,0,0,[],Video shows Stoughton housing director at scene of medication theft: Suspended Stoughton Housing Authority… http://boston.cityandpress.com/node/9150678 
+172,2015-02-11,0,0,0,[],@Newsin01887  saw a crew steaming the ice off a housing authority house in Wilmington! Seems like we are paying for crazy benefits
+173,2015-02-10,0,0,0,[],Boston Housing Authority Competes for $30 Million to Redevelop Whittier Site http://bit.ly/1y91Qwf 
+174,2015-02-09,0,0,0,[],Boston Housing Authority wants $30M to redevelop Roxbury site: The Boston Housing Authority has applied for a $30… http://boston.cityandpress.com/node/9106843 
+175,2015-01-21,1,0,0,['Boston2024'],"#Boston2024 will ensure gov. performance, transportation, housing, future Olympic sustainability, colleges and universities."
+176,2015-01-21,1,0,0,['Boston2024'],"#Boston2024 will ensure gov. performance, transportation, housing, future Olympic sustainability, colleges and universities."
+177,2015-01-17,0,0,0,[],H4306 [Update] Relative to local housing authority reform http://bitly.com/WwYbdk 
+178,2015-01-16,0,0,0,[],"S594 [Update] Relative to the Worcester Housing Authority's ""Buy American Policy"" http://bitly.com/Yu9m57 "
+179,2015-01-13,0,0,0,[],H1117 [Update] Relative to a form of governance for the Boston Housing Authority http://bitly.com/WNASMu 
+180,2015-01-12,0,0,0,[],H1120 [Update] Relative to development of local housing authority surplus land http://bitly.com/Wt9ZgK 
+181,2015-01-12,0,0,0,[],S182 [Update] Providing for a study by the Executive Office of Housing and Economic Development relative to a sta... http://bitly.com/WBPIWp 
+182,2015-01-11,0,0,0,[],H1142 [Update] Relative to granting policing powers to certain employees at the Worcester Housing Authority http://bitly.com/WpqsT5 
+183,2015-01-11,0,0,0,[],H1136 [Update] Relative to the Massachusetts Housing Authority http://bitly.com/WkwsMY 
+184,2015-01-08,0,0,0,[],"H3349 [Update] Relative to the Worcester Housing Authority's ""Buy American Policy"" http://bitly.com/YpB7M7 "
+185,2015-01-07,0,0,0,[],H4211 [Update] Relative to local housing authority reform http://bitly.com/WD1BpS 
+186,2015-01-06,0,0,0,[],Stoughton Housing Authority Chief Charged With Stealing Meds http://bit.ly/1vXoiXT 
+187,2015-01-05,0,0,0,[],Stoughton Housing Authority Chief Charged With Stealing Meds http://dlvr.it/81Zt8f 
+188,2015-01-05,0,0,0,[],Stoughton Housing Authority Chief Charged With Stealing Pain Meds From Elderly Woman http://dlvr.it/81SqKy 
+189,2015-01-05,0,0,0,[],Housing authority chief charged with stealing meds http://dlvr.it/81QdQd 
+190,2015-01-05,0,0,0,[],Housing authority chief charged with stealing meds http://dlvr.it/81QhML 
+191,2015-01-04,0,0,0,[],Exec. director of Stoughton Housing Authority allegedly stole pills from elderly woman http://dlvr.it/80wMkk 
+192,2015-01-03,0,0,0,[],H1142 [Update] Relative to granting policing powers to certain employees at the Worcester Housing Authority http://bitly.com/WpqsT5 
+193,2014-12-27,0,0,0,[],Red & Orange Lines to See 'Growth Zone' Housing by 2030 http://bostinno.streetwise.co/2014/12/12/boston-apartment-prices-mayor-walsh-announces-transit-oriented-growth-zones/ …
+194,2014-12-20,0,0,0,[],Massachusetts adding $15M for supportive housing: Gov. Deval Patrick's administration says it is directing $15… http://dlvr.it/7tMKNt 
+195,2014-12-20,0,0,0,[],Massachusetts Adding $15M For Supportive Housing: Gov. Deval Patrick’s administration says it is directing $15… http://dlvr.it/7tL2n2 
+196,2014-12-19,0,0,0,[],Boston offering $20M for affordable housing projects: Boston Mayor Martin Walsh on Thursday said the city is… http://dlvr.it/7sh1bL 
+197,2014-12-15,0,0,0,[],The Boston Housing Authority Designated Housing Plan hearing to try to displace young people with disabilities from their housing programs..
+198,2014-12-08,0,0,0,[],MassDev funding 66-unit affordable housing complex in Chinatown: An affiliate of the Chinese Economic Development… http://dlvr.it/7m8mFK 
+199,2014-11-07,0,0,0,[],Ex-Housing inspector accused of assault: A Watertown man and former inspector for the Waltham Housing Authority was… http://dlvr.it/7S1GDg 
+200,2014-11-05,2,1,0,[],"How revitalize neighborhoods: housing, economic development and organizing. Local jobs instead of endless affordable housing."
+201,2014-10-17,0,0,0,[],UMass Boston's plans for dorms dovetail with mayor's housing goals http://bit.ly/1qHodG3 
+202,2014-10-10,0,0,0,[],Builders back Walsh housing plan: Hub developers are endorsing Mayor Martin J. Walsh’s lofty plan to double… http://dlvr.it/79FVK2 
+203,2014-10-09,0,2,0,[],"Walsh says Boston needs 53,000 new housing units by 2030  http://www.bostonglobe.com/business/2014/10/09/mayor-says-boston-needs-new-housing-units/L3brQHvt6rvUXk8FrzP7DM/story.html?event=event25?event=event25 …"
+204,2014-10-09,0,0,0,[],"Mayor proposes tax to fund 
+new housing for growing Boston: An aggressive new housing plan released today by Mayor… http://dlvr.it/78JK3P "
+205,2014-10-09,0,0,0,[],"Boston releases housing goals for next 16 years, new emphasis on middle-class homes: Boston Mayor Martin J. Walsh's… http://dlvr.it/78GpHb "
+206,2014-10-08,0,0,0,[],Springfield City Council approves land deal to aid $25 million housing complex: The Springfield City Council… http://dlvr.it/77wYfg 
+207,2014-09-26,1,1,0,[],Thanks to Boston Housing Authority for training @casamyrna and our partners on housing this morning. We have a full house!
+208,2014-09-23,0,0,1,[],@drgrist here they're doubling up to afford skyrocketing rent. Haven't heard much from Mayor about affordable housing.
+209,2014-08-27,0,0,0,[],"BHA to replace tower’s decrepit elevators: The Boston Housing Authority, after being told by the Herald of... http://dlvr.it/6kdBcg "
+210,2014-08-06,3,5,0,['Boston2024'],"No harm in exploring a future vision for the City of Boston. Better roads, new housing & a 21st century transit system. Imagine #Boston2024"
+211,2014-08-06,6,2,0,[],.@MassGovernor signing the housing authority reform bill! pic.twitter.com/PR7IDzjWnQ
+212,2014-08-05,0,0,0,['National'],Doing the DJ thing for the #National Night Out arlington pd @ Arlington Housing Authority http://instagram.com/p/rVRx9uMehD/ 
+213,2014-07-19,0,0,0,[],Mass. submits possible locations for housing unaccompanied minors: Gov. Deval Patrick announced Friday that... http://dlvr.it/6Mp9RX 
+214,2014-07-17,0,0,0,[],H4306 [Complete] Relative to local housing authority reform http://bitly.com/WwYbdk 
+215,2014-07-17,0,0,0,[],H4306 [Update] Relative to local housing authority reform http://bitly.com/WwYbdk 
+216,2014-07-15,0,0,0,[],H4306 [NEW] Relative to local housing authority reform http://bitly.com/WwYbdk 
+217,2014-07-15,0,0,0,[],H4211 [Complete] Relative to local housing authority reform http://bitly.com/WD1BpS 
+218,2014-07-10,0,0,0,[],Mayor Walsh joins federal push for vet housing: The city’s homeless veterans should all have roofs over their... http://dlvr.it/6GwK84 
+219,2014-07-09,0,0,0,[],Senate OKs San Antonio mayor as housing secretary: WASHINGTON — The Senate easily confirmed San Antonio Mayor... http://dlvr.it/6GjqFX 
+220,2014-07-07,0,0,0,[],Gov. Patrick: $84M for affordable housing projects: BOSTON — Two dozen affordable housing projects across... http://dlvr.it/6FZxRn 
+221,2014-07-07,0,0,0,[],Gov. Patrick: $84M for affordable housing projects: BOSTON — Two dozen affordable housing projects across... http://dlvr.it/6FZkBt 
+222,2014-06-25,0,0,0,[],H4211 [Update] Relative to local housing authority reform http://bitly.com/WD1BpS 
+223,2014-06-21,0,0,0,[],H4211 [NEW] Relative to local housing authority reform http://bitly.com/WD1BpS 
+224,2014-06-07,1,0,0,[],Nice to meet @MayorWarren at the @CCGFoundation spin @soulcycle http://ccgfoundation.org/  safe biking/affordable housing pic.twitter.com/230ZxO1Rl7
+225,2014-06-02,0,0,0,[],"Mayor Lee allocates $94M for affordable housing, reports @johnwcote Where will the money go? Schlage Lock? http://bit.ly/1nHp7pW "
+226,2014-05-30,0,0,0,[],Visiting Nana with Mom (@ Burlington Housing Authority) http://4sq.com/1rqVCKB 
+227,2014-05-28,0,0,0,[],Boston Mayor's Agenda Prioritizes Middle Class Housing Affordability http://bit.ly/1nV2lXo 
+228,2014-05-27,0,0,0,[],RT: @BostonGlobe: Mayor Walsh is seeking to dramatically increase production of middle-income housing in Boston. http://ow.ly/xhVtd 
+229,2019-11-02,1,0,0,[],"“A handful of mayors, in particular @marty_walsh...have led the way on housing creation in Greater Boston. But they can’t do it alone.”
+
+https://www.bostonglobe.com/opinion/editorials/2019/11/02/housing-ballot-tuesday-local-elections/60sg5NtXmHjGSqifWK0J2I/story.html …"
+230,2019-11-02,0,0,0,[],"That won’t cover half of the costs. Natl sales tax would have to be in excess of 39% to pay just for Medicare. What about defense spending, housing, law enforcement, and the other essential government spending. All that tax money in DC under the new socialist democratic control."
+231,2019-11-02,0,0,0,[],This is also why I focused heavily on housing starting this year: I realized that this is an area where the City Council actually *does* have ~unilateral power: no need for the Manager to sign off on zoning changes. So the City Council can actually change things I care about. :)
+232,2019-11-02,1,0,1,[],"With less federal funding available for housing, the Boston Housing Authority has turned instead to private developers and nonprofits to bankroll construction projects, leveraging the value of the land to attract potential partners: http://wbur.fm/2osvogX "
+233,2019-11-01,1,1,1,[],"Here is the first draft spreadsheet of responses by Boston city councilor candidates to questions regarding housing policy. Because I didn't start collecting information until a few days ago, there wasn't time for me to get actual quotes from most of the candidates. I tried."
+234,2019-11-01,1,0,0,[],@votehalbert is the housing candidate we need for Boston City Council. https://twitter.com/votehalbert/status/1190345236305846272 …
+235,2019-11-01,2,0,0,['3decker'],#3decker: Some mayors who blessed housing facing foes promising to slow growth | Mattapan residents protest new owner's rent hikes | Salem's accessory proposal fails to get 2/3rds vote http://bit.ly/1mRoLhd  @bytimlogan @katie_trojano @DotNewspic.twitter.com/ygqAanFD9X
+236,2019-11-01,0,0,0,"['HousingChoice', 'mapoli', 'bospoli']","Well he's focused on middle-class housing to cater to Charlie Baker's #HousingChoice plan while a public/private partnership in Chinatown left 3,900 in the lurch.
+
+And he said Wu is villainizing economic development.
+
+So believe me, you're onto something here.
+
+#mapoli #bospoli"
+237,2019-11-01,0,0,0,['AboutUsByUspic'],"ACTION ALERT! We hope that you will join us today as we advocate for the AAB. We are meeting with Michael Kennealy, Secretary of Housing and Economic Development, at One Ashburton Place, 21st Floor, at 3 pm. Please arrive by 2:30 pm if possible. #AboutUsByUspic.twitter.com/jq1UDDeTY1"
+238,2019-11-01,5,0,0,['cambma'],"Fascinating look at how ignorant & rude comments in a list-serve (and from a city councilor!) gave #cambma the gift of our formidable @crschmidt joining the housing fight. 
+
+When people who care about the facts get involved in this fight, it's a win for everyone. https://twitter.com/crschmidt/status/1190077227020537856 …"
+239,2019-11-01,2,2,0,[],"Join us and @Harvard_JCHS for a discussion with Juan Ignacio Maquieyra, MPP 2014, President of the Housing Authority of the City of Buenos Aires
+
+  Thursday, November 7th 
+  4:15-5:30 PM
+  124 Mt. Auburn St. Suite 200N
+
+Details → http://bit.ly/2pnWLcC pic.twitter.com/iQgtDfABDR"
+240,2019-11-01,1,0,0,[],"We spend a lot of time in our individual cities talk about housing, but so much of housing has to do with transportation, says @MayorDriscoll. Although North Shore residents work, live, and visit many towns, it can be hard to get around.pic.twitter.com/nVL4OjnNzc"
+241,2019-11-01,2,0,1,[],"We have a housing crisis. One of these things helps, one harms.  Nothing wrong with the democratically-elected state government encouraging communities to help rather than harm."
+242,2019-11-01,4,1,1,[],"My neighborhood of Cambridgeport has always been one that I love *because* of an eclectic mix of buildings. And earlier that week, I'd watched as a City Councilor lashed out against a housing activist over the plan, insulting her for her work. https://twitter.com/qzondervan/status/1117031204589592576 …"
+243,2019-10-31,2,1,0,['AboutUsByUspic'],"ACTION ALERT! Our efforts to save the AAB have moved from tomorrow at @MassGovernor's office to One Ashburton Place. We'll be meeting w/Michael Kennealy, Secretary of Housing and Economic Development. The mtg is at 3 pm the 21st floor conf room. Meet us at 2:30 pm. #AboutUsByUspic.twitter.com/9Oc3Umo8Ge"
+244,2019-10-31,0,0,0,[],"Ahead of a high-stakes Newton City Council election Nov. 5 that will shape the future of development and housing in the city, four local groups have issued endorsements for candidates running in citywide and ward-level races. https://buff.ly/31PK1so pic.twitter.com/Kci4iWBMih"
+245,2019-10-31,10,2,0,['bospolihttps'],".@juliaforboston’s organizing background & passion for community advocacy make her a strong candidate for the Boston City Council. From housing affordability, to equity in education, to enviro justice, I know she would be a great partner in service! #bospolihttps://twitter.com/juliaforboston/status/1189939926810398725 …"
+246,2019-10-31,4,1,0,[],"Buenos Aires designed an innovative Socio-Urban Integration Plan which seeks to involve the community in its design & implementation. Join us Nov 7 for a conversation with Juan Ignacio Maquieyra, President of the Buenos Aires Housing Authority. https://www.jchs.harvard.edu/calendar/deliberative-democracy-and-transforming-urban-policy-design-buenos-aires … @HarvardAshpic.twitter.com/2aDZejPFFI"
+247,2019-10-31,4,1,2,[],"Dear Boston city council candidates: I know you're busy but I hope you can find time to answer my very short housing policy questionnaire. I emailed you and/or submitted a form on your website. If you haven't seen it, HMU here or at johnakeith@gmail.com."
+248,2019-10-31,2,2,0,[],"Housing People First is not just the right thing to do, it saves our community significantly in health care & public safety costs.
+
+""...the total cost of housing & support for an individual in a housing-first model is about $25,000/year.""
+
+https://www.wbur.org/hereandnow/2019/02/21/homelessness-as-medical-condition-chicago …"
+249,2019-10-31,18,5,0,[],Congratulations to the Cambridge Housing Authority on completing renovations to the 52-unit Russell Apartments for low-income senior citizens and residents with disabilities.  MassHousing was pleased to be a partner. @CambHousing @MA_DHCD @MassEOHED @MassGovernor @ChrysMAHsngpic.twitter.com/hNTeeEfkMa
+250,2019-10-30,3,0,0,[],"Man, what a world it would be in to have all of the Councilors running for City Council support higher density development by right for affordable housing.
+
+(I know that it's easier to support something in *theory* than an actual plan, which is where this falls apart.) https://twitter.com/socialistdogmom/status/1189670344933740546 …"
+251,2019-10-30,0,0,0,[],Editorial: City Council candidates need to pipe up on housing https://buff.ly/2osQmMK pic.twitter.com/P7HAkEr77c
+252,2019-10-30,3,0,0,[],"Earlier this week, members of the National Honor Society as well as MVRCS third graders visited a nearby Malden Housing Authority facility to brighten the day of residents. In keeping with the Halloween theme students dressed in costume as they interacted with residents. pic.twitter.com/XSfOlSF2JU"
+253,2019-10-30,1,0,1,[],"What's different about Cambridge? Well, among other things, their planning department does not carry a mandate for economic development. In practice that means lots of jobs get created (because that happens automatically) but none of the needed housing."
+254,2019-10-30,1,0,0,[],"Sending in my absentee ballot for @BOSCityCouncil — looking forward to a diverse, thoughtful and progressive city council on housing, education, public transport"
+255,2019-10-30,0,0,0,[],Secretary of Economic Development and Housing (and Lexington resident) Michael Kennealy providing an update on economic development efforts in the Commonwealth @MassEOHEDpic.twitter.com/OFYEaHLzdM
+256,2019-10-30,0,0,0,[],"We can fix this via subsidy (""affordable housing"" is usually affordable because construction is funded by the government), or we can fix this via changing how planning works+unlocking underutilized rich people space (eg single family lots), or (best) we can do both in parallel."
+257,2019-10-30,1,0,0,[],We encourage diverse business owners to attend one of the City of Boston’s upcoming Disparity Study Business Outreach Meetings on November 7 & 8 and share their experiences working with or trying to work with the City http://ow.ly/Md3g50wXlRS  @EconDevBostonpic.twitter.com/HlwkzuDpsf
+258,2019-10-30,5,0,2,[],"You are supporting a Cambridge City Councilor who says that density has no effect on climate change and whose grand plan for more housing in Cambridge is to ""let everyone move to Belmont""."
+259,2019-10-30,2,1,0,['housing'],Happy to host the Boston Public Health Commission @HealthyBoston today to train our property owners on how to maintain smoke-free #housing. Thank you! pic.twitter.com/NKXarubphC
+260,2019-10-30,0,0,0,['bospoli'],"We are at a tipping point, and our own mayor slapped everyone in the face with a goal for ""middle class housing.""
+
+The middle class is dead.
+
+#bospoli"
+261,2019-10-30,11,2,1,[],Congrats to the Cambridge Housing Authority on completing renovations to the 52-unit Russell Apartments! @CambHousing @ChrysMAHsng @cityofcambridge @MassEOHEDpic.twitter.com/BLsf9r9vbJ
+262,2019-10-30,0,0,0,[],"Horlick announces candidacy for Saugus Housing Authority
+
+https://saugus.wickedlocal.com/news/20191030/horlick-announces-candidacy-for-saugus-housing-authority …"
+263,2019-10-30,0,0,0,[],"The Office of Residential Life hosted an off-campus housing resource fair on Oct. 21, connecting Tufts students with realtors and property management companies to help in the search for off-campus housing.
+
+http://bit.ly/2MZ6ajF "
+264,2019-10-30,3,1,0,"['LynnMA', 'LynnCitySummit', 'econdev', 'education', 'housing', 'publichealth', 'transportation']","Do you want to help shape the future of #LynnMA? Share your ideas at the #LynnCitySummit on Saturday, Nov. 16! The city is looking for your ideas on arts and culture, #econdev, #education, #housing, #publichealth, public safety, & #transportation.https://www.eventbrite.com/e/lynn-city-summit-tickets-77054464979 …"
+265,2019-10-30,11,1,7,[],The main problem is the city of Boston is creating over half of all housing production in the entire commonwealth. We have close-in suburban communities who are refusing to help solve the housing crisis. Stoking fears of “foreign investment” is pure xenophobia.
+266,2019-10-30,5,4,0,[],Informative @BostonPlans meeting tonight at @BPSQuincyElem.  We discussed proposed project at 290 Tremont Street. We had the opportunity to discuss a new @BPLBoston in Chinatown & affordable housing.  Libraries enhance the civic life of every neighborhood. pic.twitter.com/EYZ4iRsUJV – at Josiah Quincy Elementary School
+267,2019-10-29,4,0,0,[],The topic of Housing dominates the topics at Cambridge City council debate! pic.twitter.com/E2xYIFy2pq
+268,2019-10-29,1,0,1,[],attending the final cambridge city council candidate forum. it’s fascinating to hear the ways these nominally universally progressive candidates differ on housing policy. pic.twitter.com/bRJpjjZ1yj
+269,2019-10-29,1,0,0,[],"It's why I'm excited to be supporting a set of candidates for Cambridge City Council that believe that we need to create more homes at all income levels, but especially housing targeted at low-income residents, as well as funding anti-displacement efforts at the municipal level."
+270,2019-10-29,9,4,1,['mapolihttps'],"If you care about displacement, homelessness, and rising inequality and want to support
+
+Rent Control
+Affordable housing
+Development without displacement
+
+Donate: https://secure.actblue.com/donate/votefordee?fbclid=IwAR3YrEe3rWZ73EeKknyl-cHofDuEn0JGF8mgPEmvX7Fhj5qzcXMssyg0Mao# …
+Vote: Damali Vidot, Chelsea City Council-At-Large
+
+#mapolihttps://twitter.com/hollley/status/1189251505519562758 …"
+271,2019-10-29,2,0,1,[],"Hello, Boston city council candidates. Sorry for the late notice but if you have time please DM/ email me with any information you'd like to have on this spreadsheet of your views on housing/ development in Boston. Also, send corrections &/or share link.  https://docs.google.com/spreadsheets/d/1O3j4swhpOACtSv6RHbrnJWaqAmIhW1_-d92hZP82jFs/edit?usp=sharing …"
+272,2019-10-29,24,4,0,[],"I'm honored to have the endorsement from Rep. @AyannaPressley (MA-7) for re-election to City Council: ""Alanna has consistently lifted the voices of Cambridge residents, worked in partnership with community to advance food and housing justice, and supported the creative economy."" https://twitter.com/AyannaPressley/status/1188931441431908352 …pic.twitter.com/Cwar4wvFPf"
+273,2019-10-29,1,1,0,['mvsmartgrowthsummitpic'],"Can't just think about affordable housing OR environment-- need to focus on both at same time, says Melendez.  Need to make existing neighborhoods more resilient & protect natural buffers like Plum Island, per Mayor Holaday. #mvsmartgrowthsummitpic.twitter.com/cGch18itE2"
+274,2019-10-29,1,1,0,['mvsmartgrowthsummit'],"Have to address immediate needs for affordable housing while planning for long term climate resilience, say fishbowl participants Mayor Holaday of Newburyport, Lesly Melendez/Groundwork Lawrence, Sheila Och/Lowell Community Health, Lou Minicucci/Minco #mvsmartgrowthsummit.pic.twitter.com/O4eqzojfge"
+275,2019-10-29,0,0,0,[],"Who botsentinel or the housing market data since that's based on public records and isn't a biased source. It just shows that on average buying a house is expensive and a lot of the country can't afford that. Botsentinel isn't 100% accurate either, but you are troll or bot."
+276,2019-10-29,26,5,0,[],"Yesterday we announced five new research partnerships with state and local governments in California, Minnesota, and Virginia to improve policies related to criminal justice, health, housing stability, and economic security. See more at http://news.mit.edu/2019/j-pal-north-america-announces-five-new-partnerships-state-and-local-governments-1028 … @JPAL_NA"
+277,2019-10-29,1,1,0,"['braintreema', 'southshore']","Thanks, Braintree Chamber of Commerce, and mayoral candidates @charleskokoros & @reynoldsformyr for talking small biz, housing, development, jobs & their visions for @townofbraintree. #braintreema #southshore @SSChamberpic.twitter.com/AeeLQ2U4M4"
+278,2019-10-29,0,0,0,[],"City Council Notes Oct 24: Tax Increment Exemption, Andrew Jackson portrait, Housing Development Incentive Program, green infrastructure, ""tap boards"" in construction zones https://lwvsalem.org/news/city-council-notes24-october …"
+279,2019-10-29,4,1,0,"['LIHTC', 'affordablehousing']","With our partner the Tacoma Housing Authority, we are excited to be involved in creating much-needed affordable & supportive housing for individuals & families facing homelessness in Tacoma. Learn more about our investment here. #LIHTC #affordablehousing https://bostoncapital.com/press-release/boston-capital-partners-with-tacoma-housing-authority-on-two-multifamily-communities-in-washington/ …pic.twitter.com/kQtgstA2bK"
+280,2019-10-29,0,0,0,[],"Can't endorse but if we could it'd be Mayor Curtatone whos been committed to& active in advocating for healthy housing esp. for Clarendon residents.
+
+He stood with us residents&showed up to testify in support of us & our needs when it mattered - something many others didn't do."
+281,2019-10-29,2,0,0,[],"Mayor @JoeCurtatone has my endorsement. I may not share views with him on everything he supports but his hard work & advocacy for the invisible ppl like me, especially on housing issues&his determination to find solutions for inequality at the root is enough for my full support."
+282,2019-10-29,0,0,0,['mapoli'],Several Mass. mayors who pledged to build more housing in their communities are facing challenges this fall https://www.bostonglobe.com/business/2019/10/28/local-elections-hinge-housing-this-fall/0HZ3eWQ3SgV4R8B4ECrqJL/story.html?event=event25 … #mapoli
+283,2019-10-29,0,0,0,[],Going to boston housing authority today
+284,2019-10-29,0,0,0,"['MBTA', 'MassDOT', 'Transit', 'Boston', 'Transportation']","District 9 city council candidates debate housing, transportation in lead up to election - Daily Free Press: https://dailyfreepress.com/blog/2019/10/29/district-9-city-council-candidates-debate-housing-transportation-in-lead-up-to-election/ … #MBTA #MassDOT #Transit #Boston #Transportation"
+285,2019-10-29,0,0,0,"['1', 'GreenNewDeal', 'GoMedfordVoteTudenpic']","YES!!! As a City Council candidate in Medford, MA the #1 issue is obviously increasing housing but it splits voters and entrentches the status-quo. That's why we need a Medford #GreenNewDeal
+http://votetuden2019.com 
+#GoMedfordVoteTudenpic.twitter.com/EIelzop054"
+286,2019-10-29,1,0,1,[],I would like to know what Mr. Baker is going to do for mass about affordable housing? Since we have money from the Casino where is that going? Everett is only for wealthy people now! I want to be heard and get a response! I can't even get a response from my mayor Carlo D'Maria https://twitter.com/CharlieBakerMA/status/1188918073631428608 …
+287,2019-10-29,1,0,0,[],"With less federal funding available for housing, the Boston Housing Authority has turned instead to private developers and nonprofits to bankroll construction projects, leveraging the value of the land to attract potential partners: http://wbur.fm/2osvogX "
+288,2019-10-28,28,6,3,[],"Housing policy cannot be created without the voices of tenants. 
+
+Cambridge is a city where approximately 63% of the residents are renters, yet the vast majority of the City Council are not. @VoteJivan"
+289,2019-10-28,0,0,0,[],"Ivanka... when will the American disable population begin to live.i get $851 a month and am told from the government that I can not get housing because I don’t have enough income. 
+I have Secondary- Progressive Multiple Sclerosis- a disease I didn’t ask for"
+290,2019-10-28,5,0,0,['AllstonBrighton'],"#AllstonBrighton City Council Forum @wgbh @boston_landing @CraigCashman4AB @Liz4AB debating affordable housing, transportation, schools, open space. Hoping for the arts to be mentioned. pic.twitter.com/X9xzZuM2p6"
+291,2019-10-28,0,0,0,[],Candidate for and former mayor of Revere Rizzo doesn't see a housing crisis and sees only corruption in the current mayor approving a 26 unit building: https://www.facebook.com/rizzoforrevere/videos/965860643776796/ …https://twitter.com/RyanDEnos/status/1188893666154147840 …
+292,2019-10-28,0,0,2,[],But you take the welfare and the food and housing and the healthcare from the Government..Just not the part of giving back to the people that support you.. That is NOT very Jewish of you!
+293,2019-10-28,7,3,1,[],"Our bill gives municipalities the option to slow down rapid inflation in multi-unit housing prices, as government does in many markets (especially for products that are basic needs) where speculation and scarcity intersect to depress availability of affordable safe product."
+294,2019-10-28,0,0,1,[],"I think that Cambridge this year saw most of the City Councilors say exactly that--but they're kind of stymied by the ""tax rate austerity"" driven city manager.
+
+Overall, I'd say 6 out of 9 specifically said ""We should have higher property taxes to do more housing work."""
+295,2019-10-28,0,0,0,[],"Tozza announces candidacy for Saugus Housing Authority
+
+https://saugus.wickedlocal.com/news/20191028/tozza-announces-candidacy-for-saugus-housing-authority …"
+296,2019-10-28,0,0,0,[],"With less federal funding available for housing, the Boston Housing Authority has turned instead to private developers and nonprofits to bankroll construction projects, leveraging the value of the land to attract potential partners: http://wbur.fm/2osvogX "
+297,2019-10-28,9,3,1,[],"Funny, I’ve been repeatedly assured by multiple city council candidates that supply and demand have no effect on housing prices.  https://twitter.com/CurbedBoston/status/1188762147733544965 …"
+298,2019-10-28,6,4,0,[],"Our State and Local Innovation Initiative is thrilled to announce  new partnerships with state and local governments.
+ 
+We will work together to develop rigorous evaluations of criminal justice, health, housing stability, and economic security policies. http://news.mit.edu/2019/j-pal-north-america-announces-five-new-partnerships-state-and-local-governments-1028 …"
+299,2019-10-28,7,3,0,[],"Thank you to the residents, volunteers, & attendees who made Clarendon Hill Family Day a success! @cru4justice @SCC_Somerville @JoeCurtatone @Barber4StateRep Somerville Family Learning Collaborative, Redgate, Somerville Housing Authority pic.twitter.com/wEMob3P9vi"
+300,2019-10-28,3,0,1,['1'],"I'm proud to be hosting my first ever yard sign for Adriane Musgrave (@abmusgrave), for Cambridge City Council.  Vote #1 because of her positions on climate change and the housing crisis.  Thanks to Josh H. for his help sorting through candidates!"
+301,2019-10-28,0,0,0,[],Happening Now:  Gov.  Charlie Baker  joins ⁦@CityofQuincy⁩ Mayor Thomas Koch for Quincy Spotlight on Housing Choice.  Watch for it on the latest episode of Media Advisory Tuesday evening at 7pm. pic.twitter.com/ZoYWxYMujI
+302,2019-10-28,1,0,0,[],"Nashville has been a poster child for economic development, both good and bad. Its new leader wants to rethink government incentives used to lure companies as residents complain about housing prices, traffic and the costly inducements https://www.wsj.com/articles/nashville-mayors-unorthodox-promise-slow-corporate-handouts-11572029641?shareToken=stf144a54f6ddd426aa87b32c967396266 … via @WSJ"
+303,2019-10-28,1,0,0,[],Apparently Salem lost their housing battle  https://twitter.com/MayorDriscoll/status/1188633478381871104 …
+304,2019-10-27,1,0,0,[],"The exposure of this agreement poses larger questions as well about governmental reliance on privately-developed standards which can be tanked by such clandestine maneuvering.
+Secret Deal Helped Housing Industry Stop Tougher Rules on Climate Change https://nyti.ms/2NaSl0q "
+305,2019-10-27,1,0,0,[],"Throughout the 90-minute debate, candidates dug into transportation, addiction and policing, housing and education, all of which have been major conversation points for council and mayoral elections in recent year. @hannahrharnhttp://bunewsservice.com/transit-housing-addiction-and-policing-take-the-front-seat-at-councilor-at-large-debate/ …"
+306,2019-10-26,3,2,1,[],"Boston Mayor Marty Walsh spoke about the importance of affordable housing at the ribbon-cutting ceremony for a new Roxbury apartment complex. 
+
+WBZ's @_madisonrogers reports:https://ihr.fm/2qIPap3 "
+307,2019-10-26,8,3,0,[],"Mayor Martin J. Walsh today joined Boston Housing Authority (BHA) Acting Administrator Kate Benett, partner organizations and residents for a ribbon cutting ceremony at the new Melnea Cass Apartments, where 76 mixed-income apartments have been built! pic.twitter.com/gfWa5wz7F9"
+308,2019-10-26,9,1,2,"['melneacass', 'affordablehousingpic']","mayor marty walsh discussing housing, transit, inclusion, and the future of the bpda at a ribbon cutting  event at melnea cass apartments - my project for the last 6 months. #melneacass #affordablehousingpic.twitter.com/ZzGH6oOYlB"
+309,2019-10-26,1,1,1,[],Mayor Marty Walsh pushes for the importance of affordable housing at the ribbon-cutting for a new Roxbury apartment building ⁦@wbznewsradio⁩pic.twitter.com/6Qttbd0Akf
+310,2019-10-26,21,4,1,[],A reminder that the Housing Choice Bill is less of a neo-liberal market driven plot to benefit developers and more of a way to make it easier for mom and dad to build some granny apartments. That we can't get this straight is mind numbing. https://twitter.com/MayorDriscoll/status/1188066517243650048 …
+311,2019-10-26,10,5,0,[],Disappointing.  TY for your leadership @MayorDriscoll . The region has a housing shortage that The @CityOfBoston @cityofcambridge @SomervilleCity cannot solve on their own.https://twitter.com/mayordriscoll/status/1187571558354694145 …
+312,2019-10-25,1,0,0,[],"“State government cannot solve housing affordability alone. We need others to join Facebook in stepping up."" - Governor Gavin Newsom http://bit.ly/365NOoQ "
+313,2019-10-25,0,0,1,['weneedmoreofthis'],"Oh, I am so psyched for this project, @JustAStartCorp @Cambridge_Mayor!  I live a few blocks from there and couldn't be happier that you're investing in affordable housing in our neighborhood!
+#weneedmoreofthis"
+314,2019-10-25,64,13,6,[],Regular reminder that the common belief that the housing crisis was caused by government policy to increase homeownership doesn't match the data. https://twitter.com/emzanotti/status/1187556580826505220 …
+315,2019-10-25,23,12,1,"['mapoli', 'HousingChoicehttps']","An absurd reality in #mapoli that new, deperately needed housing can LOSE with a majority vote. This anti-democratic rule has to end and every legislator should be making it a priority. #HousingChoicehttps://twitter.com/MayorDriscoll/status/1187567665356984320 …"
+316,2019-10-25,0,1,0,['NoWords'],"From Mayor Driscoll’s handle: 5 months+hundreds of hours of public testimony, loads of staff time+support from biz leaders, young adults, seniors, artists, hospitality workers+affordable housing officials all down the drain. City Council votes down new ADU ordinance 6-5. #NoWords"
+317,2019-10-25,2,1,1,['SalemMA'],"What a disappointment. This common sense housing measure had support from the #SalemMA Planning Board, in majority of public comment, & passed this City Council itself 8-3 just two weeks ago. The only amendments since then were entirely at the request of hesitant Councillors. Wowhttps://twitter.com/wjd_reporter/status/1187538970160304128 …"
+318,2019-10-23,26,11,0,"['Boston', 'mapolipic']","I'm proud to endorse Julia Mejia for #Boston City Council At-Large.  Julia will be a great leader for our city  dealing w issues of income inequality, education acces gaps and  affordable housing.
+
+Full statement here: http://us7.forward-to-friend.com/forward/preview?u=123edd2e6243b59b5b3e76cc2&id=f13f7416de … pic.twitter.com/2zVchoD9ap
+#mapolipic.twitter.com/rEwmsrlzWI"
+319,2019-10-22,15,1,4,"['HousingChoice', 'NCSHA19pic']","As our housing challenges evolve, its crucial that housing agencies at all levels of government continue to pursue innovative solutions + new production. Thanks @NCSHAEvents for having your conference in Boston + inviting me to speak on our #HousingChoice initiative. #NCSHA19pic.twitter.com/8ZlnLkGbhr – at Sheraton Boston Hotel"
+320,2019-10-20,4,2,0,['bospolipic'],"On the campaign trail, @Liz4AB meets neighbors having coffee @ Cafe Mirror, chatting about matters that matter — affordable housing for elders, an ailing transportation system, city services. It’s time for a responsive, activist City Councilor. Liz Breadon. #bospolipic.twitter.com/aI3Xog236K"
+321,2019-10-19,9,1,1,"['Boston', 'Chelsea', 'Revere', 'WeRise', 'mapoli', 'bospolipic']","@32BJSEIU members knocked over 1,000 doors today for city council candidates in #Boston, #Chelsea, #Revere. They want better paying jobs for all, affordable housing, and transportation that works for working people. They. Won’t. Be. Denied. #WeRise #mapoli #bospolipic.twitter.com/7zCLUqvZXk"
+322,2019-10-18,4,1,0,"['bospoli', 'mapolipic']",An excellent question. It’s time for a City Councilor to represent Allston-Brighton who can start this dialogue. Overdevelopment of luxury housing in AB has been anything but resident-led. @Liz4AB will be the Councilor we need to tackle this and other challenges #bospoli #mapolipic.twitter.com/fZkvDG0xR1
+323,2019-10-17,11,5,3,['Newtonma'],Want to learn about what it means to be an environmentalist?  What it takes to get more affordable housing? What transparency in government and a commitment to democracy looks like?  Come to the Ward 6 Dems debate tonight and learn how I am different from my opponent. #Newtonma
+324,2019-10-17,1,0,0,['MedfordMayoralDebate'],"I’ve supported the Governor’s housing choice bill in addition to Medford’s Inclusionary Development Policy (15% affordable), which I’m advocating to bump up to 25% for mixed use. If we don’t increase inventory, housing prices will continue to rise. #MedfordMayoralDebate"
+325,2019-10-10,13,5,0,"['Boston', 'bospoli', 'mapoli']","Huge loss for the City of #Boston. Bill McGonagle put the word servant into Public Servant. Prayers up for the McGonagle Family. RIP Bill. William McGonagle, former head of Boston Housing Authority, dies at 67  https://www.bostonglobe.com/metro/2019/10/10/william-mcgonagle-former-head-boston-housing-authority-dead/5QbOrI0qWROBm4QGrAiudM/story.html?event=event25 … via @BostonGlobe #bospoli #mapoli"
+326,2019-10-10,4,1,0,[],"Boston Housing Authority chief Bill McGonagle, the city’s landlord, takes his leave  https://www.bostonglobe.com/metro/2019/07/07/boston-housing-authority-chief-bill-mcgonagle-city-landlord-takes-his-leave/kJbKncFMkXsg8yK1uZI8yH/story.html …"
+327,2019-10-09,2,1,0,['SalemMA'],Thursday 6:30pm City Council takes up proposed accessory dwelling unit law that would create more affordable housing in #SalemMA & give Salem seniors a way to age in place & bring in money. More at https://imaginesalem.org/accessory-dwelling-units … & contact CityCouncilors@salem.com to share your support.pic.twitter.com/5HxLHMv1iA
+328,2019-10-08,0,0,0,"['affordablehousing', 'BostonABCDpic']","Tonight’s forum - At-Large City Council Candidates. “Affordable housing is the number one question that comes up when I’m knocking on doors,” Councillor Michelle Wu. #affordablehousing #BostonABCDpic.twitter.com/nb6MPgHijc – at Thelma D. Burns Building"
+329,2019-10-08,7,2,0,['affordablehousing'],"Tonight’s forum - #affordablehousing is a top priority for most Boston City Council-at-Large candidates.  @juliaforboston, who did not have a stable housing situation until she was in 5th grade, says “What ‘affordable housing’ means in the city of Boston is a false narrative” pic.twitter.com/e9j8kw7Piu – at Thelma D. Burns Building"
+330,2019-10-08,3,0,0,[],"Excellent speech by Mayor @marty_walsh at today’s @bostonchamber Government Affairs Forum. The mayor focused on Housing, Transportation & Education.  Let’s continue to work together to ensure an economy that works for all. Great to join @mfflaherty @AnnissaForBos, @adrianmadaropic.twitter.com/m2MYQqUjcz – at Boston Marriott Copley Place"
+331,2019-10-08,2,1,0,[],".@marty_walsh calls for support of @CharlieBakerMA’s housing choice bill. Says Town Managers and other Mayors keep telling him their plans to build new, dense housing are constantly blocked. pic.twitter.com/ea9dCmHS6D"
+332,2019-10-02,3,0,1,[],"No one will be unabashedly pro housing to your liking until you or I run for City council, but I think Halbert comes the closest."
+333,2019-10-01,22,1,2,[],"good news everyone there is a building in the seaport taking applications to be entered in a lottery to win the opportunity to pay them $1,012 a month for a “micro-studio”!!  ty city of boston for this affordable housing, blessed"
+334,2019-09-30,1,0,0,"['affordablehousing', 'tennantprotections', 'housingishealth']","#affordablehousing and #tennantprotections #housingishealth  In Boston, City councilor Lydia Edwards introduces legislation to include renters, environmental and fair housing advocates on Boston’s seven-member Zoning… https://www.instagram.com/p/B3CQACbgVUF/?igshid=ay8hez8c26vr …"
+335,2019-09-28,0,0,0,['newerapolitics'],"@PeteButtigieg @Chas10Buttigieg Hoping you would visit Boston EMS Dispatch Ops. Map: 1199 Tremont St. Roxbury,Boston. Behind bldg a park/bike path within feet of public housing/3 colleges/transit.perfect for a ”FLASH”rally re:Public Safety & Service.#newerapolitics"
+336,2019-09-26,3,1,0,[],"But for the high housing costs, how many would leave? My bet is very few. (related: imagine how much more expensive Boston real estate would be if most parents considered BPS K-6 as on par with “good” suburban systems)."
+337,2019-09-26,9,1,0,"['bospoli', 'mapolihttps']",Because we need a mayor who understands you can't develop more housing AND prioritize cars.  @wutrain for mayor. #bospoli #mapolihttps://twitter.com/ofsevit/status/1177192782580113414 …
+338,2019-09-25,26,5,0,['CambMA'],"Today the Cambridge Housing Authority honors the late Cheryl-Ann Pizza-Zeoli, a lifelong advocate for affordable housing in #CambMA. 
+
+Thank you, Cheryl-Ann.pic.twitter.com/4ZKdmmgmei"
+339,2019-09-24,6,2,0,"['mapoli', 'bospolipic']","People of all ages + backgrounds out here supporting @wutrain @AnnissaForBos @juliaforboston and others because city government matters. Because equity, housing justice, public transit, small businesses matter. #mapoli #bospolipic.twitter.com/3fK0Z5O1nF – at East Boston High School"
+340,2019-09-24,2,0,0,['Bostonhttps'],"Today, I will be supporting Priscilla Flint Banks 4 At-Large City Council.  Priscilla has worked hard on issues that matter like fair wages for workers, diversity in construction affordable housing.  She has been and will be a strong voice 4 #Bostonhttps://priscillaforboston.com/ "
+341,2019-09-23,2,0,0,[],Truefax: my appetite for this stuff also started with college housing. I was substitute rep from my hall to dorm government. I instigated the first ever no vote on admin's proposed rate increases for next year.
+342,2019-09-20,0,0,0,[],"At a certain point you’ll start seeing companies pass over the City of Boston or start leaving. We can fix this but it’s going to take a regional three pronged approach of transit, regional housing/ office development  and local economic development boosts."
+343,2019-09-19,0,0,1,[],"""These substantial welfare losses due to decreased housing supply might be mitigated if insurance against large rent increases was provided as a form of government social insurance, instead of a regulated mandate on landlords."""
+344,2019-09-18,25,6,0,['cambma'],"Why housing, though? 3 reasons:
+
+1. It’s the one issue city council has real power over in #cambma
+
+2. It’s the one thing councilors disagree on. 
+
+3. Housing is actually ALL ISSUES. Climate, inclusion, diversity, equity. All hugely determined by where we let people live. https://twitter.com/ABetterCAF/status/1174019221216477184 …"
+345,2019-09-18,14,3,1,"['mahavotes', 'bospoli']","In less than a week on September 24th, Boston voters will go to the polls in some  City Council races. Felicia is doing her part to make sure MAHA members know where the candidates stand on housing issues. #mahavotes #bospoli mpic.twitter.com/npSQVksmoE"
+346,2019-09-13,8,3,0,[],"Proud to join @BOSCityCouncil colleagues, Mayor @marty_walsh for the bill signing for the Home Rule petition on inclusionary development & linkage. We need to invest more in affordable housing, jobs, job training. Thanks to @mahahome, @CPAJustice & others for excellent leadershippic.twitter.com/t5xYBP1FL7 – at Boston City HALL"
+347,2019-09-12,7,3,0,['cdcsworkhttps'],"Calling all community & economic development, affordable housing, small business colleagues, along with lenders, advocates, philanthropists, development professionals, et al....Join us!  #cdcsworkhttps://twitter.com/masscdcs/status/1172148329758756865 …"
+348,2019-09-10,1,0,1,[],He is arguing for LESS government intervention in the housing market.
+349,2019-09-10,8,2,0,"['bospoli', 'mapolipic']","Proud to testify today @ Joint Committee on Municipalities/Regional Gov’t w/ @CPAJustice to support H1769/S773: allowing local governments to impose transfer fee on real estate transactions for affordable housing. TY to MA legislators, @Kim_Janey @LydiaMEdwards #bospoli #mapolipic.twitter.com/wMolywqk4M – at Hearing Room (State House)"
+350,2019-09-08,0,0,3,[],"I worked for a housing authority and I currently work for an affordable housing developer, I fully understand the issues with our public housing and still believe that it needs to be part of the solution"
+351,2019-09-07,1,0,1,[],"The federal government built hundreds of thousands of units of public housing from the 30’s-60’s to house families making less than 30% AMI, the exact type of housing that we desperately need right now.. we shouldn’t let Nixon & Reagan’s decisions guide fed housing policy anymore"
+352,2019-09-04,0,0,1,[],"I just feel like if the government is going to spend this kind of money, it should be on health care, infrustructure (public transit), education, housing, and so on. This just seems like a massive waste of money to me...."
+353,2019-09-03,0,0,0,[],"Pittsfield Housing Authority wins $250K for safety upgrades
+
+ https://www.berkshireeagle.com/stories/pittsfield-housing-authority-wins-250k-for-safety-upgrades,583704 … via @BerkshireEagle"
+354,2019-09-01,1,0,0,[],Committee approves low-income housing project tax break but city commission needs to provide final approval | INFORUM https://www.inforum.com/news/government-and-politics/4634126-Committee-approves-low-income-housing-project-tax-break-but-city-commission-needs-to-provide-final-approval#.XWwQa1fdgqI.twitter …
+355,2019-09-01,1,0,0,[],Committee approves low-income housing project tax break but city commission needs to provide final approval | INFORUM https://www.inforum.com/news/government-and-politics/4634126-Committee-approves-low-income-housing-project-tax-break-but-city-commission-needs-to-provide-final-approval#.XWwP7oDHcJs.twitter …
+356,2019-08-30,0,0,0,[],"Ring the bells!  Every time one of our trainees has secured housing or employment, they ring our workforce development bell. Congratulations to Rosalia on her awesome new job! pic.twitter.com/K9hUlNJRrP"
+357,2019-08-27,0,0,0,[],Low density? My house is literally attached to the entire block. Sure it isn't 20 stories tall but the entire City of Boston doesn't have to become planet Coruscant to relieve the housing crisis.
+358,2019-08-21,0,0,0,[],God has loved me too much that my only option is to surrender all that I am to him! @ Waltham Housing Authority https://www.instagram.com/p/B1byR1YnS5Z/?igshid=1b5bhdyjt064o …
+359,2019-08-20,4,0,3,['bospoli'],Did I just hear a City Council candidate call for community preference in the housing lottery while also stating it would likely violate fair housing laws? Uhhhh?? #bospoli
+360,2019-08-20,1,1,0,[],Woonsocket Housing Authority receives $1M to address lead paint hazards https://pbn.com/woonsocket-housing-authority-receives-1m-to-address-lead-paint-hazards/ … via @ProvBusNews
+361,2019-08-19,2,0,1,"['Allston', 'brightonMA', 'Bospoli', 'equitypic']",Had the honor & privledge of joining community members from all around the city to advocate for actual Affordable Housing. We spoke with members of the BPDA and went to the Mayors office. #Allston #brightonMA #Bospoli #equitypic.twitter.com/9xXV9RsyRU – at Boston City Hall
+362,2019-08-19,2,2,0,[],"Mr Rishin receives Section 8 housing allowance from the government which means if Trump’s draconian rule is adopted that would deport any immigrant that receives gov assistance, he would not only be kicked to the curb by his landlord but could also be kicked out of the country."
+363,2019-08-16,0,0,0,['SalemMA'],"“We’re tying to do something as fast as we can as right as we can,” said @MayorDriscoll of creating tools to tackle #SalemMA housing crisis. – at Salem City Hall"
+364,2019-08-05,6,0,0,['LetsBuildIthttps'],"On more upbeat news, I’m excited to see this investment in the arts and in the @masscultural, along with other great investments in affordable housing and small business development! #LetsBuildIthttps://twitter.com/IBA_Boston/status/1158452620480135169 …"
+365,2019-07-25,1,0,0,"['nonprofit', 'community', 'southie', 'southboston', 'learning', 'SEL', 'education', 'summer', 'dwsummer', 'summer2019', 'youth', 'enrichment', 'recreation', 'bps', 'basketball', 'housing', 'equality']","Around here we work hard, play hard!
+ 
+#nonprofit #community #southie #southboston #learning #SEL #education #summer #dwsummer #summer2019 #youth #enrichment #recreation #bps #basketball #housing #equality… https://www.instagram.com/p/B0UbHCkgmha/?igshid=1nrjxzo5o9w8i …"
+366,2019-07-20,1,1,0,"['Allston', 'BrightonMA']","Celebrate Lee's 30th birthday Sunday night with karaoke! Though Lee didn't know he was ""born to run"" for office, he is running to increase equity in housing and education as Boston's next City Councillor for District 9 #Allston #BrightonMA. 
+https://www.facebook.com/events/352801795414063/?ti=cl …"
+367,2019-07-16,15,2,1,"['15k4ma', 'affordablehousing', 'relatedbeal']","Great to kick off our #15k4ma #affordablehousing tour at ""The Beverly"" - the City of Boston's first fully affordable and workforce housing development. #relatedbeal @RelatedCospic.twitter.com/ZYE0CVBU2k"
+368,2019-07-16,12,6,1,"['affordablehousing', '15k4mapic']","Beginning today in Boston, Secretary of Housing and Economic Development Mike Kennealy will embark on a 25-site statewide tour of #affordablehousing supported by the Baker-Polito Administration since 2015. #15k4mapic.twitter.com/TT2mOlzll7"
+369,2019-07-14,0,0,1,[],"I take you on your word that you are not concerned about the number of illegal aliens in the US.  I would like to see more people like you stepping up to provide housing and other benefits to illegal aliens out of your own charity, rather than have them depend on the government."
+370,2019-07-11,5,2,0,['NAHROConnect2019'],"Best quote of the morning, from Boston mayor Walsh - ""housing is an important issue that has to be at the forefront for mayors and city councils"" #NAHROConnect2019"
+371,2019-07-10,0,0,0,[],Exactly. The government assistance was taxpayer funded housing and meals during their incarceration.
+372,2019-07-10,6,1,0,[],"Sheriff Jerry McDermott & the staff of the NCSO hosted a senior informational cookout at the Holbrook Housing Authority yesterday, which included a drug detection demonstration from Officer Sheehan & K9 Sawyer. Thanks to Chief William Smith & Selectman Daniel Lee for stopping by. pic.twitter.com/ydXAuaWBdj"
+373,2019-07-09,2,2,0,['Mattapan'],"Rep Gonzalez: “@MassGovernor said he would get it done & here we are today. That is government!”            
+TY for your support! Today’s $86M investment in Workforce Housing will create more projects like @Lenaparkcdc + @NewBostonFund Olmsted Green project in #Mattapan across MA"
+374,2019-07-08,1,0,0,[],When I was at the Brookline housing authority they used to get calls asking about waitlist time (~10 years) and then always had to listen to 5-10 minute angry rant
+375,2019-07-08,0,0,0,[],"Boston Housing Authority chief Bill McGonagle, the city’s landlord, takes his leave  https://www.bostonglobe.com/metro/2019/07/07/boston-housing-authority-chief-bill-mcgonagle-city-landlord-takes-his-leave/kJbKncFMkXsg8yK1uZI8yH/story.html?event=event25 … via @BostonGlobe"
+376,2019-07-08,8,1,0,[],"Bill has been an effective, quiet leader. I’ll miss working with him on behalf of our lowest income residents. Thanks Bill!! Boston Housing Authority chief Bill McGonagle, the city’s landlord, takes his leave  https://www.bostonglobe.com/metro/2019/07/07/boston-housing-authority-chief-bill-mcgonagle-city-landlord-takes-his-leave/kJbKncFMkXsg8yK1uZI8yH/story.html …"
+377,2019-07-07,0,0,0,[],"Gentrification, affordable housing, etc. Playing a  factor in all big cities. It’s a major prob in NYC. At least mayor @marty_walsh is addressing it in Boston."
+378,2019-07-03,0,0,1,[],Mayor can Malden residents get affordable housing in that building? Or is it going to be over priced like all the other condos/housing complexes? 
+379,2019-07-03,87,35,2,[],"I am saddened to learn of the passing of Brockton's Mayor Bill Carpenter. It was an honor to work with him in the prominent strides made for greater opportunities in housing and quality of life for Brockton's Veterans & their families.
+
+My condolences to his family & friends. pic.twitter.com/iXzD904lVa – at Massachusetts Department of Veterans' Services"
+380,2019-06-26,0,0,0,['gbhrc2019'],"Interesting stat from new Greater Boston Housing Report Card: Even as homelessness has decreased in the city of Boston, it has increased in the greater metropolitan area. #gbhrc2019 – at The Boston Foundation"
+381,2019-06-24,2,0,0,"['expandthepie', 'bospoli', 'everyonelovespiepic']","Last year, we expanded the housing pie and gave everyone a pie to take home. On July 18th at 6pm at the Reggie Lewis Center, we will announce an exciting new program for 1st time homebuyers in the city of Boston AND serve some more pie  #expandthepie #bospoli #everyonelovespiepic.twitter.com/XeHQBaM6WM"
+382,2019-06-20,9,1,0,['PSIGraduation2019']," Congratulations to all the graduates of @PineStreetInn today. Today is a great opportunity to Celebrate housing, employment & support services. Congrats #PSIGraduation2019!https://twitter.com/PineStreetInn/status/1141742588048941056 … – at Massachusetts Department of Veterans Services"
+383,2019-06-18,39,8,1,['Somerville'],"Testifying with Reps. @DeniseProvost1, @Barber4StateRep and @senjehlen in support of the #Somerville home rule petition for a real estate transfer fee to fund local affordable housing efforts. Thanks to Mayor @JoeCurtatone, the City Council, and the advocates standing with us!pic.twitter.com/6NB59pBbEk"
+384,2019-06-13,0,0,0,[],This how the government waste our tax dollars!  They should be spent on education-heath care and housing!   No profits on these issues! War material and preparation is the most profitable! Keep the wars going our Profits are growing!
+385,2019-06-12,0,0,0,[],Our View: Affordable-housing development is an economic development strategy https://www.pressherald.com/?p=1994284 
+386,2019-06-09,6,2,0,"['Massachusetts', 'mapolipic']",".@LydiaMEdwards & @MayorDriscoll on the future of @SuffolkDowns & affordable housing in #Massachusetts. 
+
+#mapolipic.twitter.com/OOBecGr44D – at Suffolk Downs"
+387,2019-06-04,1,1,1,[],"60mil? ""3,000 places to rest""How about affordable housing, gun violence prevention programs, fix long island, health disparities, BPS, etcThrow the whole administration away https://twitter.com/marty_walsh/status/1135916148552134666 …"
+388,2019-05-31,1,0,1,[],"No I live in JP, I did a fellowship at the housing authority a few years ago though"
+389,2019-05-29,0,0,0,"['affordablehousing', 'cityofboston', 'onlyrichpeoplecanlivehere']",@marty_walsh where is affordable housing in this stop and shop projects?? #affordablehousing #cityofboston #onlyrichpeoplecanlivehere
+390,2019-05-29,14,0,1,"['CityCouncil', 'affordablehousing', 'Waltham']",How cowardly of the @CityofWaltham #CityCouncil to vote on this #affordablehousing ordinance that puts #Waltham to a measly 15% instead of 20% or 25% where we should be. Indeed a victory for developers -NOT a victory for those in need of housing. I quote former Governor Patrick
+391,2019-05-28,12,3,0,[],"Proud to support @SFHBoston & their tremendous partnership with   @CardinalSean, @POUATweets, Mayor @marty_walsh & @MassGovernor in building 46 affordable units of housing on Boylston Street. Working together: public/private sector, nonprofits & neighors, all for the common good. pic.twitter.com/pPBIzu9g4T"
+392,2019-05-28,1,0,0,[],Somerville Middle Schoolers Present to City Council on Affordable Housing https://www.citizenschools.org/news/2019/5/28/somerville-middle-schoolers-present-to-city-council-on-affordable-housing …
+393,2019-05-27,2,0,1,[],"Oh, sorry I misunderstood Wealth from Income...Still there are far more low income families of all races that live below the poverty level and rely on government supplements for food, housing and clothing! These numbers just blow me away!"
+394,2019-05-27,1,0,0,[],"On a more positive note, @NewtonMAMayor is doing the right thing on housing. More market-rate *and* more affordable units. We need both. Also, we need to make sure to prevent displacement.
+
+That said, we need at least 5x what's in the pipeline."
+395,2019-05-21,9,1,0,['AffordableHousinghttps'],"This may be @cityofsalem, but the housing realities their residents  are facing are similar to residents here in @CambMA. Great video by @MAPCMetroBoston & @MayorDriscoll about the need for #AffordableHousinghttps://twitter.com/CityofSalemMA/status/1130538545939140610 …"
+396,2019-05-16,18,1,1,"['leadership', 'impact', 'care']","Here's @SuffolkUniv's morn panel on affordable housing & community dev, a distinguished group (I somehow infiltrated): @MassHousing Kornegay, Prof Taylor, St Francis House LaFrazia & Mayor @JoeCurtatone.  #leadership #impact #care. Let's pass @MassGovernor housing bill for more! pic.twitter.com/6iUoGlTeW0"
+397,2019-05-14,0,0,0,"['fairhousing', 'northshore', 'courageousleadership', 'thankyouMayorDriscollpic']",@MayorDriscoll leading today at the Statehouse supporting zoning reform and housing across the income spectrum #fairhousing #northshore #courageousleadership #thankyouMayorDriscollpic.twitter.com/jWGbszT8dO
+398,2019-05-14,21,0,1,['MApolipic'],Great to be at the State House testifying before the Housing Committee with these fierce Public Servants and housing advocates @MarjorieDecker & @MayorDriscoll  (also not shown @SumbulSidd) #MApolipic.twitter.com/snwZwAGOiy
+399,2019-05-13,2,3,0,"['MAEconDev', 'SalemMA', 'econdev', 'housing', 'smallbiz', 'workforcedevelopment', 'communitydev', 'innovation']","#MAEconDev engagement sessions kick off this Wednesday in #SalemMA, continuing all over Massachusetts through June. We want to hear from stakeholders in the #econdev, #housing, #smallbiz, #workforcedevelopment, #communitydev and #innovation spaces.https://twitter.com/MassEOHED/status/1128043223044231168 …"
+400,2019-05-12,0,0,0,[],"Yes, truely another issue the government hides in the corner. Like affirdable housing, health care, gun control, immigration, mental health, these issue's which lower our American system continue to be dealt with a half ass political lip serviced professional voted employee's. https://twitter.com/SenWarren/status/1126119749149253633 …"
+401,2019-05-11,27,10,0,[],Time to support Gov. Baker’s Housing Choice bill scheduled for hearings this week.  The super majority requirement for zoning approvals at Town Meetings is a relic of the past and is often used by NIMBY’s to stop good affordable and senior housing and other worthy projects.
+402,2019-05-07,2,0,0,['Brookline'],To all my #Brookline tweeps .. please vote-especially for my pal Joanne Sullivan for Housing Authority! https://twitter.com/jessemermell/status/1125695121486503936 …
+403,2019-05-06,3,3,0,['SpringfieldMA'],"Take note: Tomorrow 5/7/2019 Stars & Stripes Resource Fair #SpringfieldMA - A Community event for Service Members, Veterans & their families. 
+
+Receive assistance with:
+VA Claims
+Employment
+Education
+Financial Services
+Housing
+Legal and More!
+
+1030AM Tower Square Park pic.twitter.com/DddCbiDkZx – at Massachusetts Department of Veterans Services"
+404,2019-05-04,1,0,0,[],How about free cars we can get to our jobs or school. What the heck pay for our housing and food I mean people need basic food and housing to live right. I’ll work for all the government officials so they can keep all their money  and use any money i make to keep help! 
+405,2019-05-03,0,0,0,[],"Global leader in technology ... which is all at risk unless we can close housing gap!  Mike Kennealy, Secretary of Housing & Economic Development pic.twitter.com/O8F7kpwCcx – at Sheraton Needham Hotel"
+406,2019-04-28,10,1,1,[],"Great hearing from @RepPressley (MA-7), Somerville Mayor @JoeCurtatone and panelists moderated by Councilor Stephanie Hirsch on transit justice, what it means to be “car-light,” and ideas like optional home parking to make housing more affordable. @AeronautBrewing hosted!pic.twitter.com/vKgZdLeBQ4"
+407,2019-04-26,5,1,1,"['TDI', 'EconDevpic']","Great to be in the City of Lynn speaking with local business owners at Land of Thousand Hills Coffee Company about the administration’s priorities around economic development, housing and ensuring Massachusetts is a great place to start and operate a business. #TDI #EconDevpic.twitter.com/YNReA6Rspm"
+408,2019-04-26,48,14,2,['HousingChoice'],"Salem’s @MayorDriscoll has been an important advocate on the Commonwealth’s housing crisis, and we appreciate her support of our #HousingChoice legislation.
+ 
+Working with local officials + legislative partners, we are committed to delivering action on housing. pic.twitter.com/Jh0QZ2f9xF"
+409,2019-04-26,14,5,0,"['betterMAzoning', 'housingchoiceagreatstart']",#betterMAzoning Thank you @MassGovernor !  #housingchoiceagreatstart @masscdcs @CHAPAdotorg Two of the best housing Mayor's in the State!! @MayorDriscoll @MayorMikeCahillpic.twitter.com/GhXIjmT9ox
+410,2019-04-26,7,1,1,"['CambMA', 'AffordableHousing']","In case you missed last night's #CambMA Housing Committee hearing on the proposed #AffordableHousing overlay, you can watch it here. TLDW? the proposal was moved out of Housing & into ordinance for a broader discussion w/all 9 members of the City Council: http://cambridgema.iqm2.com/Citizens/SplitView.aspx?Mode=Video&MeetingID=2419&Format=None …"
+411,2019-04-26,6,1,0,[],"ED Christine Dixon addresses Boston Mayor Marty Walsh, City officials and partners during a press conference yesterday in which the Mayor announced 1,000 new housing vouchers to be dispersed to Boston residents battling chronic homelessness.We were honored to host this gathering pic.twitter.com/FQUXoN5qc6"
+412,2019-04-25,2,2,0,"['edu', 'cjreform', 'bospoli', 'Allston', 'BrightonMA']","@thugmajesty Hi! I'm Lee, a community organizer for #edu & #cjreform  issues . My 3 big areas are increasing economic mobility (I.e. affordable housing), improving access to reliable transportation & ensuring transparency & accountability in gov. #bospoli #Allston #BrightonMA"
+413,2019-04-23,2,2,0,[],Walsh says city is investing bond dollars in Boston Housing Authority—for the first time. “We can’t wait for the federal gov.”
+414,2019-04-13,0,0,0,"['boston', 'BostonStrong', 'cityofboston', 'fairhousingpic']",Fair Housing and Accessibility for all of Boston! #boston #BostonStrong #cityofboston #fairhousingpic.twitter.com/XSVwLoR7lp – at Dewitt Center
+415,2019-04-11,9,2,1,['AffordableHousing'],"Salem & Cambridge may be 20 miles apart, but our lack of #AffordableHousing issues are the same. Salem is lucky to have such a strong housing advocate in @MayorDriscollhttps://twitter.com/MayorDriscoll/status/1115938766307438592 …"
+416,2019-04-10,4,2,0,['realinclusionaryzoning'],@CityofSalemMA doing a tremendous job building public policy for housing across the income spectrum! Grateful to be here this morning. Thank you! #realinclusionaryzoning @MayorDriscoll @CHAPAdotorg @salemnews @MAPCMetroBostonpic.twitter.com/bIoM7CVtn8
+417,2019-04-10,7,2,1,"['shorttermrental', 'housing', 'transportation', 'YourCityYourBudget', 'LookToBoston']",Mayor @marty_walsh’s proposed FY20 Budget reflects new revenue sources from #shorttermrental tax & increase in parking meters rates that will directly impact new investments in #housing and #transportation. #YourCityYourBudget #LookToBoston
+418,2019-04-09,22,5,1,[],"We are very proud of the efforts from our partners at the City of Lynn. In 2016, they met the Nat'l requirements set by @HUDgov for ending Veterans' Homelessness. This next phase creates an additional opportunity for 45 units of Veterans' Housing in this former Guard Armory.  https://twitter.com/carlwbz/status/1115638784706715649 … – at Massachusetts Department of Veterans Services"
+419,2019-04-09,0,0,1,[],Cambridge Housing Authority is hiring http://www.cambridge-housing.org  APPLY TODAY! Deadline is approaching!
+420,2019-04-08,17,9,0,['GlobalHousing'],Boston Mayor Walsh opens #GlobalHousing forum w international leaders. He says America’s housing crisis demands national solutions and “don’t clump housing with other stuff!” It’s important enough on its own! @NYCHousing glad to be here w @EnterpriseNow High Cost Cities Forumpic.twitter.com/cGUoM014wT
+421,2019-04-08,13,5,0,['Southie'],"Great to see old friends and to meet new #Southie residents at the 17th Annual @TasteofSBoston tonight. This annual event supports many programs of the SB Neighborhood Development Corp., including senior & affordable housing programs, economic development & the SB Farmers Market. pic.twitter.com/vBBaiLms0K – at Seaport Boston Hotel"
+422,2019-04-06,0,0,1,[],"Meanwhile Warren & her brother were flipping ""distressed"" houses, profiting from the housing crash she helped bring about. Government intervention in the housing market is a recipe for another disaster for you to exploit! You will bring more jobs by raising taxes? Give us a break pic.twitter.com/qEXCTr2XLK"

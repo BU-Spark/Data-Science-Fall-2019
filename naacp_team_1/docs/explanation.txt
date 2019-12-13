@@ -1,0 +1,2 @@
+These docs are the different checkpoints along the way for our project. While not all of them fully represent where
+our project ended up as we have made alterations, we still wanted our process to be documented in one place.

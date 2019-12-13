@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+To solve this problem, we use the government department name list. 
+At first, we found out those news containing a department name in press release news which often means that it contains a key event in the news of certain date. 
+By manually searching for the key events, we know what it is. Then, we search the mainstream media news for the same events to decide whether the coverage of key event or agenda in press release generates media coverage or awareness. The phrase I chose is 3 days, considering the timeliness of news. 
+It means that we have to check if the mainstream media has the same coverage in three days after the coverage in press release. 
+"""
+
+import pandas as pd
+import datetime
+dp_list=["mayor","city of boston","bps","Age Strong Commission","Analytics Team","Animal Care And Control","Archaeology","Archives And Records Management","Arts And Culture","Assessing","Auditing",
+    "Bos:311",
+    "Boston Bikes",
+    "Boston Centers For Youth & Families",
+    "Broadband And Cable",
+    "Budget",
+    "City Clerk",
+    "City Council",
+    "Consumer Affairs And Licensing",
+    "Digital Team",
+    "Disabilities Commission",
+    "Diversity",
+    "Economic Development",
+    "Election",
+    "Emergency Management",
+    "Emergency Medical Services",
+    "Environment",
+    "Fair Housing And Equity",
+    "Fire Operations",
+    "Fire Prevention",
+    "Food Access",
+    "Housing Authority",
+    "Human Resources",
+    "Immigrant Advancement",
+    "Innovation And Technology",
+    "Inspectional Services",
+    "Intergovernmental Relations",
+    "Labor Relations",
+    "Landmarks",
+    "Commission Law",
+    "Library",
+    "Licensing Board",
+    "Mayor's Office Neighborhood Development",
+    "Neighborhood Services",
+    "New Urban Mechanics",
+    "Parking Clerk",
+    "Parks And Recreation",
+    "Boston Planning & Development Agency",
+    "Police",
+    "Press Office",
+    "Procurement",
+    "Property Management",
+    "Public Facilities",
+    "Public Health Commission",
+    "Public Records",
+    "Public Safety",
+    "Public Works",
+    "Recovery Services",
+    "Registry: Birth, Death, And Marriage",
+    "Resilience And Racial Equity",
+    "Retirement",
+    "Returning Citizens",
+    "Schools",
+    "Small Business Development",
+    "Tax Collection",
+    "Tourism, Sports, And Entertainment",
+    "Transportation",
+    "Treasury",
+    "Veterans Services",
+    "Water And Sewer Commission",
+    "Women’s Advancement",
+    "Workforce Development",
+    "Youth Engagement And Employment"]
+
+data_bg=pd.read_csv("boston_globe.csv")
+data_bh=pd.read_csv("boston_herald.csv")
+data_wbur=pd.read_csv("wbur.csv")
+data_wgbh=pd.read_csv("wgbh.csv")
+data_press=pd.read_csv("news_item.csv")
+ind=0
+ii=0
+while(ii<len(data_press['body_text'])):
+    i=data_press['body_text'][ii]
+    if "Disabilities Commission" in i:
+        print(i)
+        print(data_press['date'][ii])
+        ind+=1
+    if(ind==2):
+        break
+    ii+=1

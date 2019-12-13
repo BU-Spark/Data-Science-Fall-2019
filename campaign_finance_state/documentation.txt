@@ -1,0 +1,39 @@
+Documentation for Campaign-Finance-Scorecard-Project-State_Reps
+
+Folders:
+
+data - consists all necessary datasets for analysis.
+
+- OSPF Contribution dataset: 'contributions-2015-2016.csv', 'contributions-2017-2018.csv'
+- MA Legislators dataset: 'State_Reps_2015-2016.csv', 'State_Reps_2017-2018.csv'
+- MA Companies on LinkedIn dataset:'ma-companies-on-linkedin.csv'
+- NAIOP Real Estate Companies dataset: 'real_estate_companies.txt'
+- Secretary of Commonwealth of MA Lobbyist dataset: 'lobbyist(2015-2016).csv', 'lobbyist(2017-2018).csv', 'lobbyist_names.csv'
+
+The final preprocessed dataset: 'contribution_processed.csv' 
+
+pics - consist schema of preprocessing and data enriching.
+
+src - consist codes to run the analysis.
+
+The sequence of '.ipynb' files as follows:
+
+Analysis code:
+
+'main_preprocess.ipynb' - combines contribution for 2 election cycles, chooses only elected candidates, creates clean donor names, categories initial industries using 'employer' and 'occupation' columns, finds PACS and lobbyists, unions.
+
+'linked_fuzzymatching.ipynb' - creates new industry column using the fuzzymatch between 'Employer' column and linked dataset. 
+
+'create_unified_industry.ipynb' - creates unified industries merges some industry categories, reduces the number of industry categories from 144 to 14 NAIC code industries.
+
+'join_industry_tables.ipynb' - merges initial industries and new obtained industries, produces the final file for visualizations 'contribution_processed.csv'.
+
+'clustering_based_on_unique_donors_by_quarters.ipynb' - performs k-means clustering on number of unique donors by quarters in 2 election cycles.
+
+Visualizations:
+
+Tableau software is used to produce visualizations for research questions.
+
+'MA State Reps Campaign Finance Scorecard.twbx' - creates all necessary visualizations.
+
+

@@ -1,0 +1,2571 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_23bebf0e27bc48b48b19eb430cdd5322 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_23bebf0e27bc48b48b19eb430cdd5322" ></div>
+        
+</body>
+<script>    
+    
+            var map_23bebf0e27bc48b48b19eb430cdd5322 = L.map(
+                "map_23bebf0e27bc48b48b19eb430cdd5322",
+                {
+                    center: [42.3, -71.05],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1890493143c44add84deeea54bda8bb7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+            var polygon_6ad513142daf447fa548fd06e57b3f4f = L.polygon(
+                [[42.307331, -71.056702], [42.307251, -71.056709], [42.306728, -71.057487], [42.30674000000001, -71.057564], [42.30674000000001, -71.057571], [42.306561, -71.05761], [42.30513, -71.056938], [42.304008, -71.05615999999998], [42.301689, -71.05613699999998], [42.3004, -71.05564100000002], [42.300362, -71.05561800000002], [42.30011, -71.056099], [42.300098, -71.056129], [42.299179, -71.05570999999998], [42.297699, -71.055008], [42.29739, -71.056198], [42.29734000000001, -71.05635799999997], [42.296371, -71.056381], [42.295601, -71.05909], [42.295071, -71.06133299999998], [42.295059, -71.06147], [42.295052, -71.061562], [42.295059, -71.0616], [42.29504, -71.061661], [42.293598, -71.062241], [42.293541, -71.062576], [42.293541, -71.062576], [42.293541, -71.062576], [42.29353, -71.06262199999998], [42.29353, -71.06262199999998], [42.29353, -71.06262199999998], [42.29353, -71.06262199999998], [42.29353, -71.06262199999998], [42.293499, -71.062721], [42.293419, -71.06291999999998], [42.293411, -71.06298100000002], [42.293098, -71.06398], [42.29269, -71.064102], [42.292641, -71.06411700000002], [42.292068, -71.06552099999998], [42.291691, -71.066612], [42.290981, -71.06890899999998], [42.290562, -71.070503], [42.2901, -71.070999], [42.2901, -71.071037], [42.290112, -71.07109799999998], [42.290169, -71.071472], [42.2901, -71.071533], [42.28907, -71.071159], [42.2882, -71.07109799999998], [42.288151, -71.071129], [42.287048, -71.071159], [42.28677, -71.071198], [42.28672, -71.07119], [42.28651, -71.071159], [42.286469, -71.071136], [42.285091, -71.071213], [42.2836, -71.07135], [42.283951, -71.070084], [42.284359, -71.06881], [42.28437, -71.06881700000002], [42.28437, -71.06881700000002], [42.284382, -71.06871], [42.285091, -71.067001], [42.28558, -71.06491899999997], [42.285648, -71.064713], [42.28569, -71.064598], [42.285702, -71.064423], [42.28561, -71.06437700000002], [42.284229, -71.064667], [42.283562, -71.065872], [42.28331, -71.066872], [42.283199, -71.067284], [42.283199, -71.067284], [42.283199, -71.067284], [42.283199, -71.067284], [42.283199, -71.067329], [42.282742, -71.068939], [42.282059, -71.071083], [42.282051, -71.07109100000002], [42.282028, -71.071167], [42.28093, -71.070801], [42.279301, -71.06980899999998], [42.27803, -71.069473], [42.277382, -71.068558], [42.277088, -71.067627], [42.27636, -71.06823], [42.27636, -71.06823], [42.27636, -71.06823], [42.27636, -71.06823], [42.276348, -71.068298], [42.27631, -71.069366], [42.276379, -71.069443], [42.278042, -71.06952700000002], [42.278091, -71.06950400000002], [42.27816, -71.069473], [42.279091, -71.069649], [42.28109, -71.07083100000001], [42.281681, -71.071167], [42.281731, -71.071167], [42.28292800000001, -71.071404], [42.284389, -71.071602], [42.284611, -71.071541], [42.284641, -71.07151], [42.28484, -71.07141899999998], [42.28492, -71.071381], [42.285019, -71.071342], [42.285141, -71.071281], [42.28611, -71.071182], [42.286171, -71.07119], [42.28727, -71.07124300000002], [42.289028, -71.071228], [42.289742, -71.071472], [42.28978, -71.07151], [42.29034, -71.071648], [42.29039, -71.07164], [42.290409, -71.07164], [42.29045900000001, -71.071648], [42.290722, -71.071671], [42.290771, -71.071678], [42.291752, -71.07177], [42.291801, -71.07177], [42.29258, -71.07180799999998], [42.292629, -71.071777], [42.29409, -71.07196], [42.294842, -71.072037], [42.29483, -71.072037], [42.29483, -71.072052], [42.294868, -71.07206], [42.29538, -71.072113], [42.295448, -71.072121], [42.296501, -71.07225], [42.296638, -71.07225799999998], [42.29668, -71.072289], [42.297779, -71.072701], [42.298439, -71.07296], [42.298431, -71.072968], [42.298439, -71.073021], [42.29847, -71.073059], [42.2995, -71.073349], [42.300491, -71.072052], [42.302231, -71.071701], [42.30295200000001, -71.071533], [42.30302800000001, -71.071533], [42.304531, -71.072701], [42.304852, -71.073776], [42.304859, -71.07382199999998], [42.305031, -71.07576800000002], [42.305672, -71.077827], [42.30587, -71.078102], [42.305889, -71.078171], [42.306759, -71.076981], [42.30677, -71.07695], [42.30682, -71.076851], [42.307598, -71.075882], [42.30875, -71.075577], [42.308998, -71.07627099999998], [42.30901, -71.076233], [42.30901, -71.07621], [42.308998, -71.07621800000003]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_02cb3ad49570424ba9c9c64e70da5c30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c707a7a9df049008ba9b78a83e1a05b = $(`<div id="html_7c707a7a9df049008ba9b78a83e1a05b" style="width: 100.0%; height: 100.0%;">bps route</div>`)[0];
+            popup_02cb3ad49570424ba9c9c64e70da5c30.setContent(html_7c707a7a9df049008ba9b78a83e1a05b);
+        
+
+        polygon_6ad513142daf447fa548fd06e57b3f4f.bindPopup(popup_02cb3ad49570424ba9c9c64e70da5c30)
+        ;
+
+        
+    
+    
+            var marker_a0be71866366458dbb9b2833d1c7c229 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_80ebf1da599047809c9b260000624f31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1967b4f09fc4108aff1c108ab88483e = $(`<div id="html_d1967b4f09fc4108aff1c108ab88483e" style="width: 100.0%; height: 100.0%;">Adams, Samuel Elementary</div>`)[0];
+            popup_80ebf1da599047809c9b260000624f31.setContent(html_d1967b4f09fc4108aff1c108ab88483e);
+        
+
+        marker_a0be71866366458dbb9b2833d1c7c229.bindPopup(popup_80ebf1da599047809c9b260000624f31)
+        ;
+
+        
+    
+    
+            var marker_39560f38c32d4e1da604132136025fb2 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_e707751aeb4b4578bcd7166334e890c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f650e46a45944a8bae4e530dcb017c3a = $(`<div id="html_f650e46a45944a8bae4e530dcb017c3a" style="width: 100.0%; height: 100.0%;">Alighieri, Dante Montessori School</div>`)[0];
+            popup_e707751aeb4b4578bcd7166334e890c5.setContent(html_f650e46a45944a8bae4e530dcb017c3a);
+        
+
+        marker_39560f38c32d4e1da604132136025fb2.bindPopup(popup_e707751aeb4b4578bcd7166334e890c5)
+        ;
+
+        
+    
+    
+            var marker_66d6bed8e4a24118857974c7005addd3 = L.marker(
+                [42.2527785, -71.1299976],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_ba5fc9d3fbe849afbd83dd09c287920e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d48e8f99d48f4ae8ae88207a8faba91b = $(`<div id="html_d48e8f99d48f4ae8ae88207a8faba91b" style="width: 100.0%; height: 100.0%;">Another Course to College</div>`)[0];
+            popup_ba5fc9d3fbe849afbd83dd09c287920e.setContent(html_d48e8f99d48f4ae8ae88207a8faba91b);
+        
+
+        marker_66d6bed8e4a24118857974c7005addd3.bindPopup(popup_ba5fc9d3fbe849afbd83dd09c287920e)
+        ;
+
+        
+    
+    
+            var marker_1c973a6680f648e083f4d145b7e98a1b = L.marker(
+                [42.3463503, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_079178cf3d3241b59f473ba9b86d4267 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bbeb0697c1244dd90067bf812256c36 = $(`<div id="html_4bbeb0697c1244dd90067bf812256c36" style="width: 100.0%; height: 100.0%;">Baldwin Early Learning Pilot Academy</div>`)[0];
+            popup_079178cf3d3241b59f473ba9b86d4267.setContent(html_4bbeb0697c1244dd90067bf812256c36);
+        
+
+        marker_1c973a6680f648e083f4d145b7e98a1b.bindPopup(popup_079178cf3d3241b59f473ba9b86d4267)
+        ;
+
+        
+    
+    
+            var marker_58ec7164f13d40c7909eedc1292dcefe = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_0c2ac8520939401aabd9c71547c4be5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6052b0e69c344d3b1c903460a2105b9 = $(`<div id="html_c6052b0e69c344d3b1c903460a2105b9" style="width: 100.0%; height: 100.0%;">Bates, Phineas Elementary</div>`)[0];
+            popup_0c2ac8520939401aabd9c71547c4be5a.setContent(html_c6052b0e69c344d3b1c903460a2105b9);
+        
+
+        marker_58ec7164f13d40c7909eedc1292dcefe.bindPopup(popup_0c2ac8520939401aabd9c71547c4be5a)
+        ;
+
+        
+    
+    
+            var marker_e0dea8aba6ca4889b4fe6c790245157e = L.marker(
+                [42.2797554, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_6b97eabde2f64611ab97e9775a635a43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74f43fab981e4baeb70bfc379b76155b = $(`<div id="html_74f43fab981e4baeb70bfc379b76155b" style="width: 100.0%; height: 100.0%;">Beethoven, Ludwig van Elementary</div>`)[0];
+            popup_6b97eabde2f64611ab97e9775a635a43.setContent(html_74f43fab981e4baeb70bfc379b76155b);
+        
+
+        marker_e0dea8aba6ca4889b4fe6c790245157e.bindPopup(popup_6b97eabde2f64611ab97e9775a635a43)
+        ;
+
+        
+    
+    
+            var marker_ec4d309a6c5f4cd29a96dd97be0c1c93 = L.marker(
+                [42.3377967, -71.0705763],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_f168f6164c174f44ab85f383a59d96ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fbdcd327b014f1999159d53a28928a8 = $(`<div id="html_8fbdcd327b014f1999159d53a28928a8" style="width: 100.0%; height: 100.0%;">Blackstone Elementary School</div>`)[0];
+            popup_f168f6164c174f44ab85f383a59d96ac.setContent(html_8fbdcd327b014f1999159d53a28928a8);
+        
+
+        marker_ec4d309a6c5f4cd29a96dd97be0c1c93.bindPopup(popup_f168f6164c174f44ab85f383a59d96ac)
+        ;
+
+        
+    
+    
+            var marker_dd6524288dc04cc3a31ef2cfe09f4492 = L.marker(
+                [42.353068, -71.0765188],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_74df7c15efc646979f637232c30a3deb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_980428765d2041ada0039eeb836d750a = $(`<div id="html_980428765d2041ada0039eeb836d750a" style="width: 100.0%; height: 100.0%;">Boston Adult Technical Academy</div>`)[0];
+            popup_74df7c15efc646979f637232c30a3deb.setContent(html_980428765d2041ada0039eeb836d750a);
+        
+
+        marker_dd6524288dc04cc3a31ef2cfe09f4492.bindPopup(popup_74df7c15efc646979f637232c30a3deb)
+        ;
+
+        
+    
+    
+            var marker_11a8eeb6dd54420a86dd1e925774ec76 = L.marker(
+                [42.29671460000001, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_6b2c60e044184819ab0fb21d66a40786 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72bb4503abce435182c9d05dcaad1d86 = $(`<div id="html_72bb4503abce435182c9d05dcaad1d86" style="width: 100.0%; height: 100.0%;">Boston Arts Academy</div>`)[0];
+            popup_6b2c60e044184819ab0fb21d66a40786.setContent(html_72bb4503abce435182c9d05dcaad1d86);
+        
+
+        marker_11a8eeb6dd54420a86dd1e925774ec76.bindPopup(popup_6b2c60e044184819ab0fb21d66a40786)
+        ;
+
+        
+    
+    
+            var marker_35dcdad0d0064c45a75b802b8732fbdc = L.marker(
+                [42.3364553, -71.0349193],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_d70ab3b32b7b454a8b18c6bd1c7df316 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8acce58db5f84508928bc776869b423a = $(`<div id="html_8acce58db5f84508928bc776869b423a" style="width: 100.0%; height: 100.0%;">Boston Collaborative High School</div>`)[0];
+            popup_d70ab3b32b7b454a8b18c6bd1c7df316.setContent(html_8acce58db5f84508928bc776869b423a);
+        
+
+        marker_35dcdad0d0064c45a75b802b8732fbdc.bindPopup(popup_d70ab3b32b7b454a8b18c6bd1c7df316)
+        ;
+
+        
+    
+    
+            var marker_46b5d33a95e44b398c777c087af97f76 = L.marker(
+                [42.2527785, -71.1299976],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_5a4bfeaf2d20428d80225fff66d3d1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c38cb2a4bc6c4198ad007ace13aae8b2 = $(`<div id="html_c38cb2a4bc6c4198ad007ace13aae8b2" style="width: 100.0%; height: 100.0%;">Boston Community Leadership Academy</div>`)[0];
+            popup_5a4bfeaf2d20428d80225fff66d3d1c9.setContent(html_c38cb2a4bc6c4198ad007ace13aae8b2);
+        
+
+        marker_46b5d33a95e44b398c777c087af97f76.bindPopup(popup_5a4bfeaf2d20428d80225fff66d3d1c9)
+        ;
+
+        
+    
+    
+            var marker_4673e02a29b0467980ecc72dc6b7a719 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_80b6af8152e64a6f84f16a2e1bde0b31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34d2c797b0a64ecbbcf27fd9a9e79704 = $(`<div id="html_34d2c797b0a64ecbbcf27fd9a9e79704" style="width: 100.0%; height: 100.0%;">Boston Day & Evening Academy</div>`)[0];
+            popup_80b6af8152e64a6f84f16a2e1bde0b31.setContent(html_34d2c797b0a64ecbbcf27fd9a9e79704);
+        
+
+        marker_4673e02a29b0467980ecc72dc6b7a719.bindPopup(popup_80b6af8152e64a6f84f16a2e1bde0b31)
+        ;
+
+        
+    
+    
+            var marker_b30f2dc3365c48a1a04f288c44c3d6ff = L.marker(
+                [42.3463503, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_8d059b8b8a234c1cb7206d3d82059b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d57b487305c0402a9931f12c57de3aae = $(`<div id="html_d57b487305c0402a9931f12c57de3aae" style="width: 100.0%; height: 100.0%;">Boston Green Academy</div>`)[0];
+            popup_8d059b8b8a234c1cb7206d3d82059b2d.setContent(html_d57b487305c0402a9931f12c57de3aae);
+        
+
+        marker_b30f2dc3365c48a1a04f288c44c3d6ff.bindPopup(popup_8d059b8b8a234c1cb7206d3d82059b2d)
+        ;
+
+        
+    
+    
+            var marker_4de9877e280942af8fcf82395086bdc0 = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_9ca5c42e829040698fd8d62f26748ceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ebd68b61ed4047b08289c23865d7dc = $(`<div id="html_e3ebd68b61ed4047b08289c23865d7dc" style="width: 100.0%; height: 100.0%;">Boston International Newcomers Academy</div>`)[0];
+            popup_9ca5c42e829040698fd8d62f26748ceb.setContent(html_e3ebd68b61ed4047b08289c23865d7dc);
+        
+
+        marker_4de9877e280942af8fcf82395086bdc0.bindPopup(popup_9ca5c42e829040698fd8d62f26748ceb)
+        ;
+
+        
+    
+    
+            var marker_2a685c328087403ba3427808cf4127fe = L.marker(
+                [42.3065441, -71.08246129999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_bc9edb479c7b4524abb4d3cfd7e7d7c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dce64278979420a8c5ebfd66c67c879 = $(`<div id="html_6dce64278979420a8c5ebfd66c67c879" style="width: 100.0%; height: 100.0%;">Boston Latin Academy</div>`)[0];
+            popup_bc9edb479c7b4524abb4d3cfd7e7d7c7.setContent(html_6dce64278979420a8c5ebfd66c67c879);
+        
+
+        marker_2a685c328087403ba3427808cf4127fe.bindPopup(popup_bc9edb479c7b4524abb4d3cfd7e7d7c7)
+        ;
+
+        
+    
+    
+            var marker_2139ef727cd545a9bb65cdba1dfe4471 = L.marker(
+                [42.339904, -71.0898892],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_8141f6038fff4057a29585b452234dad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a5b67c99e9f4135a012ca18e25e4046 = $(`<div id="html_3a5b67c99e9f4135a012ca18e25e4046" style="width: 100.0%; height: 100.0%;">Boston Latin School</div>`)[0];
+            popup_8141f6038fff4057a29585b452234dad.setContent(html_3a5b67c99e9f4135a012ca18e25e4046);
+        
+
+        marker_2139ef727cd545a9bb65cdba1dfe4471.bindPopup(popup_8141f6038fff4057a29585b452234dad)
+        ;
+
+        
+    
+    
+            var marker_282f8a24f19a453db629dcca284d017c = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_750cd1edacf24fe99b079ad9adb5425e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1847ede847eb44b8b09a2378dc62b4e1 = $(`<div id="html_1847ede847eb44b8b09a2378dc62b4e1" style="width: 100.0%; height: 100.0%;">Boston Teachers Union K-8 School</div>`)[0];
+            popup_750cd1edacf24fe99b079ad9adb5425e.setContent(html_1847ede847eb44b8b09a2378dc62b4e1);
+        
+
+        marker_282f8a24f19a453db629dcca284d017c.bindPopup(popup_750cd1edacf24fe99b079ad9adb5425e)
+        ;
+
+        
+    
+    
+            var marker_1789dd621b834380b0bc3390baa58e71 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_85efbb24073c48cc8dccc588f3179ecf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_769a68d5c3584665a5ac44ea5285bdac = $(`<div id="html_769a68d5c3584665a5ac44ea5285bdac" style="width: 100.0%; height: 100.0%;">Bradley, Manassah E. Elementary</div>`)[0];
+            popup_85efbb24073c48cc8dccc588f3179ecf.setContent(html_769a68d5c3584665a5ac44ea5285bdac);
+        
+
+        marker_1789dd621b834380b0bc3390baa58e71.bindPopup(popup_85efbb24073c48cc8dccc588f3179ecf)
+        ;
+
+        
+    
+    
+            var marker_1347790bffce44f1aae4e10d5b46932c = L.marker(
+                [42.3463503, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c62a2f74da03440daee654059a5644e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4abb5529d9a4019ad93d664ada2f71b = $(`<div id="html_e4abb5529d9a4019ad93d664ada2f71b" style="width: 100.0%; height: 100.0%;">Brighton High School</div>`)[0];
+            popup_c62a2f74da03440daee654059a5644e4.setContent(html_e4abb5529d9a4019ad93d664ada2f71b);
+        
+
+        marker_1347790bffce44f1aae4e10d5b46932c.bindPopup(popup_c62a2f74da03440daee654059a5644e4)
+        ;
+
+        
+    
+    
+            var marker_8c6e955129a046f0989663dc6bee20af = L.marker(
+                [42.3065441, -71.08246129999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_88ece9e2b90745c38c90cd0c002b1cde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_624a0315c968454e9afcb993bdb94517 = $(`<div id="html_624a0315c968454e9afcb993bdb94517" style="width: 100.0%; height: 100.0%;">Burke, Jeremiah E. High School</div>`)[0];
+            popup_88ece9e2b90745c38c90cd0c002b1cde.setContent(html_624a0315c968454e9afcb993bdb94517);
+        
+
+        marker_8c6e955129a046f0989663dc6bee20af.bindPopup(popup_88ece9e2b90745c38c90cd0c002b1cde)
+        ;
+
+        
+    
+    
+            var marker_a2c6e0dd347845508e3ef95e8dfc1062 = L.marker(
+                [42.3377967, -71.0705763],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_644e6e3a84ee42638ee1c254760cff2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2216597d73d84753a9159b7743059e9b = $(`<div id="html_2216597d73d84753a9159b7743059e9b" style="width: 100.0%; height: 100.0%;">Carter School, The</div>`)[0];
+            popup_644e6e3a84ee42638ee1c254760cff2d.setContent(html_2216597d73d84753a9159b7743059e9b);
+        
+
+        marker_a2c6e0dd347845508e3ef95e8dfc1062.bindPopup(popup_644e6e3a84ee42638ee1c254760cff2d)
+        ;
+
+        
+    
+    
+            var marker_3d534b53e078412a909d7bffcb386578 = L.marker(
+                [42.2527785, -71.1299976],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_1ec9f9a0fa204ba4b6c217c29932c397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eb025877164433f9f8bd25d00d183bf = $(`<div id="html_6eb025877164433f9f8bd25d00d183bf" style="width: 100.0%; height: 100.0%;">Channing, William E. Elementary</div>`)[0];
+            popup_1ec9f9a0fa204ba4b6c217c29932c397.setContent(html_6eb025877164433f9f8bd25d00d183bf);
+        
+
+        marker_3d534b53e078412a909d7bffcb386578.bindPopup(popup_1ec9f9a0fa204ba4b6c217c29932c397)
+        ;
+
+        
+    
+    
+            var marker_eb4ed4e892ef432baa3f65731b1eac2e = L.marker(
+                [42.37954089999999, -71.0646337],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_0bae24ec1b5349e6988f8eaac0f63f60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47dce83eb2194701990fe9cb63883aa6 = $(`<div id="html_47dce83eb2194701990fe9cb63883aa6" style="width: 100.0%; height: 100.0%;">Charlestown High School</div>`)[0];
+            popup_0bae24ec1b5349e6988f8eaac0f63f60.setContent(html_47dce83eb2194701990fe9cb63883aa6);
+        
+
+        marker_eb4ed4e892ef432baa3f65731b1eac2e.bindPopup(popup_0bae24ec1b5349e6988f8eaac0f63f60)
+        ;
+
+        
+    
+    
+            var marker_658b618d74ba40969be8296114d2d5fa = L.marker(
+                [42.2527785, -71.1299976],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_d97d5778ef1147e4b4bcb0d50f06aea8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e451b10c94ab47dab4105ca0bfa5f90b = $(`<div id="html_e451b10c94ab47dab4105ca0bfa5f90b" style="width: 100.0%; height: 100.0%;">Chittick, James J. Elementary</div>`)[0];
+            popup_d97d5778ef1147e4b4bcb0d50f06aea8.setContent(html_e451b10c94ab47dab4105ca0bfa5f90b);
+        
+
+        marker_658b618d74ba40969be8296114d2d5fa.bindPopup(popup_d97d5778ef1147e4b4bcb0d50f06aea8)
+        ;
+
+        
+    
+    
+            var marker_a0f7817a74a44a81a5dba0db8d3ae190 = L.marker(
+                [42.3157363, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_6560c5f948074201b3c5ca6da0f9e01b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_285a9900c126451b87d412c913031790 = $(`<div id="html_285a9900c126451b87d412c913031790" style="width: 100.0%; height: 100.0%;">Clap Elementary School</div>`)[0];
+            popup_6560c5f948074201b3c5ca6da0f9e01b.setContent(html_285a9900c126451b87d412c913031790);
+        
+
+        marker_a0f7817a74a44a81a5dba0db8d3ae190.bindPopup(popup_6560c5f948074201b3c5ca6da0f9e01b)
+        ;
+
+        
+    
+    
+            var marker_9d87a281ed5e4c9987bd891df7b06c93 = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_de094f9cad094a6f8289d0c6e728e9ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe4e9df8f1404037a4d1dec47d33ce18 = $(`<div id="html_fe4e9df8f1404037a4d1dec47d33ce18" style="width: 100.0%; height: 100.0%;">Community Academy</div>`)[0];
+            popup_de094f9cad094a6f8289d0c6e728e9ea.setContent(html_fe4e9df8f1404037a4d1dec47d33ce18);
+        
+
+        marker_9d87a281ed5e4c9987bd891df7b06c93.bindPopup(popup_de094f9cad094a6f8289d0c6e728e9ea)
+        ;
+
+        
+    
+    
+            var marker_7fd5a4079e18497d81fd54727106cf9b = L.marker(
+                [42.29671460000001, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_39d409d853db440aad982402c0ccee3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7314bb751ffb4670ab2795f5683e6242 = $(`<div id="html_7314bb751ffb4670ab2795f5683e6242" style="width: 100.0%; height: 100.0%;">Community Academy of Science & Health</div>`)[0];
+            popup_39d409d853db440aad982402c0ccee3a.setContent(html_7314bb751ffb4670ab2795f5683e6242);
+        
+
+        marker_7fd5a4079e18497d81fd54727106cf9b.bindPopup(popup_39d409d853db440aad982402c0ccee3a)
+        ;
+
+        
+    
+    
+            var marker_4eb5944ea740468f8e4fcfe23f8d81bb = L.marker(
+                [42.3364553, -71.0349193],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_7a9561137b894e3195382611aeee3b13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab60d2c0aead4da2ac152ba40c8bd243 = $(`<div id="html_ab60d2c0aead4da2ac152ba40c8bd243" style="width: 100.0%; height: 100.0%;">Condon, James F. K-8</div>`)[0];
+            popup_7a9561137b894e3195382611aeee3b13.setContent(html_ab60d2c0aead4da2ac152ba40c8bd243);
+        
+
+        marker_4eb5944ea740468f8e4fcfe23f8d81bb.bindPopup(popup_7a9561137b894e3195382611aeee3b13)
+        ;
+
+        
+    
+    
+            var marker_bb1e669007e94b1d8a58790e62ac2061 = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_f5ea7e524576420c966e0615d29099cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a65cb8f1900e4c26acdac3e9252aa640 = $(`<div id="html_a65cb8f1900e4c26acdac3e9252aa640" style="width: 100.0%; height: 100.0%;">Conley, George H. Elementary</div>`)[0];
+            popup_f5ea7e524576420c966e0615d29099cb.setContent(html_a65cb8f1900e4c26acdac3e9252aa640);
+        
+
+        marker_bb1e669007e94b1d8a58790e62ac2061.bindPopup(popup_f5ea7e524576420c966e0615d29099cb)
+        ;
+
+        
+    
+    
+            var marker_0d1921fd6aba44e4a89a309e1cf93369 = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_92b9036eca78424da7c57e49f1c44291 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba9d1984ce6a471499a5c7e1f672b7dd = $(`<div id="html_ba9d1984ce6a471499a5c7e1f672b7dd" style="width: 100.0%; height: 100.0%;">Curley K-8</div>`)[0];
+            popup_92b9036eca78424da7c57e49f1c44291.setContent(html_ba9d1984ce6a471499a5c7e1f672b7dd);
+        
+
+        marker_0d1921fd6aba44e4a89a309e1cf93369.bindPopup(popup_92b9036eca78424da7c57e49f1c44291)
+        ;
+
+        
+    
+    
+            var marker_cdbffb10d02540ae940a71793b59b684 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_1eb68920133b42d2b7ed406489ce91d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64d5b10cfba744b09dd567dc4ba6fef0 = $(`<div id="html_64d5b10cfba744b09dd567dc4ba6fef0" style="width: 100.0%; height: 100.0%;">Dearborn, Henry STEM Academy</div>`)[0];
+            popup_1eb68920133b42d2b7ed406489ce91d5.setContent(html_64d5b10cfba744b09dd567dc4ba6fef0);
+        
+
+        marker_cdbffb10d02540ae940a71793b59b684.bindPopup(popup_1eb68920133b42d2b7ed406489ce91d5)
+        ;
+
+        
+    
+    
+            var marker_6e53630e29564bbab1ff3e1fa5eae6f9 = L.marker(
+                [42.3157363, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_71e24e162bb94494bbf19929449fbd3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47339af9012941ad8d3337e71777757f = $(`<div id="html_47339af9012941ad8d3337e71777757f" style="width: 100.0%; height: 100.0%;">Dever, Paul A. Elementary</div>`)[0];
+            popup_71e24e162bb94494bbf19929449fbd3c.setContent(html_47339af9012941ad8d3337e71777757f);
+        
+
+        marker_6e53630e29564bbab1ff3e1fa5eae6f9.bindPopup(popup_71e24e162bb94494bbf19929449fbd3c)
+        ;
+
+        
+    
+    
+            var marker_b4ac9622bc1c41b2bfb841fc0803d120 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_f84c63d9e1c9498c9264341816f64ace = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d37e2c6fdc91446899162d55de45fc68 = $(`<div id="html_d37e2c6fdc91446899162d55de45fc68" style="width: 100.0%; height: 100.0%;">Dudley Street Neighborhood Charter School</div>`)[0];
+            popup_f84c63d9e1c9498c9264341816f64ace.setContent(html_d37e2c6fdc91446899162d55de45fc68);
+        
+
+        marker_b4ac9622bc1c41b2bfb841fc0803d120.bindPopup(popup_f84c63d9e1c9498c9264341816f64ace)
+        ;
+
+        
+    
+    
+            var marker_32de77cd929b48c1ab557c9157fe6a15 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_a38012bc93e843be930bc912c68489f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab707dc7e216448a800caa53af29d14c = $(`<div id="html_ab707dc7e216448a800caa53af29d14c" style="width: 100.0%; height: 100.0%;">East Boston Early Education Center</div>`)[0];
+            popup_a38012bc93e843be930bc912c68489f6.setContent(html_ab707dc7e216448a800caa53af29d14c);
+        
+
+        marker_32de77cd929b48c1ab557c9157fe6a15.bindPopup(popup_a38012bc93e843be930bc912c68489f6)
+        ;
+
+        
+    
+    
+            var marker_1646165f3c764645ac13cbfe7decabdd = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_30315dce09cf49f0b49b4199804fe3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe28d051846a427c97e2779fcd0b8146 = $(`<div id="html_fe28d051846a427c97e2779fcd0b8146" style="width: 100.0%; height: 100.0%;">East Boston High School</div>`)[0];
+            popup_30315dce09cf49f0b49b4199804fe3f6.setContent(html_fe28d051846a427c97e2779fcd0b8146);
+        
+
+        marker_1646165f3c764645ac13cbfe7decabdd.bindPopup(popup_30315dce09cf49f0b49b4199804fe3f6)
+        ;
+
+        
+    
+    
+            var marker_0a347a3eb4804b39bf907a2b394130a3 = L.marker(
+                [42.3463503, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_091327e1f15749d9bd05852eb6d03974 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7120822b0d0e4444ac26a5967a0382ed = $(`<div id="html_7120822b0d0e4444ac26a5967a0382ed" style="width: 100.0%; height: 100.0%;">Edison, Thomas A. K-8</div>`)[0];
+            popup_091327e1f15749d9bd05852eb6d03974.setContent(html_7120822b0d0e4444ac26a5967a0382ed);
+        
+
+        marker_0a347a3eb4804b39bf907a2b394130a3.bindPopup(popup_091327e1f15749d9bd05852eb6d03974)
+        ;
+
+        
+    
+    
+            var marker_2d308309c1b6456a8f93cb7e7a39dde0 = L.marker(
+                [42.37954089999999, -71.0646337],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_09c6c16458da46b29278aa961cb021cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67678af5ae4040c5894b0de5af74b773 = $(`<div id="html_67678af5ae4040c5894b0de5af74b773" style="width: 100.0%; height: 100.0%;">Edwards, Clarence R. Middle</div>`)[0];
+            popup_09c6c16458da46b29278aa961cb021cf.setContent(html_67678af5ae4040c5894b0de5af74b773);
+        
+
+        marker_2d308309c1b6456a8f93cb7e7a39dde0.bindPopup(popup_09c6c16458da46b29278aa961cb021cf)
+        ;
+
+        
+    
+    
+            var marker_90158f2a9f554581b7841c422b092d89 = L.marker(
+                [42.3654231, -71.05497679999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_800c3a61f25a4eeb90e2445c2ca26900 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47f8415db8a246c7a952af4eb1530574 = $(`<div id="html_47f8415db8a246c7a952af4eb1530574" style="width: 100.0%; height: 100.0%;">Eliot, John K-8</div>`)[0];
+            popup_800c3a61f25a4eeb90e2445c2ca26900.setContent(html_47f8415db8a246c7a952af4eb1530574);
+        
+
+        marker_90158f2a9f554581b7841c422b092d89.bindPopup(popup_800c3a61f25a4eeb90e2445c2ca26900)
+        ;
+
+        
+    
+    
+            var marker_801ad5dcc77f46deaa81dea354bc59bb = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_00116be3d4274144ade4d92d6c9bcf0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9daa68aecdd46a8a7c1a3605f84d0db = $(`<div id="html_b9daa68aecdd46a8a7c1a3605f84d0db" style="width: 100.0%; height: 100.0%;">Ellis, David A. Elementary</div>`)[0];
+            popup_00116be3d4274144ade4d92d6c9bcf0d.setContent(html_b9daa68aecdd46a8a7c1a3605f84d0db);
+        
+
+        marker_801ad5dcc77f46deaa81dea354bc59bb.bindPopup(popup_00116be3d4274144ade4d92d6c9bcf0d)
+        ;
+
+        
+    
+    
+            var marker_c398a73a00884e1dbe59bd51523ce741 = L.marker(
+                [42.2771417, -71.0913748],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_6f30bc95197c494dae5324f8f585e49d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4e49607dcdd489aae3e3e9c4190d544 = $(`<div id="html_d4e49607dcdd489aae3e3e9c4190d544" style="width: 100.0%; height: 100.0%;">Ellison/Parks Early Education School</div>`)[0];
+            popup_6f30bc95197c494dae5324f8f585e49d.setContent(html_d4e49607dcdd489aae3e3e9c4190d544);
+        
+
+        marker_c398a73a00884e1dbe59bd51523ce741.bindPopup(popup_6f30bc95197c494dae5324f8f585e49d)
+        ;
+
+        
+    
+    
+            var marker_f01b6d414e8f4a1bab2b1cc70b263e13 = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_cad37424b21a483f86b382783762c01e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2fc7024a2de492d9c78ef865cd02881 = $(`<div id="html_f2fc7024a2de492d9c78ef865cd02881" style="width: 100.0%; height: 100.0%;">English High School</div>`)[0];
+            popup_cad37424b21a483f86b382783762c01e.setContent(html_f2fc7024a2de492d9c78ef865cd02881);
+        
+
+        marker_f01b6d414e8f4a1bab2b1cc70b263e13.bindPopup(popup_cad37424b21a483f86b382783762c01e)
+        ;
+
+        
+    
+    
+            var marker_3c2bc4ce6579450c9aaddec9106b7f35 = L.marker(
+                [42.3157363, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_f4c565c901ba40d58fbfd3f3ac146085 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b2de6b6dcfb4bddaadf71af031a9519 = $(`<div id="html_3b2de6b6dcfb4bddaadf71af031a9519" style="width: 100.0%; height: 100.0%;">Everett, Edward Elementary</div>`)[0];
+            popup_f4c565c901ba40d58fbfd3f3ac146085.setContent(html_3b2de6b6dcfb4bddaadf71af031a9519);
+        
+
+        marker_3c2bc4ce6579450c9aaddec9106b7f35.bindPopup(popup_f4c565c901ba40d58fbfd3f3ac146085)
+        ;
+
+        
+    
+    
+            var marker_bcfe922484164e1b98d0decdcbdefd8a = L.marker(
+                [42.3364553, -71.0349193],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_95a154a5720b40cfbb19c7ec0fb2b3c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ffad91134bf474198f20a6a21ea4e9e = $(`<div id="html_4ffad91134bf474198f20a6a21ea4e9e" style="width: 100.0%; height: 100.0%;">Excel High School</div>`)[0];
+            popup_95a154a5720b40cfbb19c7ec0fb2b3c5.setContent(html_4ffad91134bf474198f20a6a21ea4e9e);
+        
+
+        marker_bcfe922484164e1b98d0decdcbdefd8a.bindPopup(popup_95a154a5720b40cfbb19c7ec0fb2b3c5)
+        ;
+
+        
+    
+    
+            var marker_7a11c6a9d2704a45a32e8e6bc7aaea21 = L.marker(
+                [42.33191670000001, -71.09880249999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_6ad4b983bace4b198720a0f12a7f8085 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c26e962afcf425596ca72726f387724 = $(`<div id="html_0c26e962afcf425596ca72726f387724" style="width: 100.0%; height: 100.0%;">Fenway High School</div>`)[0];
+            popup_6ad4b983bace4b198720a0f12a7f8085.setContent(html_0c26e962afcf425596ca72726f387724);
+        
+
+        marker_7a11c6a9d2704a45a32e8e6bc7aaea21.bindPopup(popup_6ad4b983bace4b198720a0f12a7f8085)
+        ;
+
+        
+    
+    
+            var marker_0cbdbedc5ccc437b862a781efc198907 = L.marker(
+                [42.3065441, -71.08246129999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_6e6403075a974315b1c7fd9ea82171af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_848c248fd90b4ea88edee40e30fcb3f7 = $(`<div id="html_848c248fd90b4ea88edee40e30fcb3f7" style="width: 100.0%; height: 100.0%;">Frederick, Lilla G. Middle</div>`)[0];
+            popup_6e6403075a974315b1c7fd9ea82171af.setContent(html_848c248fd90b4ea88edee40e30fcb3f7);
+        
+
+        marker_0cbdbedc5ccc437b862a781efc198907.bindPopup(popup_6e6403075a974315b1c7fd9ea82171af)
+        ;
+
+        
+    
+    
+            var marker_e0a558c3d6bd4fdab98c17ed7699bf57 = L.marker(
+                [42.3593008, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_2f9ae713cd5b407099ad0bebd7d58a37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f91960e590f844e29d3bcda10b4cd3a7 = $(`<div id="html_f91960e590f844e29d3bcda10b4cd3a7" style="width: 100.0%; height: 100.0%;">Gardner Pilot Academy</div>`)[0];
+            popup_2f9ae713cd5b407099ad0bebd7d58a37.setContent(html_f91960e590f844e29d3bcda10b4cd3a7);
+        
+
+        marker_e0a558c3d6bd4fdab98c17ed7699bf57.bindPopup(popup_2f9ae713cd5b407099ad0bebd7d58a37)
+        ;
+
+        
+    
+    
+            var marker_df3d701d726f473e85da003657bc1adc = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_544276a5c25442eabcc28d5e420bc7cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baba2c2f90254535aa7693a614b0dfb1 = $(`<div id="html_baba2c2f90254535aa7693a614b0dfb1" style="width: 100.0%; height: 100.0%;">Greater Egleston High School</div>`)[0];
+            popup_544276a5c25442eabcc28d5e420bc7cb.setContent(html_baba2c2f90254535aa7693a614b0dfb1);
+        
+
+        marker_df3d701d726f473e85da003657bc1adc.bindPopup(popup_544276a5c25442eabcc28d5e420bc7cb)
+        ;
+
+        
+    
+    
+            var marker_b67e29f3c8794f038f836a191a656d96 = L.marker(
+                [42.3065441, -71.08246129999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c777b42b00bb48cf852a6ff1c34c2a69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_240e3cf3341a472cb50f5148e11cad10 = $(`<div id="html_240e3cf3341a472cb50f5148e11cad10" style="width: 100.0%; height: 100.0%;">Greenwood, Sarah K-8</div>`)[0];
+            popup_c777b42b00bb48cf852a6ff1c34c2a69.setContent(html_240e3cf3341a472cb50f5148e11cad10);
+        
+
+        marker_b67e29f3c8794f038f836a191a656d96.bindPopup(popup_c777b42b00bb48cf852a6ff1c34c2a69)
+        ;
+
+        
+    
+    
+            var marker_001765fbd4f149f68d9dda257212b90f = L.marker(
+                [42.2527785, -71.1299976],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_45da7f5736ab49e28727cba34308ddb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b109ec99b614d0ca0656a2f6abc4b7b = $(`<div id="html_2b109ec99b614d0ca0656a2f6abc4b7b" style="width: 100.0%; height: 100.0%;">Grew, Henry Elementary</div>`)[0];
+            popup_45da7f5736ab49e28727cba34308ddb1.setContent(html_2b109ec99b614d0ca0656a2f6abc4b7b);
+        
+
+        marker_001765fbd4f149f68d9dda257212b90f.bindPopup(popup_45da7f5736ab49e28727cba34308ddb1)
+        ;
+
+        
+    
+    
+            var marker_3cbdfc52191b4d6e8afc1c6398d40396 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_4ceb7f29f88f4e439844c69cac11a423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adbb5524716643e987b37330d40b3625 = $(`<div id="html_adbb5524716643e987b37330d40b3625" style="width: 100.0%; height: 100.0%;">Guild, Curtis Elementary</div>`)[0];
+            popup_4ceb7f29f88f4e439844c69cac11a423.setContent(html_adbb5524716643e987b37330d40b3625);
+        
+
+        marker_3cbdfc52191b4d6e8afc1c6398d40396.bindPopup(popup_4ceb7f29f88f4e439844c69cac11a423)
+        ;
+
+        
+    
+    
+            var marker_70f8c3ef235f447983d1ee1a48c443c4 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_78d66cedf85f4d849728fc8b0e872760 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d78552f8a06e4b4fbc2c3852c102bda1 = $(`<div id="html_d78552f8a06e4b4fbc2c3852c102bda1" style="width: 100.0%; height: 100.0%;">Hale, Nathan Elementary</div>`)[0];
+            popup_78d66cedf85f4d849728fc8b0e872760.setContent(html_d78552f8a06e4b4fbc2c3852c102bda1);
+        
+
+        marker_70f8c3ef235f447983d1ee1a48c443c4.bindPopup(popup_78d66cedf85f4d849728fc8b0e872760)
+        ;
+
+        
+    
+    
+            var marker_1bede1c38c6743a1a914c22f3b2e3237 = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_162b84305a0c4e189df452dd88df9e8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ea6197a48d945229be0afdcc3f4bdb2 = $(`<div id="html_3ea6197a48d945229be0afdcc3f4bdb2" style="width: 100.0%; height: 100.0%;">Haley, Dennis K-8</div>`)[0];
+            popup_162b84305a0c4e189df452dd88df9e8e.setContent(html_3ea6197a48d945229be0afdcc3f4bdb2);
+        
+
+        marker_1bede1c38c6743a1a914c22f3b2e3237.bindPopup(popup_162b84305a0c4e189df452dd88df9e8e)
+        ;
+
+        
+    
+    
+            var marker_460bc8f40733404890726c83c2ace493 = L.marker(
+                [42.37954089999999, -71.0646337],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_692a24f3516243749e88b5dc84e62179 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d07b3b9132bc4377aa19ffef56e605e0 = $(`<div id="html_d07b3b9132bc4377aa19ffef56e605e0" style="width: 100.0%; height: 100.0%;">Harvard/Kent Elementary</div>`)[0];
+            popup_692a24f3516243749e88b5dc84e62179.setContent(html_d07b3b9132bc4377aa19ffef56e605e0);
+        
+
+        marker_460bc8f40733404890726c83c2ace493.bindPopup(popup_692a24f3516243749e88b5dc84e62179)
+        ;
+
+        
+    
+    
+            var marker_2c1b769ecb9347dbb677dcdb76740377 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c8fd063384674917be59cdd89d36c915 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b0e9e95c1f7442da3d2c73f14509ade = $(`<div id="html_3b0e9e95c1f7442da3d2c73f14509ade" style="width: 100.0%; height: 100.0%;">Haynes Early Education Center</div>`)[0];
+            popup_c8fd063384674917be59cdd89d36c915.setContent(html_3b0e9e95c1f7442da3d2c73f14509ade);
+        
+
+        marker_2c1b769ecb9347dbb677dcdb76740377.bindPopup(popup_c8fd063384674917be59cdd89d36c915)
+        ;
+
+        
+    
+    
+            var marker_9389236c786b4098a1d679a06762acf3 = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_817d960dc0544b7fb942afc09b2e531c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96ad4fa952e7485e96e6908b1352b447 = $(`<div id="html_96ad4fa952e7485e96e6908b1352b447" style="width: 100.0%; height: 100.0%;">Henderson, Dr. William W. K-12 Inclusion School</div>`)[0];
+            popup_817d960dc0544b7fb942afc09b2e531c.setContent(html_96ad4fa952e7485e96e6908b1352b447);
+        
+
+        marker_9389236c786b4098a1d679a06762acf3.bindPopup(popup_817d960dc0544b7fb942afc09b2e531c)
+        ;
+
+        
+    
+    
+            var marker_11c3062510134d06a552b8afc88e8248 = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_982e4421fc90495fa5ad8b85b3d8d64c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be40ca5a782a4eeea6310b422764ce84 = $(`<div id="html_be40ca5a782a4eeea6310b422764ce84" style="width: 100.0%; height: 100.0%;">Hennigan, James W. K-8</div>`)[0];
+            popup_982e4421fc90495fa5ad8b85b3d8d64c.setContent(html_be40ca5a782a4eeea6310b422764ce84);
+        
+
+        marker_11c3062510134d06a552b8afc88e8248.bindPopup(popup_982e4421fc90495fa5ad8b85b3d8d64c)
+        ;
+
+        
+    
+    
+            var marker_2da0a38ec1794665a17dca1513b975b7 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_ec9c2b9deb824fdda802c71ee10b49fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ba85fcc03c4235ac9dbf904ebd3f27 = $(`<div id="html_29ba85fcc03c4235ac9dbf904ebd3f27" style="width: 100.0%; height: 100.0%;">Hernandez, Rafael K-8</div>`)[0];
+            popup_ec9c2b9deb824fdda802c71ee10b49fd.setContent(html_29ba85fcc03c4235ac9dbf904ebd3f27);
+        
+
+        marker_2da0a38ec1794665a17dca1513b975b7.bindPopup(popup_ec9c2b9deb824fdda802c71ee10b49fd)
+        ;
+
+        
+    
+    
+            var marker_b4a29b2b6c7148869c2fe172df92b799 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_790dd884a27541c88d9a163d486a2d6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_330d5272451c4252aaa5817f12b8f0cd = $(`<div id="html_330d5272451c4252aaa5817f12b8f0cd" style="width: 100.0%; height: 100.0%;">Higginson K0-2</div>`)[0];
+            popup_790dd884a27541c88d9a163d486a2d6b.setContent(html_330d5272451c4252aaa5817f12b8f0cd);
+        
+
+        marker_b4a29b2b6c7148869c2fe172df92b799.bindPopup(popup_790dd884a27541c88d9a163d486a2d6b)
+        ;
+
+        
+    
+    
+            var marker_cc0367d3312e49c2aa0a14de8bb5faa3 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_7d0b9e291db84b8ea1a1268cb3580498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_129af10328dd4a379d6197a5aa72d71b = $(`<div id="html_129af10328dd4a379d6197a5aa72d71b" style="width: 100.0%; height: 100.0%;">Higginson-Lewis</div>`)[0];
+            popup_7d0b9e291db84b8ea1a1268cb3580498.setContent(html_129af10328dd4a379d6197a5aa72d71b);
+        
+
+        marker_cc0367d3312e49c2aa0a14de8bb5faa3.bindPopup(popup_7d0b9e291db84b8ea1a1268cb3580498)
+        ;
+
+        
+    
+    
+            var marker_1f40f20c00564076944a6049d63501c9 = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_efdcc7726d324a92a87008d49875b94a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61e1156dec4f4e24bd9f6d2bbcf2676d = $(`<div id="html_61e1156dec4f4e24bd9f6d2bbcf2676d" style="width: 100.0%; height: 100.0%;">Holmes, Oliver Wendell Innovation</div>`)[0];
+            popup_efdcc7726d324a92a87008d49875b94a.setContent(html_61e1156dec4f4e24bd9f6d2bbcf2676d);
+        
+
+        marker_1f40f20c00564076944a6049d63501c9.bindPopup(popup_efdcc7726d324a92a87008d49875b94a)
+        ;
+
+        
+    
+    
+            var marker_356e1a26d0ff42c5b6f616f007189d88 = L.marker(
+                [42.3593008, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_82b4808babbd43618c7a58ba55f2fc96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9ddfceb662e46b4a5385081b127b189 = $(`<div id="html_f9ddfceb662e46b4a5385081b127b189" style="width: 100.0%; height: 100.0%;">Horace Mann School for the Deaf and Hard of Hearing</div>`)[0];
+            popup_82b4808babbd43618c7a58ba55f2fc96.setContent(html_f9ddfceb662e46b4a5385081b127b189);
+        
+
+        marker_356e1a26d0ff42c5b6f616f007189d88.bindPopup(popup_82b4808babbd43618c7a58ba55f2fc96)
+        ;
+
+        
+    
+    
+            var marker_695110aad7284ec8acd4d8b6106eef9d = L.marker(
+                [42.3377967, -71.0705763],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_9f06b0c8de2a48ecb4fef5f82a63d44f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4c803b5f25247d89f7a7eccaf03fbaa = $(`<div id="html_e4c803b5f25247d89f7a7eccaf03fbaa" style="width: 100.0%; height: 100.0%;">Hurley, Joseph K-8</div>`)[0];
+            popup_9f06b0c8de2a48ecb4fef5f82a63d44f.setContent(html_e4c803b5f25247d89f7a7eccaf03fbaa);
+        
+
+        marker_695110aad7284ec8acd4d8b6106eef9d.bindPopup(popup_9f06b0c8de2a48ecb4fef5f82a63d44f)
+        ;
+
+        
+    
+    
+            var marker_543848c6b220486da54a04bf490d401d = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_86106babacf64292a4e6c36ac0b5fb47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4559bccdc83442fcb003311435e25bdc = $(`<div id="html_4559bccdc83442fcb003311435e25bdc" style="width: 100.0%; height: 100.0%;">Irving, Washington Middle</div>`)[0];
+            popup_86106babacf64292a4e6c36ac0b5fb47.setContent(html_4559bccdc83442fcb003311435e25bdc);
+        
+
+        marker_543848c6b220486da54a04bf490d401d.bindPopup(popup_86106babacf64292a4e6c36ac0b5fb47)
+        ;
+
+        
+    
+    
+            var marker_e0339e4f5c5c4ed3b71209edcfe38162 = L.marker(
+                [42.3593008, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_e52a105a9e6447e59a9c87cd489aa9c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e3f037868934019ad6f375f89a132a1 = $(`<div id="html_5e3f037868934019ad6f375f89a132a1" style="width: 100.0%; height: 100.0%;">Jackson/Mann K-8</div>`)[0];
+            popup_e52a105a9e6447e59a9c87cd489aa9c0.setContent(html_5e3f037868934019ad6f375f89a132a1);
+        
+
+        marker_e0339e4f5c5c4ed3b71209edcfe38162.bindPopup(popup_e52a105a9e6447e59a9c87cd489aa9c0)
+        ;
+
+        
+    
+    
+            var marker_701ef88839f84827b78b372bce89250a = L.marker(
+                [42.339904, -71.0898892],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_d2fa496aac924737bdb891fae572d50c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23c862c8761d4e4c9afb534785777c26 = $(`<div id="html_23c862c8761d4e4c9afb534785777c26" style="width: 100.0%; height: 100.0%;">Kennedy, Edward M. Academy for Health Careers</div>`)[0];
+            popup_d2fa496aac924737bdb891fae572d50c.setContent(html_23c862c8761d4e4c9afb534785777c26);
+        
+
+        marker_701ef88839f84827b78b372bce89250a.bindPopup(popup_d2fa496aac924737bdb891fae572d50c)
+        ;
+
+        
+    
+    
+            var marker_b56f95ea05ea47d9948262bf61dccd27 = L.marker(
+                [42.339904, -71.0898892],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_d3f2873fe9c645199bceaeb030431d10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e037fe21ae64cd1ae98a82c047ad1fe = $(`<div id="html_3e037fe21ae64cd1ae98a82c047ad1fe" style="width: 100.0%; height: 100.0%;">Kennedy, Edward M. Academy for Health Careers</div>`)[0];
+            popup_d3f2873fe9c645199bceaeb030431d10.setContent(html_3e037fe21ae64cd1ae98a82c047ad1fe);
+        
+
+        marker_b56f95ea05ea47d9948262bf61dccd27.bindPopup(popup_d3f2873fe9c645199bceaeb030431d10)
+        ;
+
+        
+    
+    
+            var marker_17fafe72a2d94d3dbc26b53422aec27b = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_216a97e18596442dafb7cf022d88e388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85aee67ac007484c947f42a2b37708aa = $(`<div id="html_85aee67ac007484c947f42a2b37708aa" style="width: 100.0%; height: 100.0%;">Kennedy, John F. Elementary</div>`)[0];
+            popup_216a97e18596442dafb7cf022d88e388.setContent(html_85aee67ac007484c947f42a2b37708aa);
+        
+
+        marker_17fafe72a2d94d3dbc26b53422aec27b.bindPopup(popup_216a97e18596442dafb7cf022d88e388)
+        ;
+
+        
+    
+    
+            var marker_655e450098b14fa78085faffc7586849 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_0c07d93f107b4d4284795c0505b8f600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d776c98bc80f4425ba9f18a4fbae2b6b = $(`<div id="html_d776c98bc80f4425ba9f18a4fbae2b6b" style="width: 100.0%; height: 100.0%;">Kennedy, Patrick Elementary</div>`)[0];
+            popup_0c07d93f107b4d4284795c0505b8f600.setContent(html_d776c98bc80f4425ba9f18a4fbae2b6b);
+        
+
+        marker_655e450098b14fa78085faffc7586849.bindPopup(popup_0c07d93f107b4d4284795c0505b8f600)
+        ;
+
+        
+    
+    
+            var marker_37bae3c092b941dc976e0309237da152 = L.marker(
+                [42.29671460000001, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_7b7f3ae7e9034daea560fda3fb9e5653 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab1cec34987a45f1a92b9ac133d88f0b = $(`<div id="html_ab1cec34987a45f1a92b9ac133d88f0b" style="width: 100.0%; height: 100.0%;">Kenny, Thomas J. Elementary</div>`)[0];
+            popup_7b7f3ae7e9034daea560fda3fb9e5653.setContent(html_ab1cec34987a45f1a92b9ac133d88f0b);
+        
+
+        marker_37bae3c092b941dc976e0309237da152.bindPopup(popup_7b7f3ae7e9034daea560fda3fb9e5653)
+        ;
+
+        
+    
+    
+            var marker_9e4a5459bbea4f629403b35acac54db0 = L.marker(
+                [42.2797554, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_2d97931d49c6470d8adc915cfa7964c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_916f926208ff47aa84a01b8ca99ba4f1 = $(`<div id="html_916f926208ff47aa84a01b8ca99ba4f1" style="width: 100.0%; height: 100.0%;">Kilmer, Joyce K-8</div>`)[0];
+            popup_2d97931d49c6470d8adc915cfa7964c2.setContent(html_916f926208ff47aa84a01b8ca99ba4f1);
+        
+
+        marker_9e4a5459bbea4f629403b35acac54db0.bindPopup(popup_2d97931d49c6470d8adc915cfa7964c2)
+        ;
+
+        
+    
+    
+            var marker_8a2b309c11af4e46be7865e80814bd2c = L.marker(
+                [42.3065441, -71.08246129999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_4ec5cc1043d24884bdb664f5132445db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05e7a1ae0d28422fbb1f147e2ee13db3 = $(`<div id="html_05e7a1ae0d28422fbb1f147e2ee13db3" style="width: 100.0%; height: 100.0%;">King, Martin Luther, Jr. K-8</div>`)[0];
+            popup_4ec5cc1043d24884bdb664f5132445db.setContent(html_05e7a1ae0d28422fbb1f147e2ee13db3);
+        
+
+        marker_8a2b309c11af4e46be7865e80814bd2c.bindPopup(popup_4ec5cc1043d24884bdb664f5132445db)
+        ;
+
+        
+    
+    
+            var marker_cefa53ab9e754a7cb575eebc564651ab = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c88d0d476c9d48df9e1195a473991e83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a520eb0d375b4dbcada6a3051aa3967c = $(`<div id="html_a520eb0d375b4dbcada6a3051aa3967c" style="width: 100.0%; height: 100.0%;">Lee Academy Pilot School</div>`)[0];
+            popup_c88d0d476c9d48df9e1195a473991e83.setContent(html_a520eb0d375b4dbcada6a3051aa3967c);
+        
+
+        marker_cefa53ab9e754a7cb575eebc564651ab.bindPopup(popup_c88d0d476c9d48df9e1195a473991e83)
+        ;
+
+        
+    
+    
+            var marker_15d8e70fbc7f486d91ba3ba016b42b72 = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_f394d75c5f8e4438b99f3608756540b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_814d3e4f6fd040aa996a45473e31ea62 = $(`<div id="html_814d3e4f6fd040aa996a45473e31ea62" style="width: 100.0%; height: 100.0%;">Lee, Joseph K-8</div>`)[0];
+            popup_f394d75c5f8e4438b99f3608756540b6.setContent(html_814d3e4f6fd040aa996a45473e31ea62);
+        
+
+        marker_15d8e70fbc7f486d91ba3ba016b42b72.bindPopup(popup_f394d75c5f8e4438b99f3608756540b6)
+        ;
+
+        
+    
+    
+            var marker_886a31fbeab54145b42b0242fd2adc7a = L.marker(
+                [42.2797554, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_10eecfd60591438fa4bd056afa945b1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b029451f30cc4a899b2cb0a8fa930037 = $(`<div id="html_b029451f30cc4a899b2cb0a8fa930037" style="width: 100.0%; height: 100.0%;">Lyndon, Patrick K-8</div>`)[0];
+            popup_10eecfd60591438fa4bd056afa945b1f.setContent(html_b029451f30cc4a899b2cb0a8fa930037);
+        
+
+        marker_886a31fbeab54145b42b0242fd2adc7a.bindPopup(popup_10eecfd60591438fa4bd056afa945b1f)
+        ;
+
+        
+    
+    
+            var marker_23697f1d9297436e924f55466def5c6a = L.marker(
+                [42.3463503, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_00edbd2c299c40aea5fcfc0a134935e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a471c7ac020349c9a60948d3e6d825c6 = $(`<div id="html_a471c7ac020349c9a60948d3e6d825c6" style="width: 100.0%; height: 100.0%;">Lyon, Mary K-8</div>`)[0];
+            popup_00edbd2c299c40aea5fcfc0a134935e2.setContent(html_a471c7ac020349c9a60948d3e6d825c6);
+        
+
+        marker_23697f1d9297436e924f55466def5c6a.bindPopup(popup_00edbd2c299c40aea5fcfc0a134935e2)
+        ;
+
+        
+    
+    
+            var marker_4c5df097b33c4119b70a79b9087e8c8b = L.marker(
+                [42.3463503, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_19ac1477cca4433fb19ee03c168a62a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d639432b8ee24f3c8c9af369f69ba386 = $(`<div id="html_d639432b8ee24f3c8c9af369f69ba386" style="width: 100.0%; height: 100.0%;">Lyon, Mary High School</div>`)[0];
+            popup_19ac1477cca4433fb19ee03c168a62a8.setContent(html_d639432b8ee24f3c8c9af369f69ba386);
+        
+
+        marker_4c5df097b33c4119b70a79b9087e8c8b.bindPopup(popup_19ac1477cca4433fb19ee03c168a62a8)
+        ;
+
+        
+    
+    
+            var marker_7683ad7794a048518285c7cdd3347d90 = L.marker(
+                [42.33191670000001, -71.09880249999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_3c74727968c94714a5f43c4894626f35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6df757342a194a20825563a970d06722 = $(`<div id="html_6df757342a194a20825563a970d06722" style="width: 100.0%; height: 100.0%;">Madison Park Technical Vocational High School</div>`)[0];
+            popup_3c74727968c94714a5f43c4894626f35.setContent(html_6df757342a194a20825563a970d06722);
+        
+
+        marker_7683ad7794a048518285c7cdd3347d90.bindPopup(popup_3c74727968c94714a5f43c4894626f35)
+        ;
+
+        
+    
+    
+            var marker_78dbef42e338449498b9389da931f28c = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c3a07b5fedd2445c954e7f5777a47d11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c51fb7e5ebad4e9d912de04b9d44dcf1 = $(`<div id="html_c51fb7e5ebad4e9d912de04b9d44dcf1" style="width: 100.0%; height: 100.0%;">Manning, Joseph P. Elementary</div>`)[0];
+            popup_c3a07b5fedd2445c954e7f5777a47d11.setContent(html_c51fb7e5ebad4e9d912de04b9d44dcf1);
+        
+
+        marker_78dbef42e338449498b9389da931f28c.bindPopup(popup_c3a07b5fedd2445c954e7f5777a47d11)
+        ;
+
+        
+    
+    
+            var marker_45d4de57730f46249f40b9033350c0a9 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_238b2b129ecc4c078961e97b6c53b0fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2647c79d0084469a9cdcdc8e2d076324 = $(`<div id="html_2647c79d0084469a9cdcdc8e2d076324" style="width: 100.0%; height: 100.0%;">Mason, Samuel Elementary</div>`)[0];
+            popup_238b2b129ecc4c078961e97b6c53b0fb.setContent(html_2647c79d0084469a9cdcdc8e2d076324);
+        
+
+        marker_45d4de57730f46249f40b9033350c0a9.bindPopup(popup_238b2b129ecc4c078961e97b6c53b0fb)
+        ;
+
+        
+    
+    
+            var marker_c80f9ab9530f46439e6aa8297c8485e9 = L.marker(
+                [42.29671460000001, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_ea9ca9a8dc3f4a2d9d649ac88eef4490 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30f81c0e5fac4ada9d8dd8d655393f56 = $(`<div id="html_30f81c0e5fac4ada9d8dd8d655393f56" style="width: 100.0%; height: 100.0%;">Mather Elementary</div>`)[0];
+            popup_ea9ca9a8dc3f4a2d9d649ac88eef4490.setContent(html_30f81c0e5fac4ada9d8dd8d655393f56);
+        
+
+        marker_c80f9ab9530f46439e6aa8297c8485e9.bindPopup(popup_ea9ca9a8dc3f4a2d9d649ac88eef4490)
+        ;
+
+        
+    
+    
+            var marker_80443b2069de466d879669458367c2bc = L.marker(
+                [42.2771417, -71.0913748],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_efe88704643b44a2a718d69126153aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49fb5f0c67f64efbb12820a910270fd2 = $(`<div id="html_49fb5f0c67f64efbb12820a910270fd2" style="width: 100.0%; height: 100.0%;">Mattahunt Elementary School</div>`)[0];
+            popup_efe88704643b44a2a718d69126153aca.setContent(html_49fb5f0c67f64efbb12820a910270fd2);
+        
+
+        marker_80443b2069de466d879669458367c2bc.bindPopup(popup_efe88704643b44a2a718d69126153aca)
+        ;
+
+        
+    
+    
+            var marker_9eeafa27c7864a85a045928381b4ff64 = L.marker(
+                [42.3157363, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_aeb6d5c0376347b0a230d3dc4ddf300e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f03b50210c42484385ee093e958194f9 = $(`<div id="html_f03b50210c42484385ee093e958194f9" style="width: 100.0%; height: 100.0%;">McCormack, John W. Middle</div>`)[0];
+            popup_aeb6d5c0376347b0a230d3dc4ddf300e.setContent(html_f03b50210c42484385ee093e958194f9);
+        
+
+        marker_9eeafa27c7864a85a045928381b4ff64.bindPopup(popup_aeb6d5c0376347b0a230d3dc4ddf300e)
+        ;
+
+        
+    
+    
+            var marker_4ecf558d57454345864dff158816cc86 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_ef8f2258bb6544f6947d44bc6aa41653 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_092ae30c78024547b6dc2633354e8602 = $(`<div id="html_092ae30c78024547b6dc2633354e8602" style="width: 100.0%; height: 100.0%;">McKay, Donald K-8</div>`)[0];
+            popup_ef8f2258bb6544f6947d44bc6aa41653.setContent(html_092ae30c78024547b6dc2633354e8602);
+        
+
+        marker_4ecf558d57454345864dff158816cc86.bindPopup(popup_ef8f2258bb6544f6947d44bc6aa41653)
+        ;
+
+        
+    
+    
+            var marker_75de78adcd9b4f4393e709d2c01b3997 = L.marker(
+                [42.353068, -71.0765188],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_b08971ae7891432298fa26c018878122 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_523540b7ae80496e88007d26d63550a7 = $(`<div id="html_523540b7ae80496e88007d26d63550a7" style="width: 100.0%; height: 100.0%;">McKinley, Willam South End Academy</div>`)[0];
+            popup_b08971ae7891432298fa26c018878122.setContent(html_523540b7ae80496e88007d26d63550a7);
+        
+
+        marker_75de78adcd9b4f4393e709d2c01b3997.bindPopup(popup_b08971ae7891432298fa26c018878122)
+        ;
+
+        
+    
+    
+            var marker_dec1ecd569a14e00bf4cee2f11522cc2 = L.marker(
+                [42.353068, -71.0765188],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_0d8a12f1e0fb4bd1a81f7734aeb1f3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_335e9f84f42541bcb5eca5b5a6e45fbd = $(`<div id="html_335e9f84f42541bcb5eca5b5a6e45fbd" style="width: 100.0%; height: 100.0%;">McKinley, William Elementary</div>`)[0];
+            popup_0d8a12f1e0fb4bd1a81f7734aeb1f3f6.setContent(html_335e9f84f42541bcb5eca5b5a6e45fbd);
+        
+
+        marker_dec1ecd569a14e00bf4cee2f11522cc2.bindPopup(popup_0d8a12f1e0fb4bd1a81f7734aeb1f3f6)
+        ;
+
+        
+    
+    
+            var marker_edfc76543fea4c2784e35b83ae01c09f = L.marker(
+                [42.3476181, -71.1002881],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_786f027fcfc443f899ca0b9f2f75f727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81647c9e509f4809a998048a64a5229b = $(`<div id="html_81647c9e509f4809a998048a64a5229b" style="width: 100.0%; height: 100.0%;">McKinley, William Middle</div>`)[0];
+            popup_786f027fcfc443f899ca0b9f2f75f727.setContent(html_81647c9e509f4809a998048a64a5229b);
+        
+
+        marker_edfc76543fea4c2784e35b83ae01c09f.bindPopup(popup_786f027fcfc443f899ca0b9f2f75f727)
+        ;
+
+        
+    
+    
+            var marker_0b35260c1d8a424eb930ca9ba2417175 = L.marker(
+                [42.3476181, -71.1002881],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_ffb0e79befee4ced939ab1c8a5827108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e26e835c877947f28a8a980ff364e128 = $(`<div id="html_e26e835c877947f28a8a980ff364e128" style="width: 100.0%; height: 100.0%;">McKinley, William Preparatory High School</div>`)[0];
+            popup_ffb0e79befee4ced939ab1c8a5827108.setContent(html_e26e835c877947f28a8a980ff364e128);
+        
+
+        marker_0b35260c1d8a424eb930ca9ba2417175.bindPopup(popup_ffb0e79befee4ced939ab1c8a5827108)
+        ;
+
+        
+    
+    
+            var marker_252b648c8b3a4dd1b8cb7d8558f7760d = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_4799a50bc8f344c69ba8f6c01d885699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb533a176ca94d9186549a492a40ab2e = $(`<div id="html_eb533a176ca94d9186549a492a40ab2e" style="width: 100.0%; height: 100.0%;">Mendell, Ellis Elementary</div>`)[0];
+            popup_4799a50bc8f344c69ba8f6c01d885699.setContent(html_eb533a176ca94d9186549a492a40ab2e);
+        
+
+        marker_252b648c8b3a4dd1b8cb7d8558f7760d.bindPopup(popup_4799a50bc8f344c69ba8f6c01d885699)
+        ;
+
+        
+    
+    
+            var marker_fb9ade61d72a4f2d9b9ee55b0a73b9b7 = L.marker(
+                [42.2771417, -71.0913748],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_aee5645db50c44338c570367cfa8980f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d145e3e702974272bb68a2bdaeaaac43 = $(`<div id="html_d145e3e702974272bb68a2bdaeaaac43" style="width: 100.0%; height: 100.0%;">Mildred Avenue K-8</div>`)[0];
+            popup_aee5645db50c44338c570367cfa8980f.setContent(html_d145e3e702974272bb68a2bdaeaaac43);
+        
+
+        marker_fb9ade61d72a4f2d9b9ee55b0a73b9b7.bindPopup(popup_aee5645db50c44338c570367cfa8980f)
+        ;
+
+        
+    
+    
+            var marker_9113e2565dc543daae878d4bd22cc4e9 = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_1040b136a57544429a24e2b9124cda64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01d44fb0433f41a4a7ea6bcf5e182162 = $(`<div id="html_01d44fb0433f41a4a7ea6bcf5e182162" style="width: 100.0%; height: 100.0%;">Mission Hill K-8</div>`)[0];
+            popup_1040b136a57544429a24e2b9124cda64.setContent(html_01d44fb0433f41a4a7ea6bcf5e182162);
+        
+
+        marker_9113e2565dc543daae878d4bd22cc4e9.bindPopup(popup_1040b136a57544429a24e2b9124cda64)
+        ;
+
+        
+    
+    
+            var marker_2c257d17dab94aacb802e600fc283a1a = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_61a619e55e5f4773bd9366cbfbe22fca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8c6c2cd213a42c698aacd1f16a1a6b9 = $(`<div id="html_c8c6c2cd213a42c698aacd1f16a1a6b9" style="width: 100.0%; height: 100.0%;">Mozart, Wolfgang A. Elementary</div>`)[0];
+            popup_61a619e55e5f4773bd9366cbfbe22fca.setContent(html_c8c6c2cd213a42c698aacd1f16a1a6b9);
+        
+
+        marker_2c257d17dab94aacb802e600fc283a1a.bindPopup(popup_61a619e55e5f4773bd9366cbfbe22fca)
+        ;
+
+        
+    
+    
+            var marker_b5c8a19877904561a93e0f862c2ece22 = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_75525727308b46448b1174a29016e7e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee897fcf7fa5426887330f710621bc91 = $(`<div id="html_ee897fcf7fa5426887330f710621bc91" style="width: 100.0%; height: 100.0%;">Muniz, Margarita Academy</div>`)[0];
+            popup_75525727308b46448b1174a29016e7e7.setContent(html_ee897fcf7fa5426887330f710621bc91);
+        
+
+        marker_b5c8a19877904561a93e0f862c2ece22.bindPopup(popup_75525727308b46448b1174a29016e7e7)
+        ;
+
+        
+    
+    
+            var marker_a12182b35e7942eabe507a044641a7e1 = L.marker(
+                [42.29671460000001, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_e9a54ff6a9d94e5892e5342b6162a293 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e987b98a0e2491d8b8909765fa941da = $(`<div id="html_3e987b98a0e2491d8b8909765fa941da" style="width: 100.0%; height: 100.0%;">Murphy, Richard J. K-8</div>`)[0];
+            popup_e9a54ff6a9d94e5892e5342b6162a293.setContent(html_3e987b98a0e2491d8b8909765fa941da);
+        
+
+        marker_a12182b35e7942eabe507a044641a7e1.bindPopup(popup_e9a54ff6a9d94e5892e5342b6162a293)
+        ;
+
+        
+    
+    
+            var marker_9090428efd254ceda3c5dc9bb7f41ca0 = L.marker(
+                [42.2527785, -71.1299976],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_219876ea5c4e457cabf9a539cc608a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e187a0dc2ff7483b98228c421ff8ab4c = $(`<div id="html_e187a0dc2ff7483b98228c421ff8ab4c" style="width: 100.0%; height: 100.0%;">New Mission High School</div>`)[0];
+            popup_219876ea5c4e457cabf9a539cc608a79.setContent(html_e187a0dc2ff7483b98228c421ff8ab4c);
+        
+
+        marker_9090428efd254ceda3c5dc9bb7f41ca0.bindPopup(popup_219876ea5c4e457cabf9a539cc608a79)
+        ;
+
+        
+    
+    
+            var marker_ab7afffaf3964a42b080ac1658937471 = L.marker(
+                [42.33191670000001, -71.09880249999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_dad0c1c1520c49df84023b8fd64de193 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bc516cf2ba242c4a76b40529d6e682b = $(`<div id="html_6bc516cf2ba242c4a76b40529d6e682b" style="width: 100.0%; height: 100.0%;">O'Bryant, John D. School of Mathematics & Science</div>`)[0];
+            popup_dad0c1c1520c49df84023b8fd64de193.setContent(html_6bc516cf2ba242c4a76b40529d6e682b);
+        
+
+        marker_ab7afffaf3964a42b080ac1658937471.bindPopup(popup_dad0c1c1520c49df84023b8fd64de193)
+        ;
+
+        
+    
+    
+            var marker_64d36608dc86439cbd1acd98f2a3c33f = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_7ef3f24420a94c809f08dbaac400ad74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb20e06d840147cdb42c91b29d48bfaa = $(`<div id="html_fb20e06d840147cdb42c91b29d48bfaa" style="width: 100.0%; height: 100.0%;">O'Donnell, Hugh R. Elementary</div>`)[0];
+            popup_7ef3f24420a94c809f08dbaac400ad74.setContent(html_fb20e06d840147cdb42c91b29d48bfaa);
+        
+
+        marker_64d36608dc86439cbd1acd98f2a3c33f.bindPopup(popup_7ef3f24420a94c809f08dbaac400ad74)
+        ;
+
+        
+    
+    
+            var marker_a432197d58eb4dac99e7bd928c38c866 = L.marker(
+                [42.2797554, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_0ab02a33718d4188a924ca414028721d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5c027dbe6ee45dd8f118dd548b1a9ea = $(`<div id="html_d5c027dbe6ee45dd8f118dd548b1a9ea" style="width: 100.0%; height: 100.0%;">Ohrenberger, William School</div>`)[0];
+            popup_0ab02a33718d4188a924ca414028721d.setContent(html_d5c027dbe6ee45dd8f118dd548b1a9ea);
+        
+
+        marker_a432197d58eb4dac99e7bd928c38c866.bindPopup(popup_0ab02a33718d4188a924ca414028721d)
+        ;
+
+        
+    
+    
+            var marker_c905df8fa20f4db3a9d4a2d6223663e4 = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c713316c4d4c4f04abb845a969ee316d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb2779fbb2244f7e851ed5f129743ffd = $(`<div id="html_fb2779fbb2244f7e851ed5f129743ffd" style="width: 100.0%; height: 100.0%;">Orchard Gardens K-8</div>`)[0];
+            popup_c713316c4d4c4f04abb845a969ee316d.setContent(html_fb2779fbb2244f7e851ed5f129743ffd);
+        
+
+        marker_c905df8fa20f4db3a9d4a2d6223663e4.bindPopup(popup_c713316c4d4c4f04abb845a969ee316d)
+        ;
+
+        
+    
+    
+            var marker_39efef7b3af045bfb70184d1fb069227 = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_f0a670d3101949da90a9f00785a5d9b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50af8d3e38894f4c8ca5ed5a89cc2262 = $(`<div id="html_50af8d3e38894f4c8ca5ed5a89cc2262" style="width: 100.0%; height: 100.0%;">Otis, James Elementary</div>`)[0];
+            popup_f0a670d3101949da90a9f00785a5d9b4.setContent(html_50af8d3e38894f4c8ca5ed5a89cc2262);
+        
+
+        marker_39efef7b3af045bfb70184d1fb069227.bindPopup(popup_f0a670d3101949da90a9f00785a5d9b4)
+        ;
+
+        
+    
+    
+            var marker_b0183fc42b2648f0ae5177020533f1ce = L.marker(
+                [42.3364553, -71.0349193],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_41965a962f7a448bbdb7b4ba484e65c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc08d1fbe07b41e6af51b6bb1528c0b2 = $(`<div id="html_cc08d1fbe07b41e6af51b6bb1528c0b2" style="width: 100.0%; height: 100.0%;">Perkins, Michael J. Elementary</div>`)[0];
+            popup_41965a962f7a448bbdb7b4ba484e65c3.setContent(html_cc08d1fbe07b41e6af51b6bb1528c0b2);
+        
+
+        marker_b0183fc42b2648f0ae5177020533f1ce.bindPopup(popup_41965a962f7a448bbdb7b4ba484e65c3)
+        ;
+
+        
+    
+    
+            var marker_616623b9837b4fb79c6d13d0d6e9d699 = L.marker(
+                [42.3364553, -71.0349193],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_5b0b1156f19c4c38ab15936f15691d8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90ac6d8656254bcba29413711e7993c1 = $(`<div id="html_90ac6d8656254bcba29413711e7993c1" style="width: 100.0%; height: 100.0%;">Perry, Oliver Hazard K-8</div>`)[0];
+            popup_5b0b1156f19c4c38ab15936f15691d8c.setContent(html_90ac6d8656254bcba29413711e7993c1);
+        
+
+        marker_616623b9837b4fb79c6d13d0d6e9d699.bindPopup(popup_5b0b1156f19c4c38ab15936f15691d8c)
+        ;
+
+        
+    
+    
+            var marker_2e0187efa9254593b4fd0881a0ce7f65 = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_77d22c968e0d49d3a4b13b50fb46869d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6c8139006224ccbb33a6fd6dfcefe80 = $(`<div id="html_d6c8139006224ccbb33a6fd6dfcefe80" style="width: 100.0%; height: 100.0%;">Philbrick, John D. Elementary</div>`)[0];
+            popup_77d22c968e0d49d3a4b13b50fb46869d.setContent(html_d6c8139006224ccbb33a6fd6dfcefe80);
+        
+
+        marker_2e0187efa9254593b4fd0881a0ce7f65.bindPopup(popup_77d22c968e0d49d3a4b13b50fb46869d)
+        ;
+
+        
+    
+    
+            var marker_348761ed623e42b0a4e9f03860c7ea9a = L.marker(
+                [42.3514653, -71.0601767],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_3e9149fd6df644b5b976b788c87a46c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f830863c43a54e4eaf4bedff3b7c52d2 = $(`<div id="html_f830863c43a54e4eaf4bedff3b7c52d2" style="width: 100.0%; height: 100.0%;">Quincy, Josiah Elementary</div>`)[0];
+            popup_3e9149fd6df644b5b976b788c87a46c7.setContent(html_f830863c43a54e4eaf4bedff3b7c52d2);
+        
+
+        marker_348761ed623e42b0a4e9f03860c7ea9a.bindPopup(popup_3e9149fd6df644b5b976b788c87a46c7)
+        ;
+
+        
+    
+    
+            var marker_19be0ae768c041b189c8d3deddf5a748 = L.marker(
+                [42.353068, -71.0765188],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_772e9ad9d6d0491fb8f32755ff09e738 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8cf22f95e8545f1a463671e1d2f8d1c = $(`<div id="html_a8cf22f95e8545f1a463671e1d2f8d1c" style="width: 100.0%; height: 100.0%;">Quincy, Josiah Upper School</div>`)[0];
+            popup_772e9ad9d6d0491fb8f32755ff09e738.setContent(html_a8cf22f95e8545f1a463671e1d2f8d1c);
+        
+
+        marker_19be0ae768c041b189c8d3deddf5a748.bindPopup(popup_772e9ad9d6d0491fb8f32755ff09e738)
+        ;
+
+        
+    
+    
+            var marker_c8a3544e5d6043f8bbed89a765b70734 = L.marker(
+                [42.2527785, -71.1299976],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_0dc8df237bd54cb681ae716a71ef048e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9db976035ad4ee7903f9fdf653b74f7 = $(`<div id="html_b9db976035ad4ee7903f9fdf653b74f7" style="width: 100.0%; height: 100.0%;">Roosevelt, Franklin D. K-8</div>`)[0];
+            popup_0dc8df237bd54cb681ae716a71ef048e.setContent(html_b9db976035ad4ee7903f9fdf653b74f7);
+        
+
+        marker_c8a3544e5d6043f8bbed89a765b70734.bindPopup(popup_0dc8df237bd54cb681ae716a71ef048e)
+        ;
+
+        
+    
+    
+            var marker_9dcfbb96736846e191c49b7f2821f4d2 = L.marker(
+                [42.3157363, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_611cedb1a4934f60af477807bb636a4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2232885ecdad43eeb1b79a080379bfd6 = $(`<div id="html_2232885ecdad43eeb1b79a080379bfd6" style="width: 100.0%; height: 100.0%;">Russell, William E. Elementary</div>`)[0];
+            popup_611cedb1a4934f60af477807bb636a4b.setContent(html_2232885ecdad43eeb1b79a080379bfd6);
+        
+
+        marker_9dcfbb96736846e191c49b7f2821f4d2.bindPopup(popup_611cedb1a4934f60af477807bb636a4b)
+        ;
+
+        
+    
+    
+            var marker_ffd0444ce4154e2783020197f9296b86 = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_25ad002e4679463fa6884eb0fe1749c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_799ba5a92e3949d4a84f3e6c9dd343c5 = $(`<div id="html_799ba5a92e3949d4a84f3e6c9dd343c5" style="width: 100.0%; height: 100.0%;">Shaw, Pauline A. Elementary</div>`)[0];
+            popup_25ad002e4679463fa6884eb0fe1749c2.setContent(html_799ba5a92e3949d4a84f3e6c9dd343c5);
+        
+
+        marker_ffd0444ce4154e2783020197f9296b86.bindPopup(popup_25ad002e4679463fa6884eb0fe1749c2)
+        ;
+
+        
+    
+    
+            var marker_342d56aa08c843f687582398550118af = L.marker(
+                [42.353068, -71.0765188],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_2a5f5b942a97442c884b6589d101433a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8c881f0e16a42cd979c1b1b939ff229 = $(`<div id="html_a8c881f0e16a42cd979c1b1b939ff229" style="width: 100.0%; height: 100.0%;">Snowden International School at Copley</div>`)[0];
+            popup_2a5f5b942a97442c884b6589d101433a.setContent(html_a8c881f0e16a42cd979c1b1b939ff229);
+        
+
+        marker_342d56aa08c843f687582398550118af.bindPopup(popup_2a5f5b942a97442c884b6589d101433a)
+        ;
+
+        
+    
+    
+            var marker_376a8e085da64d25aedc36c0f6217007 = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_d60bddc8ea0349388f57710e9d409410 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_841c2a5f863d498d9dd748e2215fefe5 = $(`<div id="html_841c2a5f863d498d9dd748e2215fefe5" style="width: 100.0%; height: 100.0%;">Sumner, Charles Elementary</div>`)[0];
+            popup_d60bddc8ea0349388f57710e9d409410.setContent(html_841c2a5f863d498d9dd748e2215fefe5);
+        
+
+        marker_376a8e085da64d25aedc36c0f6217007.bindPopup(popup_d60bddc8ea0349388f57710e9d409410)
+        ;
+
+        
+    
+    
+            var marker_0e19b943e3634702b2f9275b8de44dc6 = L.marker(
+                [42.2771417, -71.0913748],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_9979fcc0e843423485e0ba10943ede20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d37f4538c63c423ba2b306c7a8957982 = $(`<div id="html_d37f4538c63c423ba2b306c7a8957982" style="width: 100.0%; height: 100.0%;">Taylor, Charles H. Elementary</div>`)[0];
+            popup_9979fcc0e843423485e0ba10943ede20.setContent(html_d37f4538c63c423ba2b306c7a8957982);
+        
+
+        marker_0e19b943e3634702b2f9275b8de44dc6.bindPopup(popup_9979fcc0e843423485e0ba10943ede20)
+        ;
+
+        
+    
+    
+            var marker_e8a13bea07844de1986529069481f847 = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c649433532f14bee8416606b7ee7748e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_748341142bc847099ad45e436c7312ae = $(`<div id="html_748341142bc847099ad45e436c7312ae" style="width: 100.0%; height: 100.0%;">TechBoston Academy</div>`)[0];
+            popup_c649433532f14bee8416606b7ee7748e.setContent(html_748341142bc847099ad45e436c7312ae);
+        
+
+        marker_e8a13bea07844de1986529069481f847.bindPopup(popup_c649433532f14bee8416606b7ee7748e)
+        ;
+
+        
+    
+    
+            var marker_bfb7a063152d4c92a74133491298f2de = L.marker(
+                [42.32182359999999, -71.08840359999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_728daa5347f643679b42cdcd4b0af6bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ea199bb216f44fa8f78fcee3bae5d4e = $(`<div id="html_1ea199bb216f44fa8f78fcee3bae5d4e" style="width: 100.0%; height: 100.0%;">Timilty, James P. Middle</div>`)[0];
+            popup_728daa5347f643679b42cdcd4b0af6bb.setContent(html_1ea199bb216f44fa8f78fcee3bae5d4e);
+        
+
+        marker_bfb7a063152d4c92a74133491298f2de.bindPopup(popup_728daa5347f643679b42cdcd4b0af6bb)
+        ;
+
+        
+    
+    
+            var marker_6e6cd985af7a4e3290aebbe7cb31e07f = L.marker(
+                [42.33191670000001, -71.09880249999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_7e8b7f1b86904e0d94e3301897d843c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b91a2652e4e4bfd92e922bc54f5ce34 = $(`<div id="html_0b91a2652e4e4bfd92e922bc54f5ce34" style="width: 100.0%; height: 100.0%;">Tobin, Maurice K-8</div>`)[0];
+            popup_7e8b7f1b86904e0d94e3301897d843c6.setContent(html_0b91a2652e4e4bfd92e922bc54f5ce34);
+        
+
+        marker_6e6cd985af7a4e3290aebbe7cb31e07f.bindPopup(popup_7e8b7f1b86904e0d94e3301897d843c6)
+        ;
+
+        
+    
+    
+            var marker_089a729e20694c19a54af8bac89e6c29 = L.marker(
+                [42.3065441, -71.08246129999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_e4564c71c04a4924b0d70913070b393b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_727a4599e03649058c2618012a39c67d = $(`<div id="html_727a4599e03649058c2618012a39c67d" style="width: 100.0%; height: 100.0%;">Trotter, William Monroe K-8</div>`)[0];
+            popup_e4564c71c04a4924b0d70913070b393b.setContent(html_727a4599e03649058c2618012a39c67d);
+        
+
+        marker_089a729e20694c19a54af8bac89e6c29.bindPopup(popup_e4564c71c04a4924b0d70913070b393b)
+        ;
+
+        
+    
+    
+            var marker_8f657b23862242eaa264c1b20b88acf4 = L.marker(
+                [42.3364553, -71.0349193],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_b3707f5312134df9a481712a8b73acd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a026a8b6c0214b21aca5a46765db3c9d = $(`<div id="html_a026a8b6c0214b21aca5a46765db3c9d" style="width: 100.0%; height: 100.0%;">Tynan, Joseph P. Elementary</div>`)[0];
+            popup_b3707f5312134df9a481712a8b73acd3.setContent(html_a026a8b6c0214b21aca5a46765db3c9d);
+        
+
+        marker_8f657b23862242eaa264c1b20b88acf4.bindPopup(popup_b3707f5312134df9a481712a8b73acd3)
+        ;
+
+        
+    
+    
+            var marker_77d244ff20154cc08ab313c1b716629a = L.marker(
+                [42.3695431, -71.0200613],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_f9015e098f2b430bbd5f40f75af678cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2f6c6018d2d4e469ef8e42861030b08 = $(`<div id="html_e2f6c6018d2d4e469ef8e42861030b08" style="width: 100.0%; height: 100.0%;">Umana, Mario Academy</div>`)[0];
+            popup_f9015e098f2b430bbd5f40f75af678cb.setContent(html_e2f6c6018d2d4e469ef8e42861030b08);
+        
+
+        marker_77d244ff20154cc08ab313c1b716629a.bindPopup(popup_f9015e098f2b430bbd5f40f75af678cb)
+        ;
+
+        
+    
+    
+            var marker_0c88941207564e80b3a484fb740be178 = L.marker(
+                [42.3364553, -71.0349193],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_febdfbc9b34d4174a2a6186684ffb173 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42d50bb884b64097879108606a90f4e4 = $(`<div id="html_42d50bb884b64097879108606a90f4e4" style="width: 100.0%; height: 100.0%;">UP Academy Boston</div>`)[0];
+            popup_febdfbc9b34d4174a2a6186684ffb173.setContent(html_42d50bb884b64097879108606a90f4e4);
+        
+
+        marker_0c88941207564e80b3a484fb740be178.bindPopup(popup_febdfbc9b34d4174a2a6186684ffb173)
+        ;
+
+        
+    
+    
+            var marker_787e93ede6c7441c9af4f715b44bcebf = L.marker(
+                [42.2826027, -71.067605],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_e5e26024cbcc429f892939305edbfb66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d93636d33263400c9d88284c60869cef = $(`<div id="html_d93636d33263400c9d88284c60869cef" style="width: 100.0%; height: 100.0%;">UP Academy Dorchester</div>`)[0];
+            popup_e5e26024cbcc429f892939305edbfb66.setContent(html_d93636d33263400c9d88284c60869cef);
+        
+
+        marker_787e93ede6c7441c9af4f715b44bcebf.bindPopup(popup_e5e26024cbcc429f892939305edbfb66)
+        ;
+
+        
+    
+    
+            var marker_9e23173820ad4d7f8561a44fcc0b808c = L.marker(
+                [42.3065441, -71.08246129999999],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_0c72aba95c5a428d99b05dc16e4f51e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0debdc667d4c4ce69963f75b9a212abf = $(`<div id="html_0debdc667d4c4ce69963f75b9a212abf" style="width: 100.0%; height: 100.0%;">UP Academy Holland</div>`)[0];
+            popup_0c72aba95c5a428d99b05dc16e4f51e8.setContent(html_0debdc667d4c4ce69963f75b9a212abf);
+        
+
+        marker_9e23173820ad4d7f8561a44fcc0b808c.bindPopup(popup_0c72aba95c5a428d99b05dc16e4f51e8)
+        ;
+
+        
+    
+    
+            var marker_f37fe1b1c9a143aea07b3ef98a795f5f = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_d993cd2935ea45bfaed952b95aa4e05d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70abb3f7104d4c8eaf5cd38d65b152ed = $(`<div id="html_70abb3f7104d4c8eaf5cd38d65b152ed" style="width: 100.0%; height: 100.0%;">Urban Science Academy</div>`)[0];
+            popup_d993cd2935ea45bfaed952b95aa4e05d.setContent(html_70abb3f7104d4c8eaf5cd38d65b152ed);
+        
+
+        marker_f37fe1b1c9a143aea07b3ef98a795f5f.bindPopup(popup_d993cd2935ea45bfaed952b95aa4e05d)
+        ;
+
+        
+    
+    
+            var marker_0072b25277da4441bc56f686564561d9 = L.marker(
+                [42.37954089999999, -71.0646337],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_37808115448c4b4a831158889e0d3e86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_916887d8ff8747c9a32a6de08cbd52a6 = $(`<div id="html_916887d8ff8747c9a32a6de08cbd52a6" style="width: 100.0%; height: 100.0%;">Warren/Prescott K-8</div>`)[0];
+            popup_37808115448c4b4a831158889e0d3e86.setContent(html_916887d8ff8747c9a32a6de08cbd52a6);
+        
+
+        marker_0072b25277da4441bc56f686564561d9.bindPopup(popup_37808115448c4b4a831158889e0d3e86)
+        ;
+
+        
+    
+    
+            var marker_e0922f3a472e47398fd13547b1d0873d = L.marker(
+                [42.2832142, -71.1270268],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_982e7a8ccb2942a2b541a32a062d9049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_929dfd7be38b48d7bf3ba4d878d21a48 = $(`<div id="html_929dfd7be38b48d7bf3ba4d878d21a48" style="width: 100.0%; height: 100.0%;">West Roxbury Academy</div>`)[0];
+            popup_982e7a8ccb2942a2b541a32a062d9049.setContent(html_929dfd7be38b48d7bf3ba4d878d21a48);
+        
+
+        marker_e0922f3a472e47398fd13547b1d0873d.bindPopup(popup_982e7a8ccb2942a2b541a32a062d9049)
+        ;
+
+        
+    
+    
+            var marker_afc5ab0d652b4b6d8e9a32f3df71f52b = L.marker(
+                [42.3097365, -71.1151431],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_abef0ff30f17475493a1468de97247f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f8df1aff1b84228857f00a2ae8c95c4 = $(`<div id="html_4f8df1aff1b84228857f00a2ae8c95c4" style="width: 100.0%; height: 100.0%;">West Zone Early Learning Center</div>`)[0];
+            popup_abef0ff30f17475493a1468de97247f0.setContent(html_4f8df1aff1b84228857f00a2ae8c95c4);
+        
+
+        marker_afc5ab0d652b4b6d8e9a32f3df71f52b.bindPopup(popup_abef0ff30f17475493a1468de97247f0)
+        ;
+
+        
+    
+    
+            var marker_5b0a8bb20d5e4f8496efbd4529a4e744 = L.marker(
+                [42.3463503, -71.1626756],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c6f81459997045499b736f71a1caa85e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3152e845fba643e5a37b9f1dc18f3eee = $(`<div id="html_3152e845fba643e5a37b9f1dc18f3eee" style="width: 100.0%; height: 100.0%;">Winship, F. Lyman Elementary</div>`)[0];
+            popup_c6f81459997045499b736f71a1caa85e.setContent(html_3152e845fba643e5a37b9f1dc18f3eee);
+        
+
+        marker_5b0a8bb20d5e4f8496efbd4529a4e744.bindPopup(popup_c6f81459997045499b736f71a1caa85e)
+        ;
+
+        
+    
+    
+            var marker_a1422c96a3d84f3caf150067294eccd2 = L.marker(
+                [42.3157363, -71.0527482],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_5717c10fd40840a0a5c985c2eb6bf303 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97a920ce28dc4aa38d94dda8e70c3041 = $(`<div id="html_97a920ce28dc4aa38d94dda8e70c3041" style="width: 100.0%; height: 100.0%;">Winthrop, John Elementary</div>`)[0];
+            popup_5717c10fd40840a0a5c985c2eb6bf303.setContent(html_97a920ce28dc4aa38d94dda8e70c3041);
+        
+
+        marker_a1422c96a3d84f3caf150067294eccd2.bindPopup(popup_5717c10fd40840a0a5c985c2eb6bf303)
+        ;
+
+        
+    
+    
+            var marker_19a56bcdc2b14c02ba79b5d164b5e055 = L.marker(
+                [42.2771417, -71.0913748],
+                {}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_8db3595cbec942fd98f4073d2ff34c61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd48237d3fa24d7296484b90f43c39a8 = $(`<div id="html_bd48237d3fa24d7296484b90f43c39a8" style="width: 100.0%; height: 100.0%;">Young Achievers Science & Math K-8</div>`)[0];
+            popup_8db3595cbec942fd98f4073d2ff34c61.setContent(html_bd48237d3fa24d7296484b90f43c39a8);
+        
+
+        marker_19a56bcdc2b14c02ba79b5d164b5e055.bindPopup(popup_8db3595cbec942fd98f4073d2ff34c61)
+        ;
+
+        
+    
+    
+            var polygon_361ec1cf1743483583c787ef7fb88225 = L.polygon(
+                [[42.29056, -71.0705], [42.29054, -71.07058], [42.29052, -71.07066], [42.29049, -71.07069], [42.29047, -71.07071], [42.29045, -71.07072], [42.29042, -71.07073], [42.29039, -71.07074], [42.29024, -71.07078], [42.29012, -71.07081], [42.29012, -71.07081], [42.29016, -71.07129], [42.29018, -71.07147]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_32d5ce4ac9304a9bb2ffb6048409c410 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac8a26a961b1497bbd40d21cbe60cee0 = $(`<div id="html_ac8a26a961b1497bbd40d21cbe60cee0" style="width: 100.0%; height: 100.0%;">optimized route</div>`)[0];
+            popup_32d5ce4ac9304a9bb2ffb6048409c410.setContent(html_ac8a26a961b1497bbd40d21cbe60cee0);
+        
+
+        polygon_361ec1cf1743483583c787ef7fb88225.bindPopup(popup_32d5ce4ac9304a9bb2ffb6048409c410)
+        ;
+
+        
+    
+    
+            var polygon_76fe5fcdb9ee4b488f3d4dd3ec6b4569 = L.polygon(
+                [[42.29014, -71.07109], [42.29012, -71.07081], [42.2901, -71.07067], [42.29009, -71.07053], [42.29008, -71.07041], [42.29006, -71.07025], [42.29002, -71.07003], [42.28995, -71.06964], [42.28995, -71.06964], [42.28988, -71.06975], [42.28985, -71.06981], [42.28983, -71.06987], [42.28975, -71.07009], [42.2896, -71.07056], [42.28936, -71.07132], [42.28936, -71.07132], [42.28926, -71.07127], [42.28917, -71.07124], [42.2891, -71.07122], [42.28904, -71.0712], [42.28893, -71.07117], [42.28885, -71.07114], [42.28878, -71.07112], [42.28869, -71.07111], [42.28858, -71.07111], [42.28848, -71.07111], [42.28843, -71.07111], [42.28836, -71.07112], [42.28832, -71.07113], [42.28832, -71.07112], [42.28827, -71.07113], [42.2882, -71.07114]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_c1c75314fdf549eab94adb0ec4d77b61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92e583c2e59d42bbad48cff8f28dcfd8 = $(`<div id="html_92e583c2e59d42bbad48cff8f28dcfd8" style="width: 100.0%; height: 100.0%;">optimized route</div>`)[0];
+            popup_c1c75314fdf549eab94adb0ec4d77b61.setContent(html_92e583c2e59d42bbad48cff8f28dcfd8);
+        
+
+        polygon_76fe5fcdb9ee4b488f3d4dd3ec6b4569.bindPopup(popup_c1c75314fdf549eab94adb0ec4d77b61)
+        ;
+
+        
+    
+    
+            var polygon_02169092d12e4bcab63908dd9d40819e = L.polygon(
+                [[42.28506, -71.06699], [42.28507, -71.06694], [42.2851, -71.06689], [42.28512, -71.06686], [42.28515, -71.06683], [42.28515, -71.06683], [42.28514, -71.0667], [42.28514, -71.06655], [42.28515, -71.06644], [42.28515, -71.06639], [42.28517, -71.06627], [42.28518, -71.06615], [42.28522, -71.066], [42.28526, -71.06589], [42.2853, -71.06574], [42.28538, -71.06547], [42.28543, -71.06531], [42.28548, -71.06517], [42.28553, -71.06501], [42.28558, -71.06485], [42.28564, -71.06462], [42.28566, -71.06456], [42.28567, -71.0645], [42.2857, -71.06442]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_5446d184c27d45dd882a3fa63679bbc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e86bf31a419242698798af21d25c19b0 = $(`<div id="html_e86bf31a419242698798af21d25c19b0" style="width: 100.0%; height: 100.0%;">optimized route</div>`)[0];
+            popup_5446d184c27d45dd882a3fa63679bbc6.setContent(html_e86bf31a419242698798af21d25c19b0);
+        
+
+        polygon_02169092d12e4bcab63908dd9d40819e.bindPopup(popup_5446d184c27d45dd882a3fa63679bbc6)
+        ;
+
+        
+    
+    
+            var polygon_53b5c5ea341043d89932c7d04d69218c = L.polygon(
+                [[42.2857, -71.06442], [42.28572, -71.06433], [42.28572, -71.06433], [42.28551, -71.06437], [42.28545, -71.06439], [42.2853, -71.06442], [42.28496, -71.06452], [42.28493, -71.06453], [42.28477, -71.06458], [42.28443, -71.06467], [42.28408, -71.06478], [42.284, -71.06479], [42.284, -71.06479], [42.28395, -71.06501], [42.28381, -71.06549], [42.28367, -71.06593]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_9859f0e2999944de9162ba5c2ec627b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bbd5c05ed6443b382c839a08430aa0a = $(`<div id="html_8bbd5c05ed6443b382c839a08430aa0a" style="width: 100.0%; height: 100.0%;">optimized route</div>`)[0];
+            popup_9859f0e2999944de9162ba5c2ec627b4.setContent(html_8bbd5c05ed6443b382c839a08430aa0a);
+        
+
+        polygon_53b5c5ea341043d89932c7d04d69218c.bindPopup(popup_9859f0e2999944de9162ba5c2ec627b4)
+        ;
+
+        
+    
+    
+            var polygon_9af3c433826b466d8e98b6e4b6028ad0 = L.polygon(
+                [[42.28464, -71.07149], [42.28468, -71.07147], [42.28486, -71.07139], [42.28491, -71.07136], [42.28504, -71.07131], [42.28512, -71.07127], [42.2852, -71.07124], [42.28534, -71.07119], [42.28536, -71.07118], [42.2854, -71.07117], [42.28559, -71.07115], [42.28572, -71.07115], [42.28586, -71.07115], [42.28629, -71.07118], [42.28645, -71.07118], [42.28723, -71.07121], [42.2873, -71.07122], [42.28745, -71.07122], [42.28758, -71.07122], [42.28772, -71.07121], [42.28794, -71.07118], [42.28803, -71.07117], [42.28814, -71.07115], [42.28827, -71.07113], [42.28832, -71.07112], [42.28832, -71.07113], [42.28836, -71.07112], [42.28843, -71.07111], [42.28848, -71.07111], [42.28858, -71.07111], [42.28869, -71.07111], [42.28878, -71.07112], [42.28885, -71.07114], [42.28893, -71.07117], [42.28904, -71.0712], [42.2891, -71.07122], [42.28917, -71.07124], [42.28926, -71.07127], [42.28936, -71.07132], [42.28954, -71.07138], [42.28987, -71.0715], [42.2902, -71.0716], [42.29031, -71.07162], [42.29035, -71.07163], [42.29062, -71.07165], [42.29068, -71.07165], [42.29094, -71.07167], [42.29099, -71.07167], [42.29129, -71.07169], [42.29149, -71.07171], [42.29168, -71.07173], [42.29175, -71.07173]],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23bebf0e27bc48b48b19eb430cdd5322);
+        
+    
+        var popup_7dc5415077804e2795d05dd20fce134e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5ca2354f88c4d54b27d4eccf62c6a39 = $(`<div id="html_e5ca2354f88c4d54b27d4eccf62c6a39" style="width: 100.0%; height: 100.0%;">optimized route</div>`)[0];
+            popup_7dc5415077804e2795d05dd20fce134e.setContent(html_e5ca2354f88c4d54b27d4eccf62c6a39);
+        
+
+        polygon_9af3c433826b466d8e98b6e4b6028ad0.bindPopup(popup_7dc5415077804e2795d05dd20fce134e)
+        ;
+
+        
+    
+</script>
