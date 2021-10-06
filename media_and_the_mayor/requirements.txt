@@ -1,6 +1,6 @@
 nltk==3.4.5
 Scrapy==1.8.0
-scrapy_splash==0.7.2
+scrapy_splash==0.8.0
 mxnet==1.6.0b20191207
 Keras==2.3.1
 pandas==0.25.3
