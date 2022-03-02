@@ -1,5 +1,5 @@
 nltk==3.4.5
-Scrapy==1.8.0
+Scrapy==1.8.2
 scrapy_splash==0.7.2
 mxnet==1.6.0b20191207
 Keras==2.3.1
