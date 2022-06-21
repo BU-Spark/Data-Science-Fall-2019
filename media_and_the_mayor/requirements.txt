@@ -5,7 +5,7 @@ mxnet==1.6.0b20191207
 Keras==2.3.1
 pandas==0.25.3
 gluonnlp==0.8.1
-numpy==1.17.4
+numpy==1.22.0
 gensim==3.8.1
 scikit_learn==0.22
 textblob==0.15.3
